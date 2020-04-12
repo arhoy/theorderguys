@@ -57,7 +57,7 @@ export const Section0 = () => {
   return (
     <CustomSection>
       <Container>
-        <CustomH1>Zeitlify Services</CustomH1>
+        <CustomH1>CodePaper Services</CustomH1>
         <Blurb>Deploy blazingly fast automation to you every day tasks</Blurb>
       </Container>
       <ButtonContainer>

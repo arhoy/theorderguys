@@ -1,7 +1,7 @@
 import React from 'react';
 
 import styled from '@emotion/styled';
-
+import { FaChartBar, FaCode, FaCodeBranch } from 'react-icons/fa';
 import blobshape from '../../../../../images/svg/blob-shape-3.svg';
 import CirclularNumbers from '../../numbers/CirclularNumbers';
 import Blob3 from './blobShapes/BlobShap3';
@@ -32,24 +32,40 @@ const Title = styled.h4`
 
 const CodeBlob = styled.div`
   border-radius: 1rem;
-  & ul {
-    box-shadow: 5px 5px 25px rgba(118, 118, 118, 0.15);
-    width: 25rem;
-    padding: 0.5rem;
-    display: flex;
-    list-style: none;
-    flex-direction: column;
-    justify-content: center;
-  }
+`;
+
+const UL = styled.ul`
+  list-style: none;
 
   & li {
-    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: ${props => props.theme.colors.white};
     padding: 0.5rem 1rem;
-    background: ${props => props.theme.colors.whiteTrans9};
-    color: ${props => props.theme.colors.darkGrey};
-    border: 1px dashed ${props => props.theme.colors.grey};
-    font-size: 1.3rem;
+    width: 18rem;
+    margin: 1.3rem 0;
+    box-shadow: 5px 5px 25px rgba(118, 118, 118, 0.15);
+    border: 1px solid ${props => props.theme.colors.lightgrey2};
   }
+`;
+
+const ChartBarIcon = styled(FaChartBar)`
+  font-size: 2rem;
+  margin-left: 1rem;
+  color: ${props => props.theme.colors.primary};
+`;
+
+const CodeIcon = styled(FaCode)`
+  font-size: 2rem;
+  margin-left: 1rem;
+  color: ${props => props.theme.colors.primary};
+`;
+
+const CodeBranchIcon = styled(FaCodeBranch)`
+  font-size: 2rem;
+  margin-left: 1rem;
+  color: ${props => props.theme.colors.primary};
 `;
 
 const NetlifyBlob3 = () => {
@@ -57,18 +73,24 @@ const NetlifyBlob3 = () => {
     <Container>
       <TitleContainer>
         <CirclularNumbers number={3} />
-        <Title> Deploy Your Unit</Title>
+        <Title>SEO</Title>
       </TitleContainer>
 
       <SubContainer>
         <CodeBlob>
-          <ul>
-            <li> Preparing preprocessor</li>
-            <li> Preparing core processor</li>
-            <li> Gathering all data </li>
-            <li> Compressing files into enginex </li>
-            <li> Optimizing data and deploying </li>
-          </ul>
+          <UL>
+            <li>
+              High Quality Backlinks <CodeIcon />
+            </li>
+
+            <li>
+              Curated Weekly Content <ChartBarIcon />
+            </li>
+
+            <li>
+              Social Media Posts <CodeBranchIcon />
+            </li>
+          </UL>
         </CodeBlob>
         <Blob3 />
       </SubContainer>

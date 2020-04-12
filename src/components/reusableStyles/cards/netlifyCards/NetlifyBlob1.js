@@ -68,19 +68,19 @@ const NetlifyBlob1 = () => {
     <Container>
       <TitleContainer>
         <CirclularNumbers number={1} />
-        <Title> Connect Your depository</Title>
+        <Title> Websites</Title>
       </TitleContainer>
 
       <SubContainer>
         <UL>
           <li>
-            <GitHubIcon /> GitHubby
+            <GitHubIcon /> Branding & Design
           </li>
           <li>
-            <BitbucketIcon /> MicroBucket
+            <BitbucketIcon /> Business & Ecommerce
           </li>
           <li>
-            <GitlabIcon /> GitLove
+            <GitlabIcon /> Coding & Development
           </li>
         </UL>
         <Blob1 />

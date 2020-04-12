@@ -96,7 +96,7 @@ const TwitterCard1 = () => {
     <Container>
       <Blurb>
         <span> http://ReVuejs.org </span> is now powered by{' '}
-        <span>@Zeitlify </span>
+        <span>@CodePaper </span>
         with a free open source team plan. Really really impressive and smooth
         deployment experience.
       </Blurb>
@@ -118,7 +118,7 @@ const TwitterCard2 = () => {
     <Container>
       <Blurb>
         I am extremely impressed by the power and automation that
-        <span>@Zeitlify </span>
+        <span>@CodePaper </span>
         delivers. It has really made a difference in the workflow at
         <span> @NoRealTesla </span>
       </Blurb>
@@ -139,7 +139,7 @@ const TwitterCard3 = () => {
   return (
     <Container>
       <Blurb>
-        <span>@VirginGalaxy </span> we using <span> @Zeitlify </span> to power
+        <span>@VirginGalaxy </span> we using <span> @CodePaper </span> to power
         our engine booster rockets to deliver privatization of space flights.
         What a journey
       </Blurb>
@@ -160,10 +160,10 @@ const TwitterCard4 = () => {
   return (
     <Container>
       <Blurb>
-        <span>@Amazone </span> using <span> @Zeitlify </span> to for our drone
+        <span>@Amazone </span> using <span> @CodePaper </span> to for our drone
         project, Thanks for parterning with us to make this project a reality
         and billions more to my wallet.
-        <span>@ZeitlifyRocks!</span>
+        <span>@CodePaperRocks!</span>
       </Blurb>
       <ProfileContainer>
         <Circle className="blue"> J </Circle>

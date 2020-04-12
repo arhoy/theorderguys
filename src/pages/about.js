@@ -28,8 +28,8 @@ const AboutPage = ({ data }) => {
   return (
     <Layout full={true}>
       <SEO
-        title="About Us | Zeitlify"
-        description="Zeitlify is a made up automation company under the parent company of Aquasar Inc a Web Development Agency in Edmonton Canada. Here is some information about our company and founder"
+        title="About Us | CodePaper"
+        description="CodePaper is a made up automation company under the parent company of Aquasar Inc a Web Development Agency in Edmonton Canada. Here is some information about our company and founder"
         pathname="about"
       />
       <Fade bottom>

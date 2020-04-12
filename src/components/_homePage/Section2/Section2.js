@@ -6,8 +6,8 @@ export const Section2 = ({ fluid }) => {
   return (
     <Section>
       <NetlifyCard1
-        title={`America's top middleout compressor delivers 10X faster`}
-        blurb={`Not only is Pied Piper launching faster sites, they are blowing their competitors away with blazing speed.`}
+        title={`Delivering results for companies large and small`}
+        blurb={`No matter how big or small your company is, we treat all our clients with the same of level of quality craftsmanship and customer service.`}
         link={`Read More`}
         linkURL="#"
         picture={fluid}

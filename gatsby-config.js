@@ -5,7 +5,7 @@ require('dotenv').config({
 // Define site URL here
 let URL;
 if (process.env.NODE_ENV === 'production') {
-  URL = 'https://zeitlify.netlify.com';
+  URL = 'https://CodePaper.netlify.com';
 } else {
   URL = 'http://localhost:8000';
 }
@@ -14,8 +14,8 @@ if (process.env.NODE_ENV === 'production') {
 
 module.exports = {
   siteMetadata: {
-    title: 'Zeitlify - Automation Platform',
-    titleTemplate: 'Zeitlify Sample Project',
+    title: 'CodePaper - Automation Platform',
+    titleTemplate: 'CodePaper Sample Project',
     description: 'At Zeilify we strive for automation',
     author: 'Alex Quasar',
     twitterUsername: '@_aquasar',
@@ -42,6 +42,13 @@ module.exports = {
     //     chunkSize: 10000,
     //   },
     // },
+    {
+      resolve: `gatsby-source-buttercms`,
+      options: {
+        authToken: process.env.GATSBY_BUTTER_API_TOKEN,
+      },
+    },
+
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {

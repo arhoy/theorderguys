@@ -6,10 +6,10 @@ export const Section6 = ({ fluid }) => {
   return (
     <Section>
       <NetlifyCard2
-        title={`Work For Zeitlify`}
-        subtitle={`Help Make the World A Better Place`}
+        title={`Work For CodePaper`}
+        subtitle={`Passionate about helping local businesses?`}
         blurb={`If you are a developer or designer interested in working for us we would love to hear from you!`}
-        link={`Learn More`}
+        link={`Apply Now`}
         linkURL="#"
         picture={fluid}
       />

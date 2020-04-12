@@ -33,8 +33,8 @@ const contact = ({ data }) => {
   return (
     <Layout>
       <SEO
-        title="Contact Us | Zeitlify"
-        description="At Zeitlify we are here to discuss your next automation project"
+        title="Contact Us | CodePaper"
+        description="At CodePaper we are here to discuss your next automation project"
         pathname="contact"
         image={data.seo.childImageSharp.fluid.src}
       />

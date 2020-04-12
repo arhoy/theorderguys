@@ -8,7 +8,7 @@ export const Section5 = ({ fluid }) => {
       <NetlifyCard2
         title={`Series C Funding`}
         subtitle={`New $100M Series C Funding Secured`}
-        blurb={`Zeitlify announces a Series C funding and new hiring for developers and data scientists`}
+        blurb={`CodePaper announces a Series C funding and new hiring for developers and data scientists`}
         link={`Join Us`}
         linkURL="#"
         picture={fluid}

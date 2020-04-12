@@ -32,7 +32,7 @@ export const Section3 = ({ fluid }) => {
         <TitleContainer>
           <H3>An Automation Story</H3>
           <p>
-            How Procrastagram was able to increase productivity with Zeitlify
+            How Procrastagram was able to increase productivity with CodePaper
           </p>
         </TitleContainer>
 

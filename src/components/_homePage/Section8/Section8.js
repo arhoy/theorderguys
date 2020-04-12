@@ -39,10 +39,13 @@ export const Section8 = () => {
     <SectionWhiteToGrey>
       <Container>
         <TitleContainer>
-          <Title>Ready For Automation?</Title>
-          <Subtitle> Automate Your Workflow Instantly</Subtitle>
+          <Title>Ready To Get Started?</Title>
+          <Subtitle>
+            Book a 15 minute meet & greet to see if we can help you meet your
+            business goals
+          </Subtitle>
         </TitleContainer>
-        <Button>Start For Free</Button>
+        <Button>Contact Us</Button>
       </Container>
     </SectionWhiteToGrey>
   );

@@ -44,24 +44,24 @@ export const Section4 = () => {
   return (
     <Section>
       <TitleContainer>
-        <H2> Go Above and Beyond</H2>
+        <H2> Other Services Offered </H2>
       </TitleContainer>
 
       <CardContainer>
         <Card
-          title="Fundamental Robotic Process Automation"
-          blurb={`Deploy to a redundant network of servers with built‑in continuous integration and HTTPS.`}
+          title="SSL Certificates"
+          blurb={`Secure your website with SSL Certificates and free installation for half of GoDaddy prices`}
           fluid={data.image1.childImageSharp.fluid}
         />
         <Card
-          title="Get Ready for the Cloud"
-          blurb={`Boot to the cloud where all your cloud storage needs are satisfied with unlimited capacity`}
+          title="WordPress and Shopify"
+          blurb={`WordPress and Shopify Development including quick turn arounds, migration and robust solutions`}
           fluid={data.image2.childImageSharp.fluid}
           reverse={true}
         />
         <Card
-          title="Our Data Servers Are Ready"
-          blurb={`Our Data servers are ready for ddos and xss attacks on any network`}
+          title="Reporting and Analytics"
+          blurb={`We are a data driven company. We make decisions based on the numbers and we do the same for our clients as well`}
           fluid={data.image3.childImageSharp.fluid}
         />
       </CardContainer>

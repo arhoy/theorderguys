@@ -3,29 +3,49 @@ import { graphql } from 'gatsby';
 
 import Layout from '../components/layouts/Layout';
 import SEO from '../hooks/SEO';
-import { H1 } from '../components/reusableStyles/typography/Typography';
+
+import { Section0 } from '../components/_blogPage/Section0/_Section0';
+import { Section1 } from '../components/_blogPage/Section1/_Section1';
 
 export const query = graphql`
-  query {
-    aboutImage1: file(relativePath: { eq: "_about/tower.jpg" }) {
-      childImageSharp {
-        fluid(quality: 100, maxWidth: 1000) {
-          ...GatsbyImageSharpFluid_tracedSVG
+  {
+    allButterPost(sort: { fields: created, order: DESC }) {
+      nodes {
+        summary
+        categories {
+          name
+        }
+        published
+        meta_description
+        author {
+          first_name
+          last_name
+        }
+        date
+        featured_image
+        featured_image_alt
+        created(formatString: "ddd, MMM Do YYYY")
+        slug
+        id
+        title
+        tags {
+          name
         }
       }
     }
   }
 `;
 
-const BlogPage = () => {
+const BlogPage = ({ data }) => {
   return (
     <Layout full={true}>
       <SEO
-        title="Blog | Zeitlify"
-        description="Zeitlify Blog is coming soon"
+        title="Blog | CodePaper"
+        description="CodePaper Blog is coming soon"
         pathname="blog"
       />
-      <H1 style={{ textAlign: 'center' }}>COMING SOON</H1>
+      <Section0 />
+      <Section1 posts={data.allButterPost.nodes} />
     </Layout>
   );
 };

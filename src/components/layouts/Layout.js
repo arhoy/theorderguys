@@ -17,9 +17,9 @@ import '../../scss/main.scss';
 
 const theme = {
   colors: {
-    primary: '#244F9B',
-    primaryDark: '#002F74',
-    primaryLight: '#5196FF',
+    primary: '#192242',
+    primaryDark: '#101A37',
+    primaryLight: '#34305C',
     primaryLight2: 'rgba(81, 150, 255, 0.90)',
     secondaryVeryLight: '#d2f7f2',
     secondary: 'rgb(24, 163, 201)',
@@ -37,6 +37,7 @@ const theme = {
     lightRed: 'rgb(232, 180, 182)',
     blue: 'rgb(19, 73, 178)',
     lightGreen: '#D4EDDA',
+
     green: 'rgb(31, 90, 46)',
   },
   pageWidth: {

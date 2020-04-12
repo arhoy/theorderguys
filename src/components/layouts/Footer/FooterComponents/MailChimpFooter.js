@@ -100,7 +100,7 @@ export const MailChimpFooter = () => {
     <Container onSubmit={handleSubmit}>
       <h4>{success ? `Submission Success!` : `Subscribe To Our Newsletter`}</h4>
       <p>
-        Stay up to the date with the latest in Automation and Zeitlify by
+        Stay up to the date with the latest in Automation and CodePaper by
         subscribing to our newsletter
       </p>
 

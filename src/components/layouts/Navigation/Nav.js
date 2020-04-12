@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useState } from 'react';
 import { Link } from 'gatsby';
 import styled from '@emotion/styled';
@@ -29,6 +30,7 @@ const LogoLink = styled(Link)`
   margin: 0;
 `;
 const Logo = styled.span`
+  text-transform: uppercase;
   z-index: 100;
   & ${LogoLink} {
     text-decoration: none !important;
@@ -107,7 +109,7 @@ const Nav = () => {
       <Header>
         <HeaderTop>
           <Logo>
-            <LogoLink to="/">ZEITLIFY</LogoLink>
+            <LogoLink to="/">CodePaper</LogoLink>
           </Logo>
 
           <MenuLinks>

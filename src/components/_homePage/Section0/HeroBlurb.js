@@ -60,7 +60,9 @@ export const HeroBlurb = () => {
       <SubContainer>
         <HeadingContainer>
           <Heading>
-            <span className="primary">Blazingly Fast Modern Automation</span>
+            <span className="primary">
+              Blazingly Fast Custom Modern Websites
+            </span>
           </Heading>
         </HeadingContainer>
       </SubContainer>
@@ -68,8 +70,9 @@ export const HeroBlurb = () => {
       <SubContainer>
         <BlurbContainer>
           <p>
-            Build, market and deploy with Zeitlify's complete package for modern
-            web projects
+            We build custom websites from the ground up with a team of
+            professional local designers and developers using your input and
+            feedback every step of the way
           </p>
         </BlurbContainer>
         <CallToActionContainer>

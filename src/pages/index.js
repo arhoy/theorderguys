@@ -47,8 +47,8 @@ const IndexPage = ({ data }) => {
   return (
     <Layout full={true}>
       <SEO
-        title="Zeitlify | Automation Redefined"
-        description="Zeitlify is a made up automation company under the parent company of Aquasar Inc a Web Development Agency in Edmonton Canada"
+        title="CodePaper | Automation Redefined"
+        description="CodePaper is a made up automation company under the parent company of Aquasar Inc a Web Development Agency in Edmonton Canada"
       />
 
       {/* Cover Section */}

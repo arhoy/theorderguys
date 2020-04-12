@@ -1,7 +1,7 @@
 import React from 'react';
 
 import styled from '@emotion/styled';
-import { FaChartBar, FaCode, FaCodeBranch, FaChessKing } from 'react-icons/fa';
+import { FaChartBar, FaCode, FaCodeBranch } from 'react-icons/fa';
 
 import CirclularNumbers from '../../numbers/CirclularNumbers';
 
@@ -65,36 +65,26 @@ const CodeBranchIcon = styled(FaCodeBranch)`
   color: ${props => props.theme.colors.primary};
 `;
 
-const ChessKingIcon = styled(FaChessKing)`
-  font-size: 2rem;
-  margin-left: 1rem;
-  color: ${props => props.theme.colors.primary};
-`;
-
 const NetlifyBlob2 = () => {
   return (
     <Container>
       <TitleContainer>
         <CirclularNumbers number={2} />
-        <Title> Add you CP Stats</Title>
+        <Title> Advertising</Title>
       </TitleContainer>
 
       <SubContainer>
         <UL>
           <li>
-            Code It <CodeIcon />
+            Facebook Lead Generation <CodeIcon />
           </li>
 
           <li>
-            Analyze <ChartBarIcon />
+            Instagram Engagement <ChartBarIcon />
           </li>
 
           <li>
-            Deploy <CodeBranchIcon />
-          </li>
-
-          <li>
-            Conquer <ChessKingIcon />
+            Google Search Presence <CodeBranchIcon />
           </li>
         </UL>
         <Blob2 />

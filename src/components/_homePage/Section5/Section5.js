@@ -91,23 +91,23 @@ export const Section5 = () => {
       <H2Centered> A Better Way to Automate </H2Centered>
       <Container>
         <Card
-          title="A single entity"
-          blurb="Get all the tools you need to deploy and manage your site. Replace your hosting infrastructure, continuous integration, and deployment pipeline with a single workflow."
+          title="Reporting"
+          blurb="Are you spending countless hours each month trying to pull numbers from different sources and build reports? One area of expertise is automating reports to save you time so you can focus on your unique business and unique value proposition"
           fixed={data.image1.childImageSharp.fixed}
         />
         <Card
-          title="Peformance from ground up"
-          blurb="Deploy your bots on a AI multi-cloud environment with actionable analytics and machine learning for voice recognition. Scale for data automation"
+          title="Dashboards"
+          blurb="Building business dashboards using tools like Google Data Studio, Tableau, SQL and Power BI. We have built executive business dashboard for large companies and provided easy ways to generate monthly reports to view important business KPIs "
           fixed={data.image2.childImageSharp.fixed}
         />
         <Card
-          title="Fully Automated"
-          blurb="Get your automated machine learning running, with custom integration for all for mission critical business "
+          title="Ecommerce Products"
+          blurb="Are you looking to get hundreds or even thousands of products into a Shopify Store or WordPress site? We can help you with product uploads and data scraping product information from sites like Amazon.com, Kohls, Walmart and much more "
           fixed={data.image3.childImageSharp.fixed}
         />
       </Container>
       <ButtonContainer>
-        <Button>Get Started Today</Button>
+        <Button>Learn More Today</Button>
       </ButtonContainer>
       <ExtraPaddingBottom />
       <BackgroundSvg5 />
