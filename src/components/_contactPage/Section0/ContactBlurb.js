@@ -24,8 +24,8 @@ export const ContactBlurb = () => {
       <Title>Talk To Our Experts</Title>
       <Blurb>
         <p>
-          Chat with us! Discuss your next automation requirements with an expert
-          today
+          Let's discuss your next website or talk to us about your current
+          business needs
         </p>
       </Blurb>
     </Container>

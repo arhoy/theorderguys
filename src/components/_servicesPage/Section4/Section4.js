@@ -87,7 +87,7 @@ export const Section4 = () => {
       <BackgroundSvgTop />
       <ExtraPaddingTop />
       <TitleContainer>
-        <StyledH2>Bring Your Favourite CRM</StyledH2>
+        <StyledH2>Premium White Label SEO</StyledH2>
       </TitleContainer>
 
       <Container>
@@ -99,7 +99,7 @@ export const Section4 = () => {
         <LinkCard6 />
       </Container>
       <LinkContainer>
-        <ContactLink>Talk to an Integration Specialist</ContactLink>
+        <ContactLink>Let's discuss what you want to show up for</ContactLink>
       </LinkContainer>
 
       <ExtraPaddingBottom />

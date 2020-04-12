@@ -18,7 +18,7 @@ export const Contact = () => {
   return (
     <Zoom>
       <Container>
-        <H4> Reach Our Sales Team </H4>
+        <H4> Drop Us A Message </H4>
         <p>
           If you are already a customer, please reach out to your dedicated
           account representative

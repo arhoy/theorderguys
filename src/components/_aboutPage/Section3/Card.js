@@ -32,14 +32,14 @@ export const Card = () => {
       <Subtitle>Divide and Conquer</Subtitle>
       <Blurb>
         <p>
-          In commodo proident enim occaecat do aliqua sit velit incididunt.
-          Magna ea quis anim nisi ex aute cillum. Minim officia sunt officia ut.
-          Esse consectetur incididunt
+          Knowing technologies such as React, Vue or GraphQL is one thing, but
+          being able to identify which tool, service or platform to use in a
+          cost effective way for the right job is another.
         </p>
         <p>
-          Laboris reprehenderit magna incididunt reprehenderit magna consequat.
-          Exercitation tempor aute quis mollit. Ad dolore et laboris mollit
-          laboris non ea id.
+          Depending on your business requirements, budget and potential future
+          needs we will use the right technology for you and provide you with a
+          cost effective business solution.
         </p>
       </Blurb>
     </Container>

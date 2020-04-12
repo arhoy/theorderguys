@@ -14,8 +14,8 @@ const Link = styled(NoStyleLink)`
 export const Text1 = () => {
   return (
     <Blurb>
-      Aliqua consequat ea ipsum eiusmod. Magna labore cupidatat enim id{' '}
-      <Link to="/#"> superior analytics </Link>
+      We can help with finding and uploading hundreds of even thousands of
+      products to your Shopify store with <Link to="/#"> API uploads </Link>
     </Blurb>
   );
 };
@@ -23,9 +23,8 @@ export const Text1 = () => {
 export const Text2 = () => {
   return (
     <Blurb>
-      Labore consequat magna anim irure adipisicing mollit non ullamco commodo.
-      <Link to="/#"> face recognition </Link>
-      nulla enim qui Lorem non laborum aliqua. Cupidatat reprehenderit officia
+      Tableau business dashboards built right. No more confusing dashboards or
+      hours fiddling with spreadsheets and data entry
     </Blurb>
   );
 };
@@ -33,9 +32,9 @@ export const Text2 = () => {
 export const Text3 = () => {
   return (
     <Blurb>
-      <Link to="/#"> Our Promise </Link> commodo mollit ut laboris aliqua
-      nostrud ea enim ipsum do do deserunt dolore Lorem. Ut dolor nostrud aliqua
-      laboris commodo nisi deserunt aute tempor irure est magna.
+      Are you looking for amazing <Link to="/#"> designs </Link> for your next
+      marketing campaigns or need some graphics for your website on a regular
+      basis?
     </Blurb>
   );
 };

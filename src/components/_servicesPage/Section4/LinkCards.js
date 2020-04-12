@@ -38,7 +38,7 @@ export const LinkCard1 = () => {
   return (
     <Container>
       <Link to="#">
-        Integrate with <span> Butterify </span>{' '}
+        Weekly Integrated <span> Articles </span>{' '}
       </Link>
       <ArrowSvg />
     </Container>
@@ -49,7 +49,7 @@ export const LinkCard2 = () => {
   return (
     <Container>
       <Link to="#">
-        Integrate with <span> Ghoster </span>{' '}
+        Google My Business <span> Optimization </span>{' '}
       </Link>
       <ArrowSvg />
     </Container>
@@ -60,7 +60,7 @@ export const LinkCard3 = () => {
   return (
     <Container>
       <Link to="#">
-        Integrate with <span> Hooli </span>{' '}
+        High Quality <span> Backlinks </span>{' '}
       </Link>
       <ArrowSvg />
     </Container>
@@ -71,7 +71,7 @@ export const LinkCard4 = () => {
   return (
     <Container>
       <Link to="#">
-        Integrate with <span> New View </span>{' '}
+        Technical <span> SEO </span>{' '}
       </Link>
       <ArrowSvg />
     </Container>
@@ -82,7 +82,7 @@ export const LinkCard5 = () => {
   return (
     <Container>
       <Link to="#">
-        Integrate with <span> Ponder </span>{' '}
+        Weekly Social <span> Posts </span>
       </Link>
       <ArrowSvg />
     </Container>
@@ -93,7 +93,7 @@ export const LinkCard6 = () => {
   return (
     <Container>
       <Link to="#">
-        Integrate with <span> MoonBox </span>{' '}
+        On Demand <span> Reports </span>
       </Link>
       <ArrowSvg />
     </Container>

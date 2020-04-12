@@ -26,6 +26,15 @@ export const query = graphql`
         }
       }
     }
+    googlePartnerProgram: file(
+      relativePath: { eq: "_contact/google-partner-program.png" }
+    ) {
+      childImageSharp {
+        fluid(quality: 100, maxWidth: 300) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
   }
 `;
 
@@ -42,13 +51,13 @@ const contact = ({ data }) => {
       <Section0 />
 
       {/* Reach our Sales Team  */}
-      <Section1 />
+      <Section1 image1={data.googlePartnerProgram.childImageSharp.fluid.src} />
 
       {/* Our Stats */}
-      <Section2 />
+      {/* <Section2 /> */}
 
       {/* Netlify Card */}
-      <Section3 fluid={data.imageCard1.childImageSharp.fluid} />
+      {/* <Section3 fluid={data.imageCard1.childImageSharp.fluid} /> */}
     </Layout>
   );
 };

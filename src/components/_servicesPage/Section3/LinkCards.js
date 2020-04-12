@@ -33,7 +33,7 @@ export const LinkCard1 = () => {
   return (
     <Container>
       <Link to="#">
-        Automated <span>Site Deploys</span>
+        Expand Your <span> Facebook Reach</span>
       </Link>
       <Icon />
     </Container>
@@ -44,7 +44,7 @@ export const LinkCard2 = () => {
   return (
     <Container>
       <Link to="#">
-        Real Time <span> Dashboards</span>
+        Increase <span> Instagram Engagement</span>
       </Link>
       <Icon />
     </Container>
@@ -55,7 +55,7 @@ export const LinkCard3 = () => {
   return (
     <Container>
       <Link to="#">
-        API <span> Integrations </span>
+        Get <span> More </span> Messages
       </Link>
       <Icon />
     </Container>
@@ -66,7 +66,7 @@ export const LinkCard4 = () => {
   return (
     <Container>
       <Link to="#">
-        Unlimited <span> Uploads </span>
+        Reduce <span> Wasted </span> Ad Spend
       </Link>
       <Icon />
     </Container>
@@ -77,7 +77,7 @@ export const LinkCard5 = () => {
   return (
     <Container>
       <Link to="#">
-        10X <span> Bot Builds </span>
+        Optimize Google Search <span> Keywords </span>
       </Link>
       <Icon />
     </Container>
@@ -88,7 +88,7 @@ export const LinkCard6 = () => {
   return (
     <Container>
       <Link to="#">
-        24/7 <span> Customer Support </span>
+        Effective Converting<span> Ad Copy </span>
       </Link>
       <Icon />
     </Container>

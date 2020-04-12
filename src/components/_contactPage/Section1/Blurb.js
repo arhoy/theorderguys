@@ -3,11 +3,6 @@ import React from 'react';
 import styled from '@emotion/styled';
 import { H4, H5 } from '../../reusableStyles/typography/Typography';
 
-import snapify from '../../../../images/svg/snapify.svg';
-import ajdental from '../../../../images/svg/ajdental.svg';
-import amazone from '../../../../images/svg/amazone.svg';
-import mintrist from '../../../../images/svg/mintrist.svg';
-
 const Container = styled.div`
   & p {
     font-weight: 300;
@@ -25,32 +20,31 @@ const ImageContainer = styled.div`
 `;
 
 const CompanyImage = styled.img`
-  width: 10rem;
+  width: 15rem;
   height: 100%;
   margin-right: 1.5rem;
   margin-bottom: 1rem;
 `;
 
-export const Blurb = () => {
+export const Blurb = ({ image1 }) => {
+  console.log(image1);
   return (
     <Container>
-      <H4>Lets Discuss Automation</H4>
+      <H4>Lets Discuss Websites</H4>
       <p>
-        Consequat labore ex in dolore aliquip consequat. Culpa adipisicing
-        proident enim adipisicing irure. Ea culpa veniam ad nulla tempor.
-        Exercitation adipisicing.
+        Premium high quality websites. We want to make the next website for you
+        unlike many agencies we don't cut corners but build custom websites from
+        the ground up.
       </p>
       <H5>We've got your back</H5>
       <p>
-        Nostrud aute consequat velit enim cillum. Laboris ipsum culpa id
-        proident ullamco labore ullamco ad commodo. Exercitation laboris ut elit
-        fugiat quis exercitation.
+        Need to grow your business? No problem. Our effective SEO and online
+        advertising strategy will be custom tailored for your business every
+        step of the way.
       </p>
       <ImageContainer>
-        <CompanyImage src={snapify} />
-        <CompanyImage src={ajdental} />
-        <CompanyImage src={amazone} />
-        <CompanyImage src={mintrist} />
+        {/* Add in Google, Facebook, Shopify Partner Program here */}
+        <CompanyImage src={image1} />
       </ImageContainer>
     </Container>
   );

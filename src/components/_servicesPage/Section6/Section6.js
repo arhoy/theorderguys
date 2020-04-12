@@ -67,7 +67,7 @@ export const Section6 = () => {
       <TitleContainer>
         <H2> Powerful Service Add-Ons</H2>
         <Subtitle>
-          Supercharge your automation with these powerful add-ons
+          Supercharge your business with these additional services
         </Subtitle>
       </TitleContainer>
       <Container1000>

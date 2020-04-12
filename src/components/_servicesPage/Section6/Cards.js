@@ -5,8 +5,8 @@ import { Card } from './Card';
 export const Card1 = ({ fluid, children }) => {
   return (
     <Card
-      title={`Analytics`}
-      subtitle={'Powerful dashboards that show your user data in real time'}
+      title={`Shopify Products`}
+      subtitle={'Looking to sell more products?'}
       link={'Learn More'}
       linkURL={'/#'}
       picture={fluid}
@@ -19,8 +19,8 @@ export const Card1 = ({ fluid, children }) => {
 export const Card2 = ({ fluid, children }) => {
   return (
     <Card
-      title={`Face Recognition`}
-      subtitle={'Teaming up with Cloudify to use Artifical Intelligence'}
+      title={`Dashboard & Notebooks`}
+      subtitle={'Dashboards and reporting done right'}
       link={'Learn More'}
       linkURL={'/#'}
       picture={fluid}
@@ -33,8 +33,8 @@ export const Card2 = ({ fluid, children }) => {
 export const Card3 = ({ fluid, children }) => {
   return (
     <Card
-      title={`Premium Support`}
-      subtitle={'24/7 Support to our platinum members'}
+      title={`Design On Demand`}
+      subtitle={'Customized Design for your Business'}
       link={'Learn More'}
       linkURL={'/#'}
       picture={fluid}

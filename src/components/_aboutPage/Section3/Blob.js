@@ -68,19 +68,19 @@ export const Blob = () => {
   return (
     <Container>
       <TitleContainer>
-        <Title> Using Advanced Math and Stats</Title>
+        <Title> Right Tool for the Right Job</Title>
       </TitleContainer>
 
       <SubContainer>
         <UL>
           <li>
-            <GitHubIcon /> Graph Theory
+            <GitHubIcon /> React/Gatsby
           </li>
           <li>
-            <BitbucketIcon /> Probalility
+            <BitbucketIcon /> Shopify
           </li>
           <li>
-            <GitlabIcon /> Quantum Mechanics
+            <GitlabIcon /> WordPress
           </li>
         </UL>
       </SubContainer>

@@ -38,6 +38,9 @@ const TitleContainer = styled.div`
   justify-content: center;
   margin-bottom: 2rem;
   text-align: center;
+  & p {
+    max-width: 80rem;
+  }
 `;
 
 const Subtitle = styled.h4`
@@ -53,8 +56,13 @@ export const Section3 = () => {
   return (
     <CustomSection>
       <TitleContainer>
-        <Subtitle>Download. Tweak. Automate</Subtitle>
-        <H2>Any Service That You'll Need</H2>
+        <Subtitle>Research. Launch. Analyze. Tweak.</Subtitle>
+        <H2>The Online Advertising Cycle</H2>
+        <p>
+          Online advertising is a dynamic and constantly evolving process of
+          researching, launching ads, analyzing results and making adjustments
+          accordingly as needed.
+        </p>
       </TitleContainer>
 
       <Container>

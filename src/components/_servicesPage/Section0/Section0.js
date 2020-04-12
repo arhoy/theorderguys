@@ -10,7 +10,7 @@ const CustomSection = styled(Section)`
   background: linear-gradient(
       180deg,
       ${props => props.theme.colors.primary} 0%,
-      rgba(127, 127, 208, 0.65) 39%,
+      rgba(127, 127, 208, 0.75) 60%,
       white 100%
     ),
     url(${background});
@@ -32,6 +32,7 @@ const Container = styled.div`
 const CustomH1 = styled(H1)`
   color: inherit;
   text-align: center;
+  line-height: 4rem;
 `;
 
 const Blurb = styled.div`
@@ -57,8 +58,11 @@ export const Section0 = () => {
   return (
     <CustomSection>
       <Container>
-        <CustomH1>CodePaper Services</CustomH1>
-        <Blurb>Deploy blazingly fast automation to you every day tasks</Blurb>
+        <CustomH1>We Provide Custom</CustomH1>
+        <Blurb>
+          Highend Performance Websites, White Label SEO & Effective Online
+          Advertising
+        </Blurb>
       </Container>
       <ButtonContainer>
         <Button> Get Started Today </Button>

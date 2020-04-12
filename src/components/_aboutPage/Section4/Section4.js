@@ -10,6 +10,7 @@ import {
 import { Card } from './Card';
 import { H3 } from '../../reusableStyles/typography/Typography';
 import { ButtonSweepToRight } from '../../reusableStyles/buttons/Button';
+import NoStyleLink from '../../Links/NoStyleLink';
 
 const Container = styled(Container1000)`
   display: flex;
@@ -73,18 +74,17 @@ export const Section4 = () => {
   return (
     <SectionGrey>
       <TitleContainer>
-        <H3> Our Three Pillars of Automation</H3>
+        <H3> Our Three Main Services</H3>
       </TitleContainer>
       <Container>
-        <Card title={`Scalability`} fluid={data.image1.childImageSharp.fluid} />
-        <Card title={`Robustness`} fluid={data.image2.childImageSharp.fluid} />
-        <Card
-          title={`Adaptability`}
-          fluid={data.image3.childImageSharp.fluid}
-        />
+        <Card title={`Websites`} fluid={data.image1.childImageSharp.fluid} />
+        <Card title={`Seo`} fluid={data.image2.childImageSharp.fluid} />
+        <Card title={`Advertising`} fluid={data.image3.childImageSharp.fluid} />
       </Container>
       <ButtonContainer>
-        <Button>Read More</Button>
+        <NoStyleLink to="/services">
+          <Button>Read More</Button>
+        </NoStyleLink>
       </ButtonContainer>
     </SectionGrey>
   );

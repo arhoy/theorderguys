@@ -32,11 +32,11 @@ const SubContainerForm = styled.div`
   }
 `;
 
-export const Section1 = () => {
+export const Section1 = ({ image1 }) => {
   return (
     <Container>
       <SubContainerBlurb>
-        <Blurb />
+        <Blurb image1={image1} />
       </SubContainerBlurb>
       <SubContainerForm>
         <Contact />

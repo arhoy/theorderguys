@@ -27,17 +27,22 @@ const Blurb = styled.div`
 export const Card = () => {
   return (
     <Container>
-      <H3>Ela Musk</H3>
-      <Subtitle>CEO and Founder</Subtitle>
+      <H3>Alex Quasar</H3>
+      <Subtitle>Founder & Developer</Subtitle>
       <Blurb>
         <p>
-          Nostrud consectetur eu elit pariatur labore velit et anim. In nisi
-          velit cupidatat adipisicing dolore laboris pariatur voluptate ea
-          exercitation et enim nostrud.
+          I work with a group and network of other developers, designers and
+          agencies to provide custom but cost effective agency services.
         </p>
         <p>
-          Elit amet proident ad fugiat ullamco commodo sint et labore. Laboris
-          elit in ex aliqua adipisicing cillum reprehenderit eu anim.
+          Through this network we can provide custom solutions to your business
+          at scale. We are looking to grow to and expand, and I believe right
+          now is the ripe opportunity to do so
+        </p>
+        <p>
+          I have worked with companies large and smale such as Go Auto, Finning
+          Canada and Mindable in roles such as Analyst, Developer and Digital
+          Marketing Expert.
         </p>
       </Blurb>
     </Container>

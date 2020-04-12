@@ -39,9 +39,7 @@ const ServicesPage = ({ data }) => {
       <Fade bottom>
         <Section1 />
       </Fade>
-      <Fade bottom>
-        <Section2 />
-      </Fade>
+      <Section2 />
       <Fade bottom>
         <Section3 />
       </Fade>

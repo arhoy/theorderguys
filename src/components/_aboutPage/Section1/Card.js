@@ -27,15 +27,16 @@ export const Card = () => {
   return (
     <Container>
       <H3>Our Story</H3>
-      <Subtitle>Automation Refined</Subtitle>
+      <Subtitle>Constantly Striving for the Best</Subtitle>
       <Blurb>
         <p>
-          Automation redefined using perfectly aligned magnetic levitation to
-          deploy bots
+          At CodePaper we want to deliver the best results for you and your
+          business every step of the way
         </p>
         <p>
-          Our mission is to make the world a better place one deploy at a time
-          in a sustainable fashion
+          Our mission is the help small businesses grow online. We want to
+          partner with them to provide amazing websites and effective online
+          marketing solutions
         </p>
       </Blurb>
     </Container>

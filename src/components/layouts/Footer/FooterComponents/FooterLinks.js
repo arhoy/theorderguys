@@ -10,13 +10,28 @@ const footerLinks = [
   },
   {
     id: 2,
-    title: 'Shop',
+    title: 'About',
     category: '',
     description: 'Lorem Ipsum Lorem Contact',
-    slug: `shop`,
+    slug: `about`,
   },
   {
     id: 3,
+    title: 'Services',
+    category: '',
+    description: 'Lorem Ipsum Lorem Contact',
+    slug: `services`,
+  },
+
+  {
+    id: 4,
+    title: 'Blog',
+    category: '',
+    description: 'Lorem Ipsum Lorem Contact',
+    slug: `blog`,
+  },
+  {
+    id: 5,
     title: 'Contact',
     category: '',
     description: 'Lorem Ipsum Lorem Contact',

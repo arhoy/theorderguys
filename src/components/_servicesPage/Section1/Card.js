@@ -14,6 +14,7 @@ const Title = styled.h4`
   font-weight: bold;
   font-size: 2rem;
   margin-top: 2rem;
+  text-align: center;
 `;
 
 const Img = styled.img`

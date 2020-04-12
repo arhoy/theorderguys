@@ -43,10 +43,13 @@ export const Section7 = () => {
     <CustomSection>
       <Container>
         <TitleContainer>
-          <Title>Ready For Automation?</Title>
-          <Subtitle> Automate Your Workflow Instantly</Subtitle>
+          <Title>Ready For Start?</Title>
+          <Subtitle>
+            Book a 15 minute meet & greet to see if we can help you meet your
+            business goals{' '}
+          </Subtitle>
         </TitleContainer>
-        <Button>Start For Free</Button>
+        <Button>Contact Us</Button>
       </Container>
     </CustomSection>
   );

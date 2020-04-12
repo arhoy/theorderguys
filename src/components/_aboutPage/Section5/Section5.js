@@ -6,11 +6,11 @@ export const Section5 = ({ fluid }) => {
   return (
     <Section>
       <NetlifyCard2
-        title={`Series C Funding`}
-        subtitle={`New $100M Series C Funding Secured`}
-        blurb={`CodePaper announces a Series C funding and new hiring for developers and data scientists`}
-        link={`Join Us`}
-        linkURL="#"
+        title={`Our Blog`}
+        subtitle={`New Content Every Week`}
+        blurb={`Whether you are developer, small business owner or entreprenuer we just might have something of interest to you`}
+        link={`Read More`}
+        linkURL="/blog"
         picture={fluid}
       />
     </Section>
