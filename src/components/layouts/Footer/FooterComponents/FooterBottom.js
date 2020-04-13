@@ -117,7 +117,13 @@ export const FooterBottom = () => {
           >
             RePlain
           </A>
-          <StyledImage fluid={data.butter.childImageSharp.fluid} />
+          <A
+            href="https://buttercms.com"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <StyledImage fluid={data.butter.childImageSharp.fluid} />
+          </A>
         </div>
       </Attriubtion>
     </Container>

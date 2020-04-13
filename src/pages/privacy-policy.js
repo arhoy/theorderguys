@@ -102,8 +102,8 @@ const PrivacyPolicyPage = () => {
         practices or for other operational, legal or regulatory reasons. CONTACT
         US For more information about our privacy practices, if you have
         questions, or if you would like to make a complaint, please contact us
-        by e-mail at aquasar2020@gmail.com or by mail using the details provided
-        below: 11033 127 St NW, Edmonton, AB, T5M 2L7, Canada
+        by e-mail at codepaper.dev@gmail.com or by mail using the details
+        provided below: 11033 127 St NW, Edmonton, AB, T5M 2L7, Canada
       </CustomP>
     </Layout>
   );

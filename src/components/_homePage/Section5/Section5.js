@@ -8,6 +8,7 @@ import { H2 } from '../../reusableStyles/typography/Typography';
 import { ButtonSweepToRight } from '../../reusableStyles/buttons/Button';
 import { Section } from '../../reusableStyles/sections/Sections';
 import BackgroundSvg5 from './BackgroundSvg5';
+import NoStyleLink from '../../Links/NoStyleLink';
 
 const CustomSection = styled(Section)`
   position: relative;
@@ -107,7 +108,9 @@ export const Section5 = () => {
         />
       </Container>
       <ButtonContainer>
-        <Button>Learn More Today</Button>
+        <NoStyleLink to="/contact">
+          <Button>Learn More Today</Button>
+        </NoStyleLink>
       </ButtonContainer>
       <ExtraPaddingBottom />
       <BackgroundSvg5 />

@@ -3,19 +3,21 @@ import Ticker from 'react-ticker';
 import PageVisibility from 'react-page-visibility';
 import styled from '@emotion/styled';
 
-import snapify from '../../../../images/svg/snapify.svg';
-import ajdental from '../../../../images/svg/ajdental.svg';
-import amazone from '../../../../images/svg/amazone.svg';
-import mintrist from '../../../../images/svg/mintrist.svg';
+const Container = styled.div`
+  display: flex;
+  width: 100%;
 
-const CompanyImage = styled.img`
-  width: 10rem;
-  height: 100%;
-  margin-right: 1.5rem;
+  & p {
+    margin-right: 3rem;
+    opacity: 0.85;
+    font-size: 2.5rem;
+    width: max-content;
+    text-transform: uppercase;
+    color: ${props => props.theme.colors.grey};
+  }
 `;
 
 const TickerContainer = styled(Ticker)``;
-
 const MyCompanyTicker = () => {
   const [pageIsVisible, setPageIsVisible] = useState(true);
 
@@ -26,14 +28,23 @@ const MyCompanyTicker = () => {
   return (
     <PageVisibility onChange={handleVisibilityChange}>
       {pageIsVisible && (
-        <TickerContainer speed={2}>
+        <TickerContainer speed={3}>
           {({ index }) => (
-            <>
-              <CompanyImage src={snapify} />
-              <CompanyImage src={ajdental} />
-              <CompanyImage src={amazone} />
-              <CompanyImage src={mintrist} />
-            </>
+            <Container>
+              <p>Dash-Intel</p>
+              <p>Soul 2 Soul</p>
+              <p>Dress Code Africa</p>
+              <p>Neverland Tea</p>
+              <p>New Image Cosmetic</p>
+              <p>New Barber</p>
+              <p>Sumo Sumo Sushi</p>
+              <p>A&J Driving School</p>
+              <p>Crystal Glass</p>
+              <p>Point Green Gardening</p>
+              <p>Royal Dragon Vodka</p>
+              <p>Rental YEG</p>
+              <p>Aquasar Inc</p>
+            </Container>
           )}
         </TickerContainer>
       )}

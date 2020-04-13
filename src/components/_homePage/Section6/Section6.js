@@ -10,7 +10,7 @@ export const Section6 = ({ fluid }) => {
         subtitle={`Passionate about helping local businesses?`}
         blurb={`If you are a developer or designer interested in working for us we would love to hear from you!`}
         link={`Apply Now`}
-        linkURL="#"
+        linkURL="/contact"
         picture={fluid}
       />
     </Section>

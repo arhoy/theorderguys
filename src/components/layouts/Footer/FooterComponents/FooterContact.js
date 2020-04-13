@@ -24,8 +24,8 @@ export const FooterContact = () => {
   return (
     <Container>
       <LinkHeaders>Contact Us</LinkHeaders>
-      <LinkDescription>aquasar2020@gmail.com</LinkDescription>
-      <TelephoneLink href="tel:587-7725-5536">587.772.5536</TelephoneLink>
+      <LinkDescription>codepaper.dev@gmail.com</LinkDescription>
+      <TelephoneLink href="tel:587-501-7726">587.501.7726</TelephoneLink>
     </Container>
   );
 };

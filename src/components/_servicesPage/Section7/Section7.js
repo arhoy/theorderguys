@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 import { ButtonSweepToRight } from '../../reusableStyles/buttons/Button';
 import { H2 } from '../../reusableStyles/typography/Typography';
 import { SectionWhiteToGrey } from '../../reusableStyles/sections/Sections';
+import NoStyleLink from '../../Links/NoStyleLink';
 
 const CustomSection = styled(SectionWhiteToGrey)`
   padding-bottom: 12rem;
@@ -49,7 +50,9 @@ export const Section7 = () => {
             business goals{' '}
           </Subtitle>
         </TitleContainer>
-        <Button>Contact Us</Button>
+        <NoStyleLink to="/contact">
+          <Button>Contact Us</Button>
+        </NoStyleLink>
       </Container>
     </CustomSection>
   );

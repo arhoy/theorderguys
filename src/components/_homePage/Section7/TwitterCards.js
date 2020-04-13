@@ -95,17 +95,16 @@ const TwitterCard1 = () => {
   return (
     <Container>
       <Blurb>
-        <span> http://ReVuejs.org </span> is now powered by{' '}
-        <span>@CodePaper </span>
-        with a free open source team plan. Really really impressive and smooth
-        deployment experience.
+        Nice clean website, modern look and feel and super fast. Very happy to
+        get started and build with {` `}
+        <span>codepaper.dev</span>
       </Blurb>
       <ProfileContainer>
-        <Circle className="red"> E </Circle>
+        <Circle className="red"> A </Circle>
         <div className="profileSection">
-          <h6>Evan Vu</h6>
+          <h6>Alex </h6>
           <div className="profileSubSection">
-            <TwitterIcon /> <span> @evanvu </span>
+            <TwitterIcon /> <span> @aquasar </span>
           </div>
         </div>
       </ProfileContainer>
@@ -117,17 +116,16 @@ const TwitterCard2 = () => {
   return (
     <Container>
       <Blurb>
-        I am extremely impressed by the power and automation that
-        <span>@CodePaper </span>
-        delivers. It has really made a difference in the workflow at
-        <span> @NoRealTesla </span>
+        Excellent Professional work done with great attention to details. Will
+        <span> definitely work with again.</span> {` `}
+        Highly Recommend
       </Blurb>
       <ProfileContainer>
-        <Circle className="green"> E </Circle>
+        <Circle className="green"> C </Circle>
         <div className="profileSection">
-          <h6>Elon Musk</h6>
+          <h6>Claudine</h6>
           <div className="profileSubSection">
-            <TwitterIcon /> <span> @elongmusk </span>
+            <TwitterIcon /> <span> @claudine </span>
           </div>
         </div>
       </ProfileContainer>
@@ -139,16 +137,16 @@ const TwitterCard3 = () => {
   return (
     <Container>
       <Blurb>
-        <span>@VirginGalaxy </span> we using <span> @CodePaper </span> to power
-        our engine booster rockets to deliver privatization of space flights.
-        What a journey
+        When I ask clients how you heard about me and I hear the same response
+        it really proves I still know how to pick my services and read people as
+        good as I did in the 90’s. Great job at an amazing price
       </Blurb>
       <ProfileContainer>
-        <Circle className="purple"> R </Circle>
+        <Circle className="purple"> A </Circle>
         <div className="profileSection">
-          <h6>Richard Hanson</h6>
+          <h6>Abdel</h6>
           <div className="profileSubSection">
-            <TwitterIcon /> <span> @richhanson </span>
+            <TwitterIcon /> <span> @abdelh </span>
           </div>
         </div>
       </ProfileContainer>

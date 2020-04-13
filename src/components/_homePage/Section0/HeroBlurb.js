@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 
 import { ButtonSweepToRight } from '../../reusableStyles/buttons/Button';
 import { H1 } from '../../reusableStyles/typography/Typography';
+import NoStyleLink from '../../Links/NoStyleLink';
 
 const Container = styled.div`
   color: ${props => props.theme.colors.white};
@@ -76,7 +77,9 @@ export const HeroBlurb = () => {
           </p>
         </BlurbContainer>
         <CallToActionContainer>
-          <CustomButton to="/"> START FREE TRIAL </CustomButton>
+          <NoStyleLink to="/contact">
+            <CustomButton> Schedule Free Call </CustomButton>
+          </NoStyleLink>
         </CallToActionContainer>
       </SubContainer>
     </Container>
