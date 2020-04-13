@@ -71,7 +71,7 @@ export const FooterBottom = () => {
       }
     }
   `);
-  console.log('data is', data);
+
   return (
     <Container>
       <Creator>

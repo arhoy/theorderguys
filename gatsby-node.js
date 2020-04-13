@@ -39,7 +39,7 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     `);
   } catch (error) {
-    console.log(`Error Running Querying Posts`, error);
+    console.error(`Error Running Querying Posts`, error);
   }
 
   posts = posts.data.allButterPost.edges;

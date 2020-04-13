@@ -53,7 +53,6 @@ const Tags = styled.div`
 `;
 
 export const Blogs = ({ posts }) => {
-  console.log('posts', posts);
   return (
     <Container>
       {posts.map(post => (
@@ -78,7 +77,7 @@ export const Blogs = ({ posts }) => {
           )}
           <Tags>
             {post.tags.map(tag => (
-              <span>{tag.name}</span>
+              <span key={tag.name}>{tag.name}</span>
             ))}
           </Tags>
         </Post>

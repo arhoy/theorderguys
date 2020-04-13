@@ -27,7 +27,6 @@ const CompanyImage = styled.img`
 `;
 
 export const Blurb = ({ image1 }) => {
-  console.log(image1);
   return (
     <Container>
       <H4>Lets Discuss Websites</H4>

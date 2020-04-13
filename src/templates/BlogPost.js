@@ -187,7 +187,6 @@ export const query = graphql`
 `;
 
 const BlogPost = props => {
-  console.log('props', props);
   const { post } = props.data;
 
   const { previous, next } = props.pageContext;
