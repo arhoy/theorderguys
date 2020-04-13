@@ -1,5 +1,7 @@
 import React from 'react';
 import { Global, css } from '@emotion/core';
+import Helmet from 'react-helmet';
+import { withPrefix } from 'gatsby';
 
 import { ThemeProvider } from 'emotion-theming';
 import styled from '@emotion/styled';
@@ -113,6 +115,9 @@ const Layout = ({ children, full, backgroundLayer }) => {
 
   return (
     <>
+      <Helmet>
+        <script src={withPrefix('script.js')} type="text/javascript" />
+      </Helmet>
       <Global
         styles={css`
           * {
