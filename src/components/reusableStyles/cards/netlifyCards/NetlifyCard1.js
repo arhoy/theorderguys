@@ -9,7 +9,7 @@ const Container = styled.div`
   box-shadow: 5px 5px 25px rgba(118, 118, 118, 0.15);
   display: grid;
   grid-template-columns: 1fr 3fr;
-  grid-gap: 1rem;
+  grid-gap: 2rem;
   max-width: 100rem;
   margin: 0 auto;
 
@@ -27,6 +27,7 @@ const ContentContainer = styled.div`
 
 const PictureContainer = styled.div`
   max-height: 22rem;
+  overflow: hidden;
 `;
 
 const CardImage = styled(Image)`
@@ -41,6 +42,7 @@ const CardImage = styled(Image)`
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  margin-bottom: 1rem;
   & h4 {
     color: ${props => props.theme.colors.white};
     font-weight: bold;
