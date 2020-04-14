@@ -117,6 +117,10 @@ const Layout = ({ children, full, backgroundLayer }) => {
     <>
       <Helmet>
         <script src={withPrefix('replain.js')} type="text/javascript" />
+        <script
+          type="text/javascript"
+          src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e958deb8977e95f"
+        ></script>
       </Helmet>
       <Global
         styles={css`

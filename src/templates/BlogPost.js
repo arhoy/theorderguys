@@ -128,6 +128,7 @@ const Body = styled.article`
     background: ${props => props.theme.colors.lightgrey};
     overflow: auto;
     padding: 2rem;
+    font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
   }
 
   & ul,
@@ -246,20 +247,8 @@ const BlogPost = props => {
               </div>
             </div>
 
-            {/* <StyledCommentCount
-              config={disqusConfig}
-              placeholder={'0 Reactions'}
-            /> */}
             <CommentCount {...disqusConfig} />
-            <div>
-              <Helmet>
-                <script
-                  id="dsq-count-scr"
-                  src="//codepaper-dev.disqus.com/count.js"
-                  async
-                ></script>
-              </Helmet>
-            </div>
+            <div></div>
           </div>
           <div className="picture">
             <img
