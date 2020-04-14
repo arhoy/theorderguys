@@ -1,6 +1,6 @@
 import React from 'react';
 import Img from 'gatsby-image';
-import { graphql, useStaticQuery } from 'gatsby';
+
 import styled from '@emotion/styled';
 
 const Container = styled.div`
@@ -24,21 +24,10 @@ const Image = styled(Img)`
   border-radius: 50%;
 `;
 
-export const CircularImage = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      image1: file(relativePath: { eq: "_about/ela-musk.jpg" }) {
-        childImageSharp {
-          fluid(maxWidth: 300) {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-    }
-  `);
+export const CircularImage = ({ fluid }) => {
   return (
     <Container>
-      <Image fluid={data.image1.childImageSharp.fluid} />
+      <Image fluid={fluid} />
     </Container>
   );
 };

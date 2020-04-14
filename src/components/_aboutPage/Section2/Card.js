@@ -24,7 +24,7 @@ const Blurb = styled.div`
   }
 `;
 
-export const Card = () => {
+export const Card1 = () => {
   return (
     <Container>
       <H3>Alex Quasar</H3>
@@ -43,6 +43,31 @@ export const Card = () => {
           I have worked with companies large and smale such as Go Auto, Finning
           Canada and Mindable in roles such as Analyst, Developer and Digital
           Marketing Expert.
+        </p>
+      </Blurb>
+    </Container>
+  );
+};
+
+export const Card2 = () => {
+  return (
+    <Container>
+      <H3>Abdel (Abdo) Houchami</H3>
+      <Subtitle>Technical Business Consultant</Subtitle>
+      <Blurb>
+        <p>
+          Abdo is a larger than life local business consultant . He knows a
+          large network of local businesses in the Edmonton area and is a former
+          construction company owner that built secondary suits around the city.
+        </p>
+        <p>
+          Before that he went to the University of Alberta and completed a
+          Geophysics specialization degree. Where he found his love the writing
+          code and mathematics.
+        </p>
+        <p>
+          He keeps up to date with the latest business industry and technical
+          knowledge and is a proud father of 2 kids.
         </p>
       </Blurb>
     </Container>

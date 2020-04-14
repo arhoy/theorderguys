@@ -1,41 +1,79 @@
 import React from 'react';
 import styled from '@emotion/styled';
+import { graphql, useStaticQuery } from 'gatsby';
+
 import {
   Container1000,
   SectionGrey,
 } from '../../reusableStyles/sections/Sections';
 
-import { Card } from './Card';
-import { CircularImage } from './CircularImage';
+import { CircularImage } from './CircularImages';
+
+import { Card1, Card2 } from './Card';
 
 const Container = styled.div`
   display: grid;
+  margin: 2rem 0;
   grid-template-columns: 4fr 6fr;
+  &.reverse {
+    grid-template-columns: 6fr 4fr;
+    @media (max-width: ${props => props.theme.screenSize.mobileL}) {
+      grid-template-columns: 1fr;
+      & .imageContainer {
+        grid-row: 1/2;
+      }
+    }
+  }
   grid-gap: 2rem;
+  & .imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  & .blurbContainer {
+  }
   @media (max-width: ${props => props.theme.screenSize.mobileL}) {
     grid-template-columns: 1fr;
   }
 `;
 
-const SubContainer1 = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
-
-const SubContainer2 = styled.div``;
-
 export const Section2 = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      image1: file(relativePath: { eq: "_about/alex-quasar.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      image2: file(relativePath: { eq: "_about/abdo-houchami.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+    }
+  `);
   return (
     <SectionGrey>
       <Container1000>
         <Container>
-          <SubContainer1>
-            <CircularImage />
-          </SubContainer1>
-          <SubContainer2>
-            <Card />
-          </SubContainer2>
+          <div className="imageContainer">
+            <CircularImage fluid={data.image1.childImageSharp.fluid} />
+          </div>
+          <div className="blurbContainer">
+            <Card1 />
+          </div>
+        </Container>
+        <Container className="reverse">
+          <div className="blurbContainer">
+            <Card2 />
+          </div>
+          <div className="imageContainer">
+            <CircularImage fluid={data.image2.childImageSharp.fluid} />
+          </div>
         </Container>
       </Container1000>
     </SectionGrey>
