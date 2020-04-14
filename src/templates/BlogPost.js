@@ -144,14 +144,15 @@ const Navigation = styled.div`
   }
   & li {
     margin: 1rem;
+    padding: 2px 8px;
     &.previous {
       &:hover {
-        background-image: linear-gradient(45deg, transparent 50%, #ccedff 50%);
+        background-image: linear-gradient(45deg, transparent 20%, #ffd6d8 20%);
       }
     }
     &.next {
       &:hover {
-        background-image: linear-gradient(145deg, #ccedff 50%, transparent 50%);
+        background-image: linear-gradient(145deg, #d6ffe4 80%, transparent 20%);
       }
     }
   }

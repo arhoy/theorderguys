@@ -90,17 +90,18 @@ export const MobileMenu = () => {
       <MenuLinks>
         <Link to="/about">About</Link>
         <Link to="/services">Services</Link>
+        <Link to="/blog">Blog</Link>
         <Link to="/contact">Contact</Link>
       </MenuLinks>
       <Blurb>
-        <p className="light"> Automating workflow since 2009</p>
-        <p className="light">Over 10 million work hours saved</p>
+        <p className="light"> Blazingly Fast Cusom Websites</p>
+        <p className="light">We've managed millions in ad spend</p>
         <div className="address">
-          <AddressIcon /> <address> NY 10004, USA </address>
+          <AddressIcon /> <address> Edmonton AB, CANADA </address>
         </div>
 
         <div className="phone">
-          <PhoneIcon /> <A href="tel:123-456-7890">123-456-7890</A>
+          <PhoneIcon /> <A href="tel:587-501-7726">587 501 7726</A>
         </div>
       </Blurb>
     </Container>
