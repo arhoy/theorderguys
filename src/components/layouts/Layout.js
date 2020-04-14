@@ -116,7 +116,7 @@ const Layout = ({ children, full, backgroundLayer }) => {
   return (
     <>
       <Helmet>
-        <script src={withPrefix('script.js')} type="text/javascript" />
+        <script src={withPrefix('replain.js')} type="text/javascript" />
       </Helmet>
       <Global
         styles={css`

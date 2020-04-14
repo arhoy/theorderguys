@@ -5,7 +5,7 @@ require('dotenv').config({
 // Define site URL here
 let URL;
 if (process.env.NODE_ENV === 'production') {
-  URL = 'https://CodePaper.netlify.com';
+  URL = 'https://codepaper.dev';
 } else {
   URL = 'http://localhost:8000';
 }
@@ -14,9 +14,9 @@ if (process.env.NODE_ENV === 'production') {
 
 module.exports = {
   siteMetadata: {
-    title: 'CodePaper - Automation Platform',
-    titleTemplate: 'CodePaper Sample Project',
-    description: 'At Zeilify we strive for automation',
+    title: 'Codepaper - Web development, SEO, Digital Ads',
+    titleTemplate: 'Codepaper - Web development, SEO, Digital Ads',
+    description: 'At Codepaper we strive for digital excellence',
     author: 'Alex Quasar',
     twitterUsername: '@_aquasar',
     image: '/default.png',
@@ -109,6 +109,7 @@ module.exports = {
         endpoint: process.env.MAILCHIMP_ENDPOINT,
       },
     },
+
     // {
     //   resolve: `gatsby-plugin-google-analytics`,
     //   options: {

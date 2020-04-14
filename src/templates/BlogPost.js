@@ -1,13 +1,20 @@
+/* eslint-disable */
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { graphql } from 'gatsby';
 import styled from '@emotion/styled';
+import { DiscussionEmbed, CommentCount } from 'disqus-react';
+
 import Layout from '../components/layouts/Layout';
 import NoStyleLink from '../components/Links/NoStyleLink';
 
 const Container = styled.div`
-  max-width: ${props => props.theme.screenSize.twelveHundred};
+  max-width: 1200px;
   margin: 5rem auto;
   padding: 2rem 1rem;
+  & .comments {
+    max-width: 800px;
+  }
   @media (max-width: ${props => props.theme.screenSize.twelveHundred}) {
     padding: 4rem;
   }
@@ -93,6 +100,7 @@ const TitleContainer = styled.div`
 `;
 
 const Body = styled.article`
+  max-width: 800px;
   margin: 4rem 0;
   & h2 {
     display: inline-block;
@@ -122,12 +130,14 @@ const Body = styled.article`
     padding: 2rem;
   }
 
-  & ul {
+  & ul,
+  & ol {
     padding: 2rem;
   }
 `;
 
 const Navigation = styled.div`
+  max-width: 800px;
   & h3 {
     display: inline-block;
     text-align: center;
@@ -161,6 +171,7 @@ const Navigation = styled.div`
 export const query = graphql`
   query getBlog($slug: String!) {
     post: butterPost(slug: { eq: $slug }) {
+      id
       slug
       title
       seo_title
@@ -184,14 +195,29 @@ export const query = graphql`
         name
       }
     }
+    getSiteData: site {
+      siteMetadata {
+        url
+      }
+    }
   }
 `;
 
 const BlogPost = props => {
-  const { post } = props.data;
+  const { post, getSiteData } = props.data;
 
   const { previous, next } = props.pageContext;
+  const siteUrl = getSiteData.siteMetadata.url;
+  let disqusConfig = {
+    shortname: process.env.GATSBY_DISQUS_NAME,
+    config: {
+      url: `${siteUrl}/blog/${post.slug}`,
+      identifier: post.id,
+      title: post.title,
+    },
+  };
 
+  console.log(disqusConfig);
   return (
     <Layout>
       <Container>
@@ -219,6 +245,21 @@ const BlogPost = props => {
                 <time>{post.created}</time>
               </div>
             </div>
+
+            {/* <StyledCommentCount
+              config={disqusConfig}
+              placeholder={'0 Reactions'}
+            /> */}
+            <CommentCount {...disqusConfig} />
+            <div>
+              <Helmet>
+                <script
+                  id="dsq-count-scr"
+                  src="//codepaper-dev.disqus.com/count.js"
+                  async
+                ></script>
+              </Helmet>
+            </div>
           </div>
           <div className="picture">
             <img
@@ -229,6 +270,8 @@ const BlogPost = props => {
           </div>
         </TitleContainer>
         <Body dangerouslySetInnerHTML={{ __html: post.body }} />
+        <DiscussionEmbed className="comments" {...disqusConfig} />
+
         <Navigation>
           <h3> Continue Reading</h3>
           <ul>
