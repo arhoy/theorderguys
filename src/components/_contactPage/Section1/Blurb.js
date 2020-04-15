@@ -13,20 +13,20 @@ const Container = styled.div`
   }
 `;
 
-const ImageContainer = styled.div`
+const LogoContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 `;
 
-const CompanyImage = styled.img`
-  width: 15rem;
-  height: 100%;
-  margin-right: 1.5rem;
-  margin-bottom: 1rem;
+const Logo = styled.span`
+  font-size: 2rem;
+  margin-right: 1rem;
+  opacity: 0.6;
+  font-weight: bold;
+  color: ${props => props.theme.colors.grey};
 `;
 
-export const Blurb = ({ image1 }) => {
+export const Blurb = () => {
   return (
     <Container>
       <H4>Lets Discuss Websites</H4>
@@ -41,10 +41,11 @@ export const Blurb = ({ image1 }) => {
         advertising strategy will be custom tailored for your business every
         step of the way.
       </p>
-      <ImageContainer>
+      <LogoContainer>
         {/* Add in Google, Facebook, Shopify Partner Program here */}
-        <CompanyImage src={image1} />
-      </ImageContainer>
+        <Logo> Google Ads Certified </Logo>
+        <Logo> Shopify Partner </Logo>
+      </LogoContainer>
     </Container>
   );
 };

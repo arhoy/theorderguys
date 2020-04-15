@@ -16,7 +16,8 @@ module.exports = {
   siteMetadata: {
     title: 'Codepaper - Web development, SEO, Digital Ads',
     titleTemplate: 'Codepaper - Web development, SEO, Digital Ads',
-    description: 'At Codepaper we strive for digital excellence',
+    description:
+      'At Codepaper we deliver blazingly fast high performance websites, stunning web design, effective online advertising and seo and business signs',
     author: 'Alex Quasar',
     twitterUsername: '@_aquasar',
     image: '/default.png',

@@ -54,7 +54,8 @@ const Label = styled.label`
   }
   & input,
   & textarea {
-    &:focus + span {
+    &:focus + span,
+    &:valid + span {
       opacity: 1;
       transform: translateY(-105%) translateX(-5px);
       font-size: 1.3rem;
