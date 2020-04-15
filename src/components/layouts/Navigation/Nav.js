@@ -8,6 +8,7 @@ import NoStyleLink from '../../Links/NoStyleLink';
 import { BurgerSVG3 } from './Burger3';
 
 import '../../../scss/menu_hovers/menuhover.scss';
+import DropDownMenu1 from '../../Links/DropDownMenu1';
 
 const Header = styled.header`
   position: relative;
@@ -116,9 +117,9 @@ const Nav = () => {
             <CustomLink className="underline" to="/about">
               About
             </CustomLink>
-            <CustomLink className="underline" to="/services">
+            <DropDownMenu1 className="underline" to="/services">
               Services
-            </CustomLink>
+            </DropDownMenu1>
             <CustomLink className="underline" to="/blog">
               Blog
             </CustomLink>

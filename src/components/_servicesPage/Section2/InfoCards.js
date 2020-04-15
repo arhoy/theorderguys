@@ -42,6 +42,14 @@ const ImageContainer = styled.div`
   padding: 1rem;
   width: 10rem;
   height: 10rem;
+  &.animation2 {
+    &:hover {
+      & img {
+        transition: all 0.4s ease-in;
+        transform: translateY(-2rem) rotateY(180deg);
+      }
+    }
+  }
 `;
 
 const Img = styled.img`
@@ -56,13 +64,7 @@ const Img = styled.img`
       transform: rotate(0);
     }
   }
-  &.animation2 {
-    transform: rotateY(360deg);
-    transition: all 0.4s ease-in;
-    &:hover {
-      transform: rotate(0);
-    }
-  }
+
   &.animation3 {
     transition: all 0.1s ease-in;
     &:hover {
@@ -110,8 +112,8 @@ export const Card1 = () => {
 export const Card2 = () => {
   return (
     <Card>
-      <ImageContainer>
-        <Img className="animation2" src={onlineshopping} />
+      <ImageContainer className="animation2">
+        <Img src={onlineshopping} />
       </ImageContainer>
 
       <Title>Ecommerce</Title>
