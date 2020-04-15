@@ -19,6 +19,7 @@ const LinkHeaders = styled.h6`
 
 const CustomLinks = styled(NoStyleLink)`
   color: inherit;
+  font-size: 1.5rem;
   &:hover {
     text-decoration: underline;
   }

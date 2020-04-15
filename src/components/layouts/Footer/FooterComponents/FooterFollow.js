@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import socialIcons from '../../../../constants/socialIcons';
+import NoStyleLink from '../../../Links/NoStyleLink';
 
 const Container = styled.div`
   margin-right: 2rem;
@@ -16,6 +17,13 @@ const LinkHeaders = styled.h6`
   text-transform: uppercase;
   font-size: 1.6rem;
   font-weight: 700;
+`;
+
+const CustomLinks = styled(NoStyleLink)`
+  color: inherit;
+  &:hover {
+    text-decoration: underline;
+  }
 `;
 
 const SocialIconContainer = styled.div``;
@@ -48,6 +56,8 @@ export const FooterFollow = () => {
             </SocialIcon>
           ))}
         </SocialIconContainer>
+        <LinkHeaders>Services</LinkHeaders>
+        <CustomLinks to="/websites"> Websites</CustomLinks>
       </LinkContainers>
     </Container>
   );

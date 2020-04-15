@@ -63,12 +63,12 @@ const GitlabIcon = styled(FaGitlab)`
   color: ${props => props.theme.colors.primary};
 `;
 
-const NetlifyBlob1 = () => {
+const NetlifyBlob1 = ({ title }) => {
   return (
     <Container>
       <TitleContainer>
         <CirclularNumbers number={1} />
-        <Title> Websites</Title>
+        <Title> {title}</Title>
       </TitleContainer>
 
       <SubContainer>

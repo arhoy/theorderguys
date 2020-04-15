@@ -39,9 +39,9 @@ export const Section3 = () => {
       </TitleContainer>
 
       <Container>
-        <NetlifyBlob1 />
-        <NetlifyBlob2 />
-        <NetlifyBlob3 />
+        <NetlifyBlob1 title={'Websites'} />
+        <NetlifyBlob2 title={'Advertising'} />
+        <NetlifyBlob3 title={'SEO'} />
       </Container>
     </CustomSection>
   );

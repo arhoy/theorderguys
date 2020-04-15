@@ -4,11 +4,12 @@ import styled from '@emotion/styled';
 
 import Layout from '../components/layouts/Layout';
 
-const Container = styled.div`
+const Section = styled.div`
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
   font-size: 1.4rem;
-  padding: 2rem 0;
 `;
-
 const CustomP = styled.p`
   margin: 1rem 0;
 `;
@@ -20,21 +21,21 @@ const CustomUl = styled.ul`
 const TermsAndConditionsPage = () => {
   return (
     <Layout>
-      <Container>
+      <Section>
         <h2>
           <strong>Terms and Conditions</strong>
         </h2>
 
-        <CustomP>Welcome to Aquasar Inc!</CustomP>
+        <CustomP>Welcome to Codepaper!</CustomP>
 
         <CustomP>
           These terms and conditions outline the rules and regulations for the
-          use of Aquasar Inc's Website, located at https://aquasar.io.
+          use of Codepaper's Website, located at https://codepaper.dev.
         </CustomP>
 
         <CustomP>
           By accessing this website we assume you accept these terms and
-          conditions. Do not continue to use Aquasar Inc if you do not agree to
+          conditions. Do not continue to use Codepaper if you do not agree to
           take all of the terms and conditions stated on this page.
         </CustomP>
 
@@ -60,8 +61,8 @@ const TermsAndConditionsPage = () => {
         </h3>
 
         <CustomP>
-          We employ the use of cookies. By accessing Aquasar Inc, you agreed to
-          use cookies in agreement with the Aquasar Inc's Privacy Policy.
+          We employ the use of cookies. By accessing Codepaper, you agreed to
+          use cookies in agreement with the Codepaper's Privacy Policy.
         </CustomP>
 
         <CustomP>
@@ -77,19 +78,19 @@ const TermsAndConditionsPage = () => {
         </h3>
 
         <CustomP>
-          Unless otherwise stated, Aquasar Inc and/or its licensors own the
-          intellectual property rights for all material on Aquasar Inc. All
+          Unless otherwise stated, Codepaper and/or its licensors own the
+          intellectual property rights for all material on Codepaper. All
           intellectual property rights are reserved. You may access this from
-          Aquasar Inc for your own personal use subjected to restrictions set in
+          Codepaper for your own personal use subjected to restrictions set in
           these terms and conditions.
         </CustomP>
 
         <CustomP>You must not:</CustomP>
         <CustomUl>
-          <li>Republish material from Aquasar Inc</li>
-          <li>Sell, rent or sub-license material from Aquasar Inc</li>
-          <li>Reproduce, duplicate or copy material from Aquasar Inc</li>
-          <li>Redistribute content from Aquasar Inc</li>
+          <li>Republish material from Codepaper</li>
+          <li>Sell, rent or sub-license material from Codepaper</li>
+          <li>Reproduce, duplicate or copy material from Codepaper</li>
+          <li>Redistribute content from Codepaper</li>
         </CustomUl>
 
         <CustomP>This Agreement shall begin on the date hereof.</CustomP>
@@ -97,20 +98,20 @@ const TermsAndConditionsPage = () => {
         <CustomP>
           Parts of this website offer an opportunity for users to post and
           exchange opinions and information in certain areas of the website.
-          Aquasar Inc does not filter, edit, publish or review Comments prior to
+          Codepaper does not filter, edit, publish or review Comments prior to
           their presence on the website. Comments do not reflect the views and
-          opinions of Aquasar Inc,its agents and/or affiliates. Comments reflect
+          opinions of Codepaper,its agents and/or affiliates. Comments reflect
           the views and opinions of the person who post their views and
-          opinions. To the extent permitted by applicable laws, Aquasar Inc
-          shall not be liable for the Comments or for any liability, damages or
+          opinions. To the extent permitted by applicable laws, Codepaper shall
+          not be liable for the Comments or for any liability, damages or
           expenses caused and/or suffered as a result of any use of and/or
           posting of and/or appearance of the Comments on this website.
         </CustomP>
 
         <CustomP>
-          Aquasar Inc reserves the right to monitor all Comments and to remove
-          any Comments which can be considered inappropriate, offensive or
-          causes breach of these Terms and Conditions.
+          Codepaper reserves the right to monitor all Comments and to remove any
+          Comments which can be considered inappropriate, offensive or causes
+          breach of these Terms and Conditions.
         </CustomP>
 
         <CustomP>You warrant and represent that:</CustomP>
@@ -137,9 +138,9 @@ const TermsAndConditionsPage = () => {
         </CustomUl>
 
         <CustomP>
-          You hereby grant Aquasar Inc a non-exclusive license to use,
-          reproduce, edit and authorize others to use, reproduce and edit any of
-          your Comments in any and all forms, formats or media.
+          You hereby grant Codepaper a non-exclusive license to use, reproduce,
+          edit and authorize others to use, reproduce and edit any of your
+          Comments in any and all forms, formats or media.
         </CustomP>
 
         <h3>
@@ -195,7 +196,7 @@ const TermsAndConditionsPage = () => {
           that: (a) the link would not make us look unfavorably to ourselves or
           to our accredited businesses; (b) the organization does not have any
           negative records with us; (c) the benefit to us from the visibility of
-          the hyperlink compensates the absence of Aquasar Inc; and (d) the link
+          the hyperlink compensates the absence of Codepaper; and (d) the link
           is in the context of general resource information.
         </CustomP>
 
@@ -209,7 +210,7 @@ const TermsAndConditionsPage = () => {
         <CustomP>
           If you are one of the organizations listed in paragraph 2 above and
           are interested in linking to our website, you must inform us by
-          sending an e-mail to Aquasar Inc. Please include your name, your
+          sending an e-mail to Codepaper. Please include your name, your
           organization name, contact information as well as the URL of your
           site, a list of any URLs from which you intend to link to our Website,
           and a list of the URLs on our site to which you would like to link.
@@ -231,7 +232,7 @@ const TermsAndConditionsPage = () => {
         </CustomUl>
 
         <CustomP>
-          No use of Aquasar Inc's logo or other artwork will be allowed for
+          No use of Codepaper's logo or other artwork will be allowed for
           linking absent a trademark license agreement.
         </CustomP>
 
@@ -336,7 +337,7 @@ const TermsAndConditionsPage = () => {
           are provided free of charge, we will not be liable for any loss or
           damage of any nature.
         </CustomP>
-      </Container>
+      </Section>
     </Layout>
   );
 };

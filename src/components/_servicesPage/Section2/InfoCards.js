@@ -10,12 +10,15 @@ import settingsSVG from '../../../../images/svg/services/settings.svg';
 import robotSVG from '../../../../images/svg/services/industrial-robot.svg';
 
 const Card = styled.div`
-  width: 40rem;
+  max-width: 40rem;
   margin: 2rem;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media (max-width: ${props => props.theme.screenSize.mobileL}) {
+    margin: 2rem 0;
+  }
 `;
 
 const Title = styled(H3)`

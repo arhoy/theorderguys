@@ -14,16 +14,6 @@ const Container = styled.div`
   font-size: 1.5rem;
 `;
 
-const Creator = styled.div`
-  text-align: center;
-  opacity: 0.7;
-  width: 100%;
-`;
-
-const ExternalLink = styled(A)`
-  color: ${props => props.theme.colors.primary};
-`;
-
 const StyledImage = styled(Img)`
   width: 14rem;
 `;
@@ -74,10 +64,6 @@ export const FooterBottom = () => {
 
   return (
     <Container>
-      <Creator>
-        Created By
-        <ExternalLink href="https://aquasar.io/"> Aquasar.io </ExternalLink>
-      </Creator>
       <Attriubtion>
         <h6>Special Thanks To</h6>
         <div className="linkcontainer">
