@@ -22,7 +22,7 @@ const theme = {
     primary: '#192242',
     primaryDark: '#101A37',
     primaryLight: '#34305C',
-    primaryLight2: 'rgba(81, 150, 255, 0.90)',
+    primaryLight2: '#817AC6',
     secondaryVeryLight: '#d2f7f2',
     secondary: 'rgb(24, 163, 201)',
     lightgrey: 'rgb(240,240,240)',

@@ -60,8 +60,24 @@ const ButtonContainer = styled.div`
   flex-wrap: wrap;
 `;
 
+const Button = styled(ButtonStyle2)`
+  font-weight: 500;
+  background: transparent;
+  color: ${props => props.theme.colors.black};
+  border: 2px solid ${props => props.theme.colors.primary};
+  &:hover {
+    font-weight: 500;
+    color: ${props => props.theme.colors.white};
+  }
+  &.active {
+    font-weight: 700;
+    color: ${props => props.theme.colors.white};
+    background: ${props => props.theme.colors.primary};
+  }
+`;
+
 export const Section2 = () => {
-  const [item, setItem] = useState(0);
+  const [item, setItem] = useState(1);
 
   return (
     <CustomSection>
@@ -76,16 +92,30 @@ export const Section2 = () => {
           </p>
         </TitleContainer>
         <ButtonContainer>
-          <ButtonStyle2 onClick={() => setItem(0)}>Live Chat </ButtonStyle2>
-          <ButtonStyle2 onClick={() => setItem(1)}>
-            Order Delivery Apps{' '}
-          </ButtonStyle2>
-          <ButtonStyle2 onClick={() => setItem(2)}>
+          <Button
+            className={item === 0 ? 'active' : ''}
+            onClick={() => setItem(0)}
+          >
+            Live Chat{' '}
+          </Button>
+          <Button
+            className={item === 1 ? 'active' : ''}
+            onClick={() => setItem(1)}
+          >
+            Order Pickup{' '}
+          </Button>
+          <Button
+            className={item === 2 ? 'active' : ''}
+            onClick={() => setItem(2)}
+          >
             Custom Contact Forms
-          </ButtonStyle2>
-          <ButtonStyle2 onClick={() => setItem(3)}>
+          </Button>
+          <Button
+            className={item === 3 ? 'active' : ''}
+            onClick={() => setItem(3)}
+          >
             CMS Integration
-          </ButtonStyle2>
+          </Button>
         </ButtonContainer>
 
         {item === 0 && <Content1 />}

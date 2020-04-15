@@ -1,10 +1,14 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import { Link } from 'gatsby';
 import { ButtonStyle2 } from '../../reusableStyles/buttons/Button';
 import NoStyleLink from '../../Links/NoStyleLink';
 
 const Container = styled.div`
+  & p {
+    border-left: 4px solid ${props => props.theme.colors.red};
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+  }
   & span {
     font-weight: 700;
     &.highlight {
