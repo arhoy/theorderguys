@@ -9,7 +9,7 @@ import { FooterBottom } from './FooterComponents/FooterBottom';
 
 const CustomSection = styled(SectionGrey)`
   padding: 2rem;
-  margin: 0;
+  padding-top: 6rem;
 `;
 
 const Container = styled.div`

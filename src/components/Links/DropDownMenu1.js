@@ -46,8 +46,9 @@ const DropDownContent = styled.div`
   & h6 {
     color: ${props => props.theme.colors.grey};
     font-weight: 500;
-    margin: 1rem 2rem;
-    font-size: 1.7rem;
+    margin:1rem 2rem;
+    font-size: 1.3rem;
+    text-transform:uppercase;
   }
   & .bottomMargin {
     padding: width:100%;
@@ -59,7 +60,7 @@ const DropDownMenu1 = () => {
     <Container className={`${styles.dropdown}`}>
       <Button>Services</Button>
       <DropDownContent className={styles.dropdownContent}>
-        <h6> Our Services</h6>
+        <h6>Our Services</h6>
 
         <Navlink to="/services">All Services</Navlink>
         <Navlink to="/websites">Websites</Navlink>
