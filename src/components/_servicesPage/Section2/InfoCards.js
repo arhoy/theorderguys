@@ -4,10 +4,12 @@ import styled from '@emotion/styled';
 import { H3 } from '../../reusableStyles/typography/Typography';
 import NoStyleLink from '../../Links/NoStyleLink';
 
-import chipSVG from '../../../../images/svg/services/chip.svg';
-import dataStorageSVG from '../../../../images/svg/services/database-storage.svg';
-import settingsSVG from '../../../../images/svg/services/settings.svg';
-import robotSVG from '../../../../images/svg/services/industrial-robot.svg';
+import facebook from '../../../../images/svg/services/facebook.svg';
+import onlineshopping from '../../../../images/svg/services/online-shopping.svg';
+import sushi from '../../../../images/svg/services/sushi.svg';
+import deliveryTruck from '../../../../images/svg/services/delivery-truck.svg';
+import crane from '../../../../images/svg/services/crane.svg';
+import homeRun from '../../../../images/svg/services/home-run.svg';
 
 const Card = styled.div`
   max-width: 40rem;
@@ -33,29 +35,68 @@ const Blurb = styled.div`
   font-weight: 500;
 `;
 
-const Img = styled.img`
+const ImageContainer = styled.div`
   border: 4px solid ${props => props.theme.colors.secondary};
   background: ${props => props.theme.colors.lightgrey};
   border-radius: 50%;
   padding: 1rem;
   width: 10rem;
   height: 10rem;
-  object-fit: cover;
-  margin-bottom: 1rem;
 `;
 
-const Link = styled(NoStyleLink)`
-  color: ${props => props.theme.colors.secondary};
-  font-weight: 500;
-  &:hover {
-    text-decoration: underline;
+const Img = styled.img`
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1rem;
+  &.animation1 {
+    transform: rotate(-15deg);
+    transition: all 0.1s ease-in;
+    &:hover {
+      transform: rotate(0);
+    }
+  }
+  &.animation2 {
+    transform: rotateY(360deg);
+    transition: all 0.4s ease-in;
+    &:hover {
+      transform: rotate(0);
+    }
+  }
+  &.animation3 {
+    transition: all 0.1s ease-in;
+    &:hover {
+      transform: translateY(-5px);
+    }
+  }
+  &.animation4 {
+    transition: all 0.1s ease-in;
+    &:hover {
+      transform: translateX(5px);
+    }
+  }
+  &.animation5 {
+    transition: all 0.2s ease-in;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  &.animation6 {
+    transform: rotate(0deg);
+    transition: all 0.1s ease-in;
+    &:hover {
+      transform: rotate(15deg);
+    }
   }
 `;
 
 export const Card1 = () => {
   return (
     <Card>
-      <Img src={chipSVG} />
+      <ImageContainer>
+        <Img className="animation1" src={facebook} />
+      </ImageContainer>
+
       <Title> Marketing Website</Title>
       <Blurb>
         Custom, high converting marketing website leading to more calls and
@@ -69,7 +110,10 @@ export const Card1 = () => {
 export const Card2 = () => {
   return (
     <Card>
-      <Img src={dataStorageSVG} />
+      <ImageContainer>
+        <Img className="animation2" src={onlineshopping} />
+      </ImageContainer>
+
       <Title>Ecommerce</Title>
       <Blurb>
         Looking to sell products online? We will discuss your business and help
@@ -83,7 +127,10 @@ export const Card2 = () => {
 export const Card3 = () => {
   return (
     <Card>
-      <Img src={settingsSVG} />
+      <ImageContainer>
+        <Img className="animation3" src={sushi} />
+      </ImageContainer>
+
       <Title>Restaurant Website</Title>
       <Blurb>
         Restaurant and coffee shops looking for effective and profitable online
@@ -98,7 +145,9 @@ export const Card3 = () => {
 export const Card4 = () => {
   return (
     <Card>
-      <Img src={robotSVG} />
+      <ImageContainer>
+        <Img className="animation4" src={deliveryTruck} />
+      </ImageContainer>
       <Title>Service Website</Title>
       <Blurb>
         Are you a salon, spa, massage place or barbershop? Book people through
@@ -112,7 +161,10 @@ export const Card4 = () => {
 export const Card5 = () => {
   return (
     <Card>
-      <Img src={robotSVG} />
+      <ImageContainer>
+        <Img className="animation5" src={homeRun} />
+      </ImageContainer>
+
       <Title>Realtor Website</Title>
       <Blurb>
         As real estate agent, you want every competitive advantage you can get.
@@ -128,7 +180,10 @@ export const Card5 = () => {
 export const Card6 = () => {
   return (
     <Card>
-      <Img src={robotSVG} />
+      <ImageContainer>
+        <Img className="animation6" src={crane} />
+      </ImageContainer>
+
       <Title>Construction Website</Title>
       <Blurb>
         With tough times looming ahead in Alberta, it is a better time now more

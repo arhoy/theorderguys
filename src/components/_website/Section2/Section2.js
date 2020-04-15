@@ -7,9 +7,7 @@ import { H2 } from '../../reusableStyles/typography/Typography';
 import { Content1, Content2, Content3, Content4 } from './Content';
 
 const CustomSection = styled(Section)`
-  margin-top: 0;
   padding-top: 0;
-  padding-bottom: 0;
 `;
 
 const Container = styled.div`

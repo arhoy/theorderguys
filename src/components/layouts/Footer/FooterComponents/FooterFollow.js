@@ -56,8 +56,10 @@ export const FooterFollow = () => {
             </SocialIcon>
           ))}
         </SocialIconContainer>
-        <LinkHeaders>Services</LinkHeaders>
-        <CustomLinks to="/websites"> Websites</CustomLinks>
+        <div style={{ marginBottom: '1rem' }}>
+          <LinkHeaders>Services</LinkHeaders>
+          <CustomLinks to="/websites"> Websites</CustomLinks>
+        </div>
       </LinkContainers>
     </Container>
   );

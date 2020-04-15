@@ -15,13 +15,15 @@ import { H2 } from '../../reusableStyles/typography/Typography';
 
 const Container = styled(Container1200)`
   display: flex;
+  margin: 0 auto;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 1rem;
 `;
 
 const CustomSection = styled.div`
-  margin: 6rem 1rem;
+  max-width: 1200px;
+  margin: 6rem auto;
 `;
 
 const TitleContainer = styled.div`
