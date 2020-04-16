@@ -19,10 +19,6 @@ html {
     // width < 900?
     font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
   }
-
-  @include respond(big-desktop) {
-    font-size: 75%; //1rem = 12, 12/16
-  }
 }
 
 body {
