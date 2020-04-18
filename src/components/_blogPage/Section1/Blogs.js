@@ -2,6 +2,7 @@ import React from 'react';
 
 import styled from '@emotion/styled';
 import NoStyleLink from '../../Links/NoStyleLink';
+import { truncateText } from '../../../utils/truncateText';
 
 const Container = styled.div`
   display: grid;
@@ -67,7 +68,7 @@ export const Blogs = ({ posts }) => {
             <h4>{post.title}</h4>
           </div>
           <div className="row">
-            <p>{post.summary}</p>
+            <p>{truncateText(post.summary, 140)}</p>
           </div>
 
           {post.featured_image && (
