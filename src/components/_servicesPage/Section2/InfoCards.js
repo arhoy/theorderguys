@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from '@emotion/styled';
 
 import { H3 } from '../../reusableStyles/typography/Typography';
@@ -11,18 +11,6 @@ import deliveryTruck from '../../../../images/svg/services/delivery-truck.svg';
 import crane from '../../../../images/svg/services/crane.svg';
 import homeRun from '../../../../images/svg/services/home-run.svg';
 
-const Card = styled.div`
-  max-width: 40rem;
-  margin: 2rem;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  @media (max-width: ${props => props.theme.screenSize.mobileL}) {
-    margin: 2rem 0;
-  }
-`;
-
 const Title = styled(H3)`
   font-size: 2.2rem;
   margin-bottom: 1rem;
@@ -33,6 +21,9 @@ const Blurb = styled.div`
   color: ${props => props.theme.colors.black};
   opacity: 0.9;
   font-weight: 500;
+  & span {
+    font-weight: 700;
+  }
 `;
 
 const ImageContainer = styled.div`
@@ -92,14 +83,37 @@ const Img = styled.img`
   }
 `;
 
+const Card = styled(NoStyleLink)`
+  max-width: 40rem;
+  margin: 2rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media (max-width: ${props => props.theme.screenSize.mobileL}) {
+    margin: 2rem 0;
+  }
+  transition: all 0.5s ease-in;
+  &:hover {
+    background: ${props => props.theme.colors.lightgrey};
+    border-radius: 10%;
+  }
+`;
+
 export const Card1 = () => {
+  const [text, setText] = useState('Marketing Website');
+
   return (
-    <Card>
+    <Card
+      onMouseEnter={() => setText('Click To Learn More')}
+      onMouseLeave={() => setText('Marketing Website')}
+      to="/marketing-website"
+    >
       <ImageContainer>
         <Img className="animation1" src={facebook} />
       </ImageContainer>
 
-      <Title> Marketing Website</Title>
+      <Title>{text}</Title>
       <Blurb>
         Custom, high converting marketing website leading to more calls and
         messages. Custom contact forms integrated with your email, website chat
@@ -110,13 +124,18 @@ export const Card1 = () => {
 };
 
 export const Card2 = () => {
+  const [text, setText] = useState('Ecommerce');
   return (
-    <Card>
+    <Card
+      onMouseEnter={() => setText('Start Selling Fast')}
+      onMouseLeave={() => setText('Ecommerce')}
+      to="websites/ecommerce-websites"
+    >
       <ImageContainer className="animation2">
         <Img src={onlineshopping} />
       </ImageContainer>
 
-      <Title>Ecommerce</Title>
+      <Title>{text}</Title>
       <Blurb>
         Looking to sell products online? We will discuss your business and help
         you decide what Ecommerce platform is best for you and then build it
@@ -127,13 +146,18 @@ export const Card2 = () => {
 };
 
 export const Card3 = () => {
+  const [text, setText] = useState('Restaurant Website');
   return (
-    <Card>
+    <Card
+      onMouseEnter={() => setText('Online Menu and Orders')}
+      onMouseLeave={() => setText('Restaurant Website')}
+      to="/restaurant-website"
+    >
       <ImageContainer>
         <Img className="animation3" src={sushi} />
       </ImageContainer>
 
-      <Title>Restaurant Website</Title>
+      <Title>{text}</Title>
       <Blurb>
         Restaurant and coffee shops looking for effective and profitable online
         solutions for takeout/pickup and delivery. Avoid greedy Skip The Dishes/
@@ -145,12 +169,17 @@ export const Card3 = () => {
 };
 
 export const Card4 = () => {
+  const [text, setText] = useState('Service Website');
   return (
-    <Card>
+    <Card
+      onMouseEnter={() => setText('Book More Appointments')}
+      onMouseLeave={() => setText('Service Website')}
+      to="/service-website"
+    >
       <ImageContainer>
         <Img className="animation4" src={deliveryTruck} />
       </ImageContainer>
-      <Title>Service Website</Title>
+      <Title>{text}</Title>
       <Blurb>
         Are you a salon, spa, massage place or barbershop? Book people through
         your website today, with a highly optimized checkout process and low
@@ -161,32 +190,45 @@ export const Card4 = () => {
 };
 
 export const Card5 = () => {
+  const [text, setText] = useState('Realtor Specials');
   return (
-    <Card>
+    <Card
+      onMouseEnter={() => setText('Sell More Houses')}
+      onMouseLeave={() => setText('Realtor Website')}
+      to="/realtor-website"
+    >
       <ImageContainer>
         <Img className="animation5" src={homeRun} />
       </ImageContainer>
 
-      <Title>Realtor Website</Title>
+      <Title>{text}</Title>
       <Blurb>
-        As real estate agent, you want every competitive advantage you can get.
-        It is not suprising that many real estate agents spend up to $1500/year
-        maintaining and managing their website, and top marketing agents will
-        spend a whole lot more. Lets work together to attract top tier clients
-        so that you can sell more houses in any market
+        Realtor websites with MLS listings and personal branding to help you
+        attract more leads and sales online. Get a blazingly fast and customized
+        website along with SEO and Social Media ads so that you can be the go to
+        realtor for your niche market. {` `}
+        <span>We specialize in realtor websites.</span>
+        {` `}
+        Lets work together to attract top tier clients so that you can sell more
+        houses in any market.
       </Blurb>
     </Card>
   );
 };
 
 export const Card6 = () => {
+  const [text, setText] = useState('Construction Website');
   return (
-    <Card>
+    <Card
+      onMouseEnter={() => setText('Attract Highend Clients')}
+      onMouseLeave={() => setText('Construction Website')}
+      to="/construction-website"
+    >
       <ImageContainer>
         <Img className="animation6" src={crane} />
       </ImageContainer>
 
-      <Title>Construction Website</Title>
+      <Title>{text}</Title>
       <Blurb>
         With tough times looming ahead in Alberta, it is a better time now more
         than ever to invest long term and build up your online business presence
