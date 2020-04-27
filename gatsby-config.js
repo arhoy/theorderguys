@@ -44,6 +44,10 @@ module.exports = {
     //   },
     // },
     {
+      resolve: 'gatsby-plugin-netlify-cache',
+    },
+
+    {
       resolve: `gatsby-source-buttercms`,
       options: {
         authToken: process.env.GATSBY_BUTTER_API_TOKEN,
