@@ -54,7 +54,7 @@ export const Section2 = () => {
           }
         }
       }
-      image3: file(relativePath: { eq: "_about/ibin-bestmann.jpg" }) {
+      image3: file(relativePath: { eq: "_about/ibinaldo.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid_withWebp

@@ -77,7 +77,7 @@ export const Card2 = () => {
 export const Card3 = () => {
   return (
     <Container>
-      <H3>Ibin Bestmann</H3>
+      <H3>Ibinabo Bestman</H3>
       <Subtitle>Data Visualization Expert</Subtitle>
       <Blurb>
         <p>
