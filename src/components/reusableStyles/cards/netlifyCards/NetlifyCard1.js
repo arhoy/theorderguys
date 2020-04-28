@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 import { ButtonSweepToRight } from '../../buttons/Button';
 import Image from 'gatsby-image';
 import NoStyleLink from '../../../Links/NoStyleLink';
+import { A } from '../../typography/Typography';
 
 const Container = styled.div`
   border-radius: 1rem;
@@ -71,12 +72,22 @@ const Blurb = styled.p`
 
 const Link = styled(NoStyleLink)``;
 
+const ExternalLink = styled(A)``;
+
 const Button = styled(ButtonSweepToRight)`
   margin-top: 1rem;
   color: ${props => props.theme.colors.white};
 `;
 
-const NetlifyCard1 = ({ title, subtitle, blurb, link, linkURL, picture }) => {
+const NetlifyCard1 = ({
+  title,
+  subtitle,
+  blurb,
+  link,
+  linkURL,
+  picture,
+  href,
+}) => {
   return (
     <Container>
       <PictureContainer>
@@ -86,9 +97,20 @@ const NetlifyCard1 = ({ title, subtitle, blurb, link, linkURL, picture }) => {
         <Title>{title}</Title>
         <Subtitle>{subtitle}</Subtitle>
         <Blurb>{blurb}</Blurb>
-        <Link to={linkURL}>
-          <Button>{link}</Button>
-        </Link>
+        {linkURL && link && (
+          <Link to={linkURL}>
+            <Button>{link}</Button>
+          </Link>
+        )}
+        {href && (
+          <ExternalLink
+            target="_blank"
+            rel="noopener nofollow noreferrer"
+            href={href}
+          >
+            <Button>{link}</Button>
+          </ExternalLink>
+        )}
       </ContentContainer>
     </Container>
   );

@@ -107,7 +107,7 @@ export const Card1 = () => {
     <Card
       onMouseEnter={() => setText('Click To Learn More')}
       onMouseLeave={() => setText('Marketing Website')}
-      to="/marketing-website"
+      to="/websites/marketing-website"
     >
       <ImageContainer>
         <Img className="animation1" src={facebook} />
@@ -129,7 +129,7 @@ export const Card2 = () => {
     <Card
       onMouseEnter={() => setText('Start Selling Fast')}
       onMouseLeave={() => setText('Ecommerce')}
-      to="websites/ecommerce-websites"
+      to="/websites/ecommerce-websites"
     >
       <ImageContainer className="animation2">
         <Img src={onlineshopping} />
@@ -151,7 +151,7 @@ export const Card3 = () => {
     <Card
       onMouseEnter={() => setText('Online Menu and Orders')}
       onMouseLeave={() => setText('Restaurant Website')}
-      to="/restaurant-website"
+      to="/websites/restaurant-website"
     >
       <ImageContainer>
         <Img className="animation3" src={sushi} />
@@ -174,7 +174,7 @@ export const Card4 = () => {
     <Card
       onMouseEnter={() => setText('Book More Appointments')}
       onMouseLeave={() => setText('Service Website')}
-      to="/service-website"
+      to="/websites/service-website"
     >
       <ImageContainer>
         <Img className="animation4" src={deliveryTruck} />
@@ -195,7 +195,7 @@ export const Card5 = () => {
     <Card
       onMouseEnter={() => setText('Sell More Houses')}
       onMouseLeave={() => setText('Realtor Website')}
-      to="/realtor-website"
+      to="/websites/realtor-website"
     >
       <ImageContainer>
         <Img className="animation5" src={homeRun} />
@@ -222,7 +222,7 @@ export const Card6 = () => {
     <Card
       onMouseEnter={() => setText('Attract Highend Clients')}
       onMouseLeave={() => setText('Construction Website')}
-      to="/construction-website"
+      to="/websites/construction-website"
     >
       <ImageContainer>
         <Img className="animation6" src={crane} />
