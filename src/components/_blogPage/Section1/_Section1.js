@@ -12,6 +12,7 @@ const Container = styled.div`
   display: grid;
   grid-template-columns: 6fr 4fr;
   grid-gap: 4rem;
+  position: relative;
 
   max-width: ${props => props.theme.screenSize.twelveHundred};
   @media (max-width: ${props => props.theme.screenSize.oneThousand}) {

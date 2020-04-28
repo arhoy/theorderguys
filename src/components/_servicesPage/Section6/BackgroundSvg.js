@@ -8,6 +8,7 @@ const SVG = styled.svg`
   fill: ${props => props.theme.colors.white};
   position: absolute;
   left: 0;
+ 
 
 
 

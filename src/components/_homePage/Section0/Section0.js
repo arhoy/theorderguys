@@ -7,7 +7,7 @@ import BackgroundSvg from './BackgroundSVG';
 
 const CustomSection = styled(Section)`
   position: relative;
-
+  overflow: hidden;
   color: ${props => props.theme.colors.white};
   background: linear-gradient(
     to bottom,

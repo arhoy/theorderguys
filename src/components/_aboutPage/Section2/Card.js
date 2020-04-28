@@ -73,3 +73,24 @@ export const Card2 = () => {
     </Container>
   );
 };
+
+export const Card3 = () => {
+  return (
+    <Container>
+      <H3>Ibin Bestmann</H3>
+      <Subtitle>Data Visualization Expert</Subtitle>
+      <Blurb>
+        <p>
+          Recent graduate from the University of Alberta with a MSc in
+          Geophysics. I have programming experience using Python, MATLAB and R
+          for data analysis
+        </p>
+        <p>
+          Familiar with python libraries such as Numpy, pandas and matplotlib
+          for machine learning. Proficient in data visualization using Tableau
+          and data wrangling using postgre SQL.
+        </p>
+      </Blurb>
+    </Container>
+  );
+};

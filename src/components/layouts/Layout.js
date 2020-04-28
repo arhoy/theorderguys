@@ -134,8 +134,7 @@ const Layout = ({ children, full, backgroundLayer }) => {
           html {
             position: relative;
             background: ${white};
-            max-width: 100%;
-            overflow-x: hidden;
+
             width: 100%;
             margin: 0;
             font-family: Poppins, Roboto, Helvetica, Arial, sans-serif;

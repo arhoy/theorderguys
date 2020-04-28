@@ -8,6 +8,7 @@ import { Card } from './Card';
 import { Text1, Text2, Text3, Text4 } from './Texts';
 
 const TitleContainer = styled.div`
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;

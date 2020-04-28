@@ -3,7 +3,13 @@ import styled from '@emotion/styled';
 
 const SVG = styled.svg`
 
-  width: max(100vw, 800px);
+
+    width: 100%;
+    overflow: hidden;
+    @media(max-width: 600px){
+      width: 800px;
+    }
+  
    z-index:10;
   fill: ${props => props.theme.colors.lightgrey};
   position: absolute;

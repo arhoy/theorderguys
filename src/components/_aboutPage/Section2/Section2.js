@@ -9,7 +9,7 @@ import {
 
 import { CircularImage } from './CircularImages';
 
-import { Card1, Card2 } from './Card';
+import { Card1, Card2, Card3 } from './Card';
 
 const Container = styled.div`
   display: grid;
@@ -54,6 +54,13 @@ export const Section2 = () => {
           }
         }
       }
+      image3: file(relativePath: { eq: "_about/ibin-bestmann.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
     }
   `);
   return (
@@ -73,6 +80,14 @@ export const Section2 = () => {
           </div>
           <div className="imageContainer">
             <CircularImage fluid={data.image2.childImageSharp.fluid} />
+          </div>
+        </Container>
+        <Container>
+          <div className="imageContainer">
+            <CircularImage fluid={data.image3.childImageSharp.fluid} />
+          </div>
+          <div className="blurbContainer">
+            <Card3 />
           </div>
         </Container>
       </Container1000>

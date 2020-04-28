@@ -3,7 +3,8 @@ import styled from '@emotion/styled';
 
 const SVG = styled.svg`
 
-  width: max(100vw, 1000px);
+  width:100%;
+  overflow: hidden;
    z-index:1;
   fill: ${props => props.theme.colors.white};
   position: absolute;

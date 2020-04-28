@@ -7,6 +7,7 @@ import { Card1, Card2, Card3, Card4, Card5, Card6 } from './InfoCards';
 import { H2 } from '../../reusableStyles/typography/Typography';
 
 const Container = styled(Container1200)`
+  overflow: hidden;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

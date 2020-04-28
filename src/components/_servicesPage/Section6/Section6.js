@@ -9,6 +9,7 @@ import BackgroundSvg from './BackgroundSvg';
 
 const CustomSection = styled(Section)`
   position: relative;
+  overflow: hidden;
   background: linear-gradient(
     180deg,
     white 0%,

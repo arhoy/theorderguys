@@ -18,7 +18,7 @@ import { H2 } from '../../reusableStyles/typography/Typography';
 import NoStyleLink from '../../Links/NoStyleLink';
 const CustomSection = styled(Section)`
   position: relative;
-
+  overflow: hidden;
   color: ${props => props.theme.colors.white};
   background: linear-gradient(
     135deg,
