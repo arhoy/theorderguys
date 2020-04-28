@@ -60,6 +60,7 @@ module.exports = {
         fonts: [
           `Poppins\:100,300,500,600,700`,
           `Helvetica\:100,300,500,600,700`,
+          `Montserrat\:400,500,600,700`,
         ],
         display: 'swap',
       },

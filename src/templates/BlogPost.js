@@ -10,6 +10,7 @@ import NoStyleLink from '../components/Links/NoStyleLink';
 
 const Container = styled.div`
   max-width: 1200px;
+
   margin: 5rem auto;
   padding: 2rem 1rem;
   & .comments {
@@ -100,6 +101,9 @@ const TitleContainer = styled.div`
 `;
 
 const Body = styled.article`
+  font-family: Montserrat;
+  line-height: 3.2rem;
+  font-weight: 500;
   max-width: 800px;
   margin: 4rem 0;
   & h2 {
