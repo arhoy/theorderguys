@@ -94,3 +94,26 @@ export const Card3 = () => {
     </Container>
   );
 };
+
+export const Card4 = () => {
+  return (
+    <Container>
+      <H3>Natisha Persuad</H3>
+      <Subtitle> Designer and lllustrator </Subtitle>
+      <Blurb>
+        <p>
+          Natisha is a Designer and lllustrator specializing in custom web
+          illustrations and motion graphics that will personalize brands and
+          allow them to tell their stories through unique, eye-capturing imagery
+        </p>
+        <p>
+          She is dedicated to designing clean, modern websites with high quality
+          visuals that will engage and captivate audiences. She approaches all
+          design solutions creatively, methodically and authentically, while
+          factoring in user ability, visual hierarchy, interactive experiences
+          and responsiveness.
+        </p>
+      </Blurb>
+    </Container>
+  );
+};

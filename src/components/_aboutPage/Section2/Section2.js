@@ -9,7 +9,7 @@ import {
 
 import { CircularImage } from './CircularImages';
 
-import { Card1, Card2, Card3 } from './Card';
+import { Card1, Card2, Card3, Card4 } from './Card';
 
 const Container = styled.div`
   display: grid;
@@ -61,6 +61,13 @@ export const Section2 = () => {
           }
         }
       }
+      image4: file(relativePath: { eq: "_about/woman_silloutte.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
     }
   `);
   return (
@@ -88,6 +95,14 @@ export const Section2 = () => {
           </div>
           <div className="blurbContainer">
             <Card3 />
+          </div>
+        </Container>
+        <Container className="reverse">
+          <div className="blurbContainer">
+            <Card4 />
+          </div>
+          <div className="imageContainer">
+            <CircularImage fluid={data.image4.childImageSharp.fluid} />
           </div>
         </Container>
       </Container1000>
