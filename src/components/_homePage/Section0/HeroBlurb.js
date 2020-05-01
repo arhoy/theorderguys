@@ -62,7 +62,7 @@ export const HeroBlurb = () => {
         <HeadingContainer>
           <Heading>
             <span className="primary">
-              Blazingly Fast Custom Modern Websites
+              Hello Visitor. <br /> We Are Not An Agency
             </span>
           </Heading>
         </HeadingContainer>
@@ -71,9 +71,10 @@ export const HeroBlurb = () => {
       <SubContainer>
         <BlurbContainer>
           <p>
-            We build custom websites from the ground up with a team of
-            professional local designers and developers using your input and
-            feedback every step of the way
+            We're a network of talented professionals & freelancers. We build
+            custom websites from the ground up, provide white label SEO and
+            advertising and do data analytics. Our turn around is fast and our
+            overhead is minimal.
           </p>
         </BlurbContainer>
         <CallToActionContainer>
