@@ -261,6 +261,28 @@ const RestaurantWebsite = () => {
               </li>
             </ul>
           </div>
+          <div className="infosection">
+            <h2>What We Will Need From You To Get Started Right Away</h2>
+            <ul>
+              <li>
+                <span>
+                  Your website login and password to place the code on your site
+                </span>
+              </li>
+
+              <li>
+                <span>
+                  Sign a simple developer contractor form to get started
+                </span>
+              </li>
+
+              <li>
+                <span>
+                  No contracts or initiation fees. Our pricing is transparent.
+                </span>
+              </li>
+            </ul>
+          </div>
         </Container>
       </Section>
     </Layout>
