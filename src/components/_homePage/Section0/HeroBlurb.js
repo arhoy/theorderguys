@@ -13,7 +13,7 @@ const Container = styled.div`
   position: relative;
   display: grid;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
   padding-bottom: 10rem;
@@ -73,8 +73,8 @@ export const HeroBlurb = () => {
           <p>
             We're a network of talented professionals & freelancers. We build
             custom websites from the ground up, provide white label SEO and
-            advertising and do data analytics. Our turn around is fast and our
-            overhead is minimal.
+            advertising and much more. Our turn around is fast and our overhead
+            is minimal. We guarantee our work and work with only the best
           </p>
         </BlurbContainer>
         <CallToActionContainer>
