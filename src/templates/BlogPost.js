@@ -223,13 +223,19 @@ const BlogPost = props => {
     },
   };
 
+  const metaImage = {
+    src: post.featured_image,
+  };
+
+  console.log('meta image from blog post is', metaImage);
+
   return (
     <Layout>
       <SEO
         title={post.seo_title || post.title}
         description={post.summary}
-        image={post.featured_image}
         pathname={`/blog/${post.slug}`}
+        imageURL={metaImage}
       />
       <Container>
         <TitleContainer>
