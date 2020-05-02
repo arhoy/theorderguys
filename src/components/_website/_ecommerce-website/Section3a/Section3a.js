@@ -9,7 +9,7 @@ const Padding = styled.div`
   padding: 2rem;
 `;
 
-export const Section3_1 = ({ data }) => {
+export const Section3a = ({ data }) => {
   return (
     <Section>
       <NetlifyCard1

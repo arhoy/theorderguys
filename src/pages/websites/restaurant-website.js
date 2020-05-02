@@ -3,6 +3,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 import Layout from '../../components/layouts/Layout';
 import Helmet from 'react-helmet';
+import SEO from '../../hooks/SEO';
 
 const Section = styled.div`
   margin: 2rem 0;

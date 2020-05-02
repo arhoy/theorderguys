@@ -6,7 +6,7 @@ import { Section1 } from '../../components/_website/_ecommerce-website/Section1/
 import { Section2 } from '../../components/_website/_ecommerce-website/Section2/Section2';
 import { Section3 } from '../../components/_website/_ecommerce-website/Section3/Section3';
 import { Section4 } from '../../components/_website/_ecommerce-website/Section4/Section4';
-import { Section3_1 } from '../../components/_website/_ecommerce-website/Section3-1/Section3_1';
+import { Section3a } from '../../components/_website/_ecommerce-website/Section3a/Section3a';
 import SEO from '../../hooks/SEO';
 
 export const query = graphql`
@@ -43,7 +43,7 @@ const EcommerceWebsites = ({ data }) => {
       <Section1 />
       <Section2 />
       <Section3 />
-      <Section3_1 data={data} />
+      <Section3a data={data} />
       <Section4 />
     </Layout>
   );

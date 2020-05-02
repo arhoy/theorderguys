@@ -2,6 +2,7 @@ import React from 'react';
 
 import styled from '@emotion/styled';
 import Layout from '../../components/layouts/Layout';
+import SEO from '../../hooks/SEO';
 
 const Container = styled.div`
   display: flex;
@@ -27,7 +28,7 @@ const RealtorWebsite = () => {
         <a
           href="https://realtoryeg.netlify.app/"
           target="_blank"
-          rel="noreferral nofollow noopener"
+          rel="noopener noreferrer nofollow"
         >
           Example
         </a>
