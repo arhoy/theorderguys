@@ -7,6 +7,7 @@ import { DiscussionEmbed, CommentCount } from 'disqus-react';
 
 import Layout from '../components/layouts/Layout';
 import NoStyleLink from '../components/Links/NoStyleLink';
+import SEO from '../hooks/SEO';
 
 const Container = styled.div`
   max-width: 1200px;
@@ -68,11 +69,11 @@ const TitleContainer = styled.div`
       padding-left: 1rem;
       margin-bottom: 1rem;
     }
-    & author,
+    & .author,
     & time {
       font-family: DecimaMono, Consolas, Monaco, monospace;
     }
-    & author {
+    & .author {
       margin-right: 1rem;
       & span {
         font-weight: bold;
@@ -222,9 +223,9 @@ const BlogPost = props => {
     },
   };
 
-  console.log(disqusConfig);
   return (
     <Layout>
+      <Helmet title={post.title} description={post.summary} />
       <Container>
         <TitleContainer>
           <div className="content">
@@ -243,16 +244,15 @@ const BlogPost = props => {
                 <p className="summary">{post.summary}</p>
               </div>
               <div className="row">
-                <author>
+                <div className="author">
                   By {` `}{' '}
                   <span>{`${post.author.first_name} ${post.author.last_name}`}</span>{' '}
-                </author>
+                </div>
                 <time>{post.created}</time>
               </div>
             </div>
 
             <CommentCount {...disqusConfig} />
-            <div></div>
           </div>
           <div className="picture">
             <img
