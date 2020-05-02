@@ -225,7 +225,12 @@ const BlogPost = props => {
 
   return (
     <Layout>
-      <Helmet title={post.title} description={post.summary} />
+      <SEO
+        title={post.seo_title || post.title}
+        description={post.summary}
+        image={post.featured_image}
+        pathname={`/blog/${post.slug}`}
+      />
       <Container>
         <TitleContainer>
           <div className="content">

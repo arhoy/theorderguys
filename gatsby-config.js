@@ -15,9 +15,13 @@ if (process.env.NODE_ENV === 'production') {
 module.exports = {
   siteMetadata: {
     title: 'Codepaper - Web development, SEO, Digital Ads',
-    titleTemplate: 'Codepaper - Web development, SEO, Digital Ads',
     description:
       'At Codepaper we deliver blazingly fast high performance websites, stunning web design, effective online advertising and seo and business signs',
+    keywords: [
+      'realtor websites in Edmonton',
+      'food ordering website in Edmonton',
+      'digital marketing services in Edmonton',
+    ],
     author: 'Alex Quasar',
     twitterUsername: '@_aquasar',
     image: '/default.png',

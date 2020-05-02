@@ -7,6 +7,7 @@ import { Section2 } from '../../components/_website/_ecommerce-website/Section2/
 import { Section3 } from '../../components/_website/_ecommerce-website/Section3/Section3';
 import { Section4 } from '../../components/_website/_ecommerce-website/Section4/Section4';
 import { Section3_1 } from '../../components/_website/_ecommerce-website/Section3-1/Section3_1';
+import SEO from '../../hooks/SEO';
 
 export const query = graphql`
   {
@@ -34,6 +35,10 @@ export const query = graphql`
 const EcommerceWebsites = ({ data }) => {
   return (
     <Layout>
+      <SEO
+        title="Ecommerc Websites Websites"
+        description="Ecommerce website design, web development and SEO in Edmonton Alberta. Shopify, Woocommerce and ecommerce website developer in Edmonton Alberta"
+      />
       <Section0 />
       <Section1 />
       <Section2 />

@@ -41,8 +41,8 @@ const BlogPage = ({ data }) => {
     <Layout full={true}>
       <SEO
         title="Blog | CodePaper"
-        description="CodePaper Blog is coming soon"
-        pathname="blog"
+        description="Welcome to our blog about web development and websites for realtors and small businesses in Edmonton"
+        pathname="/blog"
       />
       <Section0 />
       <Section1 posts={data.allButterPost.nodes} />

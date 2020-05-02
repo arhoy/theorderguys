@@ -95,6 +95,10 @@ const RestaurantWebsite = () => {
           async
         ></script>
       </Helmet>
+      <SEO
+        title="Restaurant Website Online Pickup Orders Edmonton Alberta"
+        description="Restaurants wanting to have an affordable online ordering pickup solution for there business need to look no further. We offer online order system that goes from your website to your mobile or restaurant table for all restaurants in Edmonton Alberta"
+      />
       <Section>
         <Container>
           <div className="demo-restaurant">

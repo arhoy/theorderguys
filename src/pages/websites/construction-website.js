@@ -18,6 +18,10 @@ const Container = styled.div`
 const ConstructionWebsite = () => {
   return (
     <Layout>
+      <SEO
+        title="Construction Websites | Custom Construction Website Development and Design in Edmonton Alberta"
+        description="Construction website design, web development and SEO in Edmonton Alberta. This includes construction facebook ads, SEO and construction related google ads for your business"
+      />
       <Container>
         <h1>Coming Soon, Stay Tuned</h1>
       </Container>
