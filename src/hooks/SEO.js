@@ -3,15 +3,7 @@ import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
 
-function SEO({
-  description,
-  lang,
-  meta,
-  image: metaImage,
-  title,
-  pathname,
-  imageURL,
-}) {
+function SEO({ description, lang, meta, image, title, pathname }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -22,6 +14,7 @@ function SEO({
             author
             keywords
             siteUrl
+            image
           }
         }
       }
@@ -30,20 +23,11 @@ function SEO({
 
   const metaDescription = description || site.siteMetadata.description;
 
-  let image;
-  if (!imageURL) {
-    image =
-      metaImage && metaImage.src
-        ? `${site.siteMetadata.siteUrl}${metaImage.src}`
-        : null;
-  } else {
-    image = imageURL;
-  }
-
-  console.log('seo image is', image);
+  const metaImage = image || site.siteMetadata.image;
 
   const canonical = pathname ? `${site.siteMetadata.siteUrl}${pathname}` : null;
-
+  console.log(site.siteMetadata.image);
+  console.log('meta image is ', metaImage);
   return (
     <Helmet
       htmlAttributes={{
@@ -94,6 +78,10 @@ function SEO({
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          name: `twitter:image`,
+          content: metaImage,
+        },
       ]
         .concat(
           metaImage
@@ -138,11 +126,7 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
-  image: PropTypes.shape({
-    src: PropTypes.string.isRequired,
-    height: PropTypes.number.isRequired,
-    width: PropTypes.number.isRequired,
-  }),
+  image: PropTypes.string.isRequired,
   pathname: PropTypes.string,
 };
 
