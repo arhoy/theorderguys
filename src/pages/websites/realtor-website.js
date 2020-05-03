@@ -21,7 +21,8 @@ const RealtorWebsite = () => {
     <Layout>
       <SEO
         title="Realtor Websites Design and Web Development in Edmonton Alberta"
-        description="We are a web development, SEO and digital marketing company that specializes in creating realtor websites "
+        description="We are a web development, SEO and digital marketing company that specializes in creating realtor websites"
+        path="realtor-website"
       />
       <Container>
         <h1>Some or our examples include</h1>

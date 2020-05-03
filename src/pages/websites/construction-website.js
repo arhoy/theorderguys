@@ -22,6 +22,7 @@ const ConstructionWebsite = () => {
       <SEO
         title="Construction Websites | Custom Construction Website Development and Design in Edmonton Alberta"
         description="Construction website design, web development and SEO in Edmonton Alberta. This includes construction facebook ads, SEO and construction related google ads for your business"
+        path="/construction-websites"
       />
       <Container>
         <h1>Coming Soon, Stay Tuned</h1>

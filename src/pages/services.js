@@ -32,7 +32,7 @@ const ServicesPage = ({ data }) => {
       <SEO
         title="Our Services | CodePaper"
         description="CodePaper is a made up automation company under the parent company of Aquasar Inc a Web Development Agency in Edmonton Canada. Here is some information about our company and founder"
-        pathname="about"
+        pathname="/services"
       />
 
       <Section0 fluid={data.aboutImage1.childImageSharp.fluid} />

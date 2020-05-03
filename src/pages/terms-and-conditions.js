@@ -3,6 +3,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 import Layout from '../components/layouts/Layout';
+import SEO from '../hooks/SEO';
 
 const Section = styled.div`
   max-width: 800px;
@@ -21,6 +22,12 @@ const CustomUl = styled.ul`
 const TermsAndConditionsPage = () => {
   return (
     <Layout>
+      <SEO
+        title="Terms and Conditions Page | Codepaper "
+        description="Terms and Conditions. Welcome to Codepaper! These terms and conditions outline the rules and regulations for the
+        use of Codepaper's Website, located at https://codepaper.dev."
+        path="/terms-and-condtions"
+      />
       <Section>
         <h2>
           <strong>Terms and Conditions</strong>

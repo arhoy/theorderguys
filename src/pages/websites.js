@@ -12,6 +12,7 @@ const WebsitesPage = () => {
       <SEO
         title="Website Development and Website Design in Edmonton Alberta"
         description="Websites for realtors, restaurants, construction companies and small businesses. We offer website solutions for all businesses"
+        path="/websites"
       />
       <Section0 />
       <Section1 />

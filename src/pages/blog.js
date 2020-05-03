@@ -43,6 +43,7 @@ const BlogPage = ({ data }) => {
         title="Blog | CodePaper"
         description="Welcome to our blog about web development and websites for realtors and small businesses in Edmonton"
         pathname="/blog"
+        image="https://res.cloudinary.com/dcb389szc/image/upload/v1588481800/codepaper/SEO%20Images/pages/our_blog.png"
       />
       <Section0 />
       <Section1 posts={data.allButterPost.nodes} />

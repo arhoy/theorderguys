@@ -2,6 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 import Layout from '../components/layouts/Layout';
 import { P } from '../components/reusableStyles/typography/Typography';
+import SEO from '../hooks/SEO';
 
 const CustomP = styled(P)`
   font-size: 1.4rem;
@@ -17,6 +18,17 @@ const Section = styled.div`
 const PrivacyPolicyPage = () => {
   return (
     <Layout>
+      <SEO
+        title="Privacy Policy | Codepaper "
+        description="Codepaper | Privacy Policy <br /> This Privacy Policy describes how
+        your personal information is collected, used, and shared when you
+        visit or make a purchase from https://codepaper.dev (the “Site”).
+        PERSONAL INFORMATION WE COLLECT When you visit the Site, we
+        automatically collect certain information about your device, including
+        information about your web browser, IP address, time zone, and some of
+        the cookies that are installed on your device."
+        path="/privacy-policy"
+      />
       <Section>
         <CustomP>
           Codepaper | Privacy Policy <br /> This Privacy Policy describes how

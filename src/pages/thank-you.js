@@ -13,6 +13,11 @@ const ThankyouStyled = styled.div`
 const Thankyou = () => {
   return (
     <Layout>
+      <SEO
+        title="Thank You | Codepaper "
+        description="Your form submission was recieved. Thank you."
+        path="/thank-you"
+      />
       <ThankyouStyled>
         <SEO title="Thank you form" description="This is the thank you page." />
         <h1>Your form submission was recieved. Thank you!</h1>

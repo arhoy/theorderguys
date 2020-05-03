@@ -22,6 +22,7 @@ const MarketingWebsite = () => {
       <SEO
         title="Marketing Websites Websites"
         description="Marketing website design, web development and SEO in Edmonton Alberta. For all your small business website needs we are team of passionate marketers and web developers that are hungry for your business"
+        path="/marketing-websites"
       />
       <Container>
         <h1>Coming Soon, Stay Tuned</h1>

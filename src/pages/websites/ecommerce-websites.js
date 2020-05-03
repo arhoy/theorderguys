@@ -36,8 +36,9 @@ const EcommerceWebsites = ({ data }) => {
   return (
     <Layout>
       <SEO
-        title="Ecommerc Websites Websites"
-        description="Ecommerce website design, web development and SEO in Edmonton Alberta. Shopify, Woocommerce and ecommerce website developer in Edmonton Alberta"
+        title="Ecommerce Websites Edmonton Alberta"
+        description="Ecommerce website design and web development in Edmonton Alberta. Shopify, Woocommerce and ecommerce websites custom created and tailored for you. We are a team of developers that are keen to help you with your web development needs. "
+        path="/ecommerce-websites"
       />
       <Section0 />
       <Section1 />

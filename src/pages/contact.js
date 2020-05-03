@@ -45,7 +45,6 @@ const contact = ({ data }) => {
         title="Contact Us | CodePaper"
         description="At CodePaper we are here to discuss your next automation project"
         pathname="contact"
-        image={data.seo.childImageSharp.fluid.src}
       />
       {/* Talk to our experts */}
       <Section0 />
