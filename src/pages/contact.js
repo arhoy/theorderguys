@@ -43,7 +43,7 @@ const contact = ({ data }) => {
     <Layout>
       <SEO
         title="Contact Us | CodePaper"
-        description="At CodePaper we are here to discuss your next automation project"
+        description="At CodePaper we are here to discuss your next website project or talk about how we can help your business with your SEO and online advertising needs. We are a network of freelancers and professionals looking to help you with your next project. If you are a small business or realtor we would love to hear from you"
         pathname="contact"
       />
       {/* Talk to our experts */}

@@ -79,6 +79,7 @@
     "react-ticker": "^1.2.2",
     "react-vis": "^1.11.7",
     "react-visibility-sensor": "^5.1.1",
+    "react-wordcloud": "^1.2.3",
     "slick-carousel": "^1.8.1",
     "swiper": "^5.3.6",
     "tableau-api": "^2.2.3",
