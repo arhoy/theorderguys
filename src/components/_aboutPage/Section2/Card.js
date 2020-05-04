@@ -28,7 +28,7 @@ export const Card1 = () => {
   return (
     <Container>
       <H3>Alex Quasar</H3>
-      <Subtitle>Founder & Developer</Subtitle>
+      <Subtitle>Executitve Account Manager</Subtitle>
       <Blurb>
         <p>
           I work with a group and network of other developers, designers and
@@ -53,7 +53,7 @@ export const Card2 = () => {
   return (
     <Container>
       <H3>Abdel (Abdo) Houchami</H3>
-      <Subtitle>Technical Business Consultant</Subtitle>
+      <Subtitle>Business Development Strategist</Subtitle>
       <Blurb>
         <p>
           Abdo is a larger than life local business consultant . He knows a
@@ -78,7 +78,7 @@ export const Card3 = () => {
   return (
     <Container>
       <H3>Ibinabo Bestman</H3>
-      <Subtitle>Data Visualization Expert</Subtitle>
+      <Subtitle>Data Analytics & Visualization Expert</Subtitle>
       <Blurb>
         <p>
           Recent graduate from the University of Alberta with a MSc in
