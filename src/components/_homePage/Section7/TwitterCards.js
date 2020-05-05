@@ -95,16 +95,16 @@ const TwitterCard1 = () => {
   return (
     <Container>
       <Blurb>
-        Nice clean website, modern look and feel and super fast. Very happy to
-        get started and build with {` `}
-        <span>codepaper.dev</span>
+        It is so easy to place an order on the website. I love the fact that I
+        get instant alert my order is received my the restaurant and{' '}
+        <span> can now order with Facebook</span> too
       </Blurb>
       <ProfileContainer>
         <Circle className="red"> A </Circle>
         <div className="profileSection">
           <h6>Alex </h6>
           <div className="profileSubSection">
-            <TwitterIcon /> <span> @aquasar </span>
+            <TwitterIcon /> <span> @_aquasar </span>
           </div>
         </div>
       </ProfileContainer>
@@ -116,16 +116,15 @@ const TwitterCard2 = () => {
   return (
     <Container>
       <Blurb>
-        Excellent Professional work done with great attention to details. Will
-        <span> definitely work with again.</span> {` `}
-        Highly Recommend
+        This ordering platform is very solid. They make it very affordable for
+        businesses too.
       </Blurb>
       <ProfileContainer>
         <Circle className="green"> C </Circle>
         <div className="profileSection">
-          <h6>Claudine</h6>
+          <h6>Ibin</h6>
           <div className="profileSubSection">
-            <TwitterIcon /> <span> @claudine </span>
+            <TwitterIcon /> <span> @bestmann</span>
           </div>
         </div>
       </ProfileContainer>
@@ -137,9 +136,9 @@ const TwitterCard3 = () => {
   return (
     <Container>
       <Blurb>
-        When I ask clients how you heard about me and I hear the same response
-        it really proves I still know how to pick my services and read people as
-        good as I did in the 90’s. Great job at an amazing price
+        Great online ordering platform, tons of opportunities for businesses to
+        grow online during these hard times.
+        <span>Ordering on Facebook and Instagram is soo easy</span>
       </Blurb>
       <ProfileContainer>
         <Circle className="purple"> A </Circle>
@@ -154,26 +153,4 @@ const TwitterCard3 = () => {
   );
 };
 
-const TwitterCard4 = () => {
-  return (
-    <Container>
-      <Blurb>
-        <span>@Amazone </span> using <span> @CodePaper </span> to for our drone
-        project, Thanks for parterning with us to make this project a reality
-        and billions more to my wallet.
-        <span>@CodePaperRocks!</span>
-      </Blurb>
-      <ProfileContainer>
-        <Circle className="blue"> J </Circle>
-        <div className="profileSection">
-          <h6>Jeff Bayzos</h6>
-          <div className="profileSubSection">
-            <TwitterIcon /> <span> @beyzosunreal </span>
-          </div>
-        </div>
-      </ProfileContainer>
-    </Container>
-  );
-};
-
-export { TwitterCard1, TwitterCard2, TwitterCard3, TwitterCard4 };
+export { TwitterCard1, TwitterCard2, TwitterCard3 };

@@ -9,6 +9,7 @@ import { Section0 } from '../components/_servicesPage/Section0/Section0';
 import { Section1 } from '../components/_servicesPage/Section1/Section1';
 import { Section2 } from '../components/_servicesPage/Section2/Section2';
 import { Section3 } from '../components/_servicesPage/Section3/Section3';
+import { Section3b } from '../components/_servicesPage/Section3b/Section3b';
 import { Section4 } from '../components/_servicesPage/Section4/Section4';
 import { Section5 } from '../components/_servicesPage/Section5/Section5';
 import { Section6 } from '../components/_servicesPage/Section6/Section6';
@@ -30,19 +31,24 @@ const ServicesPage = ({ data }) => {
   return (
     <Layout full={true}>
       <SEO
-        title="Our Services | CodePaper"
-        description="CodePaper is a made up automation company under the parent company of Aquasar Inc a Web Development Agency in Edmonton Canada. Here is some information about our company and founder"
+        title="Our Services | The Order Guys"
+        description="The Order Guys is a made up automation company under the parent company of Aquasar Inc a Web Development Agency in Edmonton Canada. Here is some information about our company and founder"
         pathname="/services"
       />
 
       <Section0 fluid={data.aboutImage1.childImageSharp.fluid} />
+
       <Fade bottom>
         <Section1 />
+      </Fade>
+      <Fade bottom>
+        <Section3b />
       </Fade>
       <Section2 />
       <Fade bottom>
         <Section3 />
       </Fade>
+
       <Fade bottom>
         <Section4 />
       </Fade>

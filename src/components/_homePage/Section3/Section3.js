@@ -35,7 +35,7 @@ export const Section3 = () => {
   return (
     <CustomSection>
       <TitleContainer>
-        <H2> Top Service Guaranteed</H2>
+        <H2> Our Services Include</H2>
       </TitleContainer>
 
       <Container>

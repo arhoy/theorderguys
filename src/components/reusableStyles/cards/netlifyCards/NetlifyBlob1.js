@@ -77,10 +77,10 @@ const NetlifyBlob1 = ({ title }) => {
             <GitHubIcon /> Branding & Design
           </li>
           <li>
-            <BitbucketIcon /> Business & Ecommerce
+            <BitbucketIcon /> Online Ordering
           </li>
           <li>
-            <GitlabIcon /> Coding & Development
+            <GitlabIcon /> Online Menu Creation
           </li>
         </UL>
         <Blob1 />

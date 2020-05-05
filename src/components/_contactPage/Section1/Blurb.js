@@ -11,6 +11,9 @@ const Container = styled.div`
     margin-bottom: 4rem;
     opacity: 0.9;
   }
+  & span {
+    font-weight: 700;
+  }
 `;
 
 const LogoContainer = styled.div`
@@ -29,15 +32,16 @@ const Logo = styled.span`
 export const Blurb = () => {
   return (
     <Container>
-      <H4>Lets Discuss Websites</H4>
+      <H4>Lets Discuss</H4>
       <p>
-        Premium high quality websites. We want to make the next website for you
-        unlike many agencies we don't cut corners but build custom websites from
-        the ground up.
+        At the Order Guys, we are ready to help you get your website and online
+        ordering system up and running. We can run through some demos and case
+        studies for you. We have <span>no long term contracts</span> so there is
+        no risk for you
       </p>
       <H5>We've got your back</H5>
       <p>
-        Need to grow your business? No problem. Our effective SEO and online
+        Need to grow your restaurant? No problem. Our effective SEO and online
         advertising strategy will be custom tailored for your business every
         step of the way.
       </p>

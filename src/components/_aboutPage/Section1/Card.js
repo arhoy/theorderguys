@@ -21,6 +21,9 @@ const Blurb = styled.div`
     font-weight: 300;
     margin: 1rem 3px;
   }
+  & span {
+    font-weight: bold;
+  }
 `;
 
 export const Card = () => {
@@ -30,11 +33,11 @@ export const Card = () => {
       <Subtitle>Constantly Striving for the Best</Subtitle>
       <Blurb>
         <p>
-          At CodePaper we want to deliver the best results for you and your
-          business every step of the way
+          At <span>The Order Guys</span> we want to deliver the best results for
+          you and your restaurant or cafe every step of the way
         </p>
         <p>
-          Our mission is the help small businesses grow online. We want to
+          Our mission is the help local restaurants grow online. We want to
           partner with them to provide amazing websites and effective online
           marketing solutions
         </p>

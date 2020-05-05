@@ -110,7 +110,7 @@ const Nav = () => {
       <Header>
         <HeaderTop>
           <Logo>
-            <LogoLink to="/">CodePaper</LogoLink>
+            <LogoLink to="/">The Order Guys</LogoLink>
           </Logo>
 
           <MenuLinks>
@@ -120,9 +120,7 @@ const Nav = () => {
             <DropDownMenuClick className="underline" to="/services">
               Services
             </DropDownMenuClick>
-            <CustomLink className="underline" to="/blog">
-              Blog
-            </CustomLink>
+
             <CustomLink className="underline" to="/contact">
               Contact
             </CustomLink>

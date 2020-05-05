@@ -30,9 +30,9 @@ export const Card = () => {
       <Subtitle>Giving Realtors the Extra Advantage</Subtitle>
       <Blurb>
         <p>
-          At CodePaper we want to deliver the best results for you as a realtor.
-          We believe we can help grow your online brand identity through an
-          amazing website and a online ads and SEO strategy.
+          At The Order Guys we want to deliver the best results for you as a
+          realtor. We believe we can help grow your online brand identity
+          through an amazing website and a online ads and SEO strategy.
         </p>
       </Blurb>
     </Container>

@@ -31,19 +31,15 @@ const MyCompanyTicker = () => {
         <TickerContainer speed={3}>
           {({ index }) => (
             <Container>
-              <p>Dash-Intel</p>
-              <p>Soul 2 Soul</p>
-              <p>Dress Code Africa</p>
-              <p>Neverland Tea</p>
-              <p>New Image Cosmetic</p>
-              <p>New Barber</p>
-              <p>Sumo Sumo Sushi</p>
-              <p>A&J Driving School</p>
-              <p>Crystal Glass</p>
-              <p>Point Green Gardening</p>
-              <p>Royal Dragon Vodka</p>
-              <p>Rental YEG</p>
-              <p>Aquasar Inc</p>
+              <p>SUSHI</p>
+              <p>PIZZA</p>
+              <p>COFFEE</p>
+              <p>DONAIRS</p>
+              <p>TEA</p>
+              <p>BURGERS</p>
+              <p>Chinese</p>
+              <p>Italian</p>
+              <p>Greek</p>
             </Container>
           )}
         </TickerContainer>

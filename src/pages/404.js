@@ -37,7 +37,7 @@ const NotFound = props => {
         <h4> 404 page not found...Spooky! </h4>
         <p>
           The page you are looking for <br />
-          <span> {`https://codepaper.dev${props.location.pathname}`} </span>
+          <span> {`https://theorderguys.com${props.location.pathname}`} </span>
           <br />
           may have moved or does not exist!
         </p>

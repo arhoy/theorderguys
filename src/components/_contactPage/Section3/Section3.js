@@ -32,7 +32,8 @@ export const Section3 = ({ fluid }) => {
         <TitleContainer>
           <H3>An Automation Story</H3>
           <p>
-            How Procrastagram was able to increase productivity with CodePaper
+            How Procrastagram was able to increase productivity with The Order
+            Guys
           </p>
         </TitleContainer>
 

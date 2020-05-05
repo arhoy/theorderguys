@@ -62,7 +62,7 @@ export const HeroBlurb = () => {
         <HeadingContainer>
           <Heading>
             <span className="primary">
-              Hello Visitor. <br /> We Are Not An Agency
+              Online Food Orders Made Easy and Affordable <br />
             </span>
           </Heading>
         </HeadingContainer>
@@ -71,15 +71,15 @@ export const HeroBlurb = () => {
       <SubContainer>
         <BlurbContainer>
           <p>
-            We're a network of talented professionals & freelancers. We build
-            custom websites from the ground up, provide white label SEO and
-            advertising and much more. Our turn around is fast and our overhead
-            is minimal. We guarantee our work and work with only the best
+            Skip The Dishes and DoorDash charge 30% of revenue and eat away at
+            your online profits. The Order Guys will integrate your website and
+            Facebook page with an online menu so your customers can order online
+            and you recieve alerts in realtime
           </p>
         </BlurbContainer>
         <CallToActionContainer>
           <NoStyleLink to="/contact">
-            <CustomButton> Schedule Free Call </CustomButton>
+            <CustomButton> Schedule Demo Today</CustomButton>
           </NoStyleLink>
         </CallToActionContainer>
       </SubContainer>

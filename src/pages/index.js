@@ -18,7 +18,7 @@ import { Section8 } from '../components/_homePage/Section8/Section8';
 
 export const query = graphql`
   {
-    codepaper: site {
+    theorderguys: site {
       siteMetadata {
         image
         title
@@ -43,13 +43,12 @@ export const query = graphql`
 `;
 
 const IndexPage = ({ data }) => {
-  console.log(data.codepaper.siteMetadata);
   return (
     <Layout full={true}>
       <SEO
-        title="CodePaper | Custom Websites for Realtors and Small Businesses in Edmonton Alberta"
+        title="The Order Guys | Custom Websites for Realtors and Small Businesses in Edmonton Alberta"
         description="We're a network of talented professionals & freelancers from Edmonton Alberta and around the world. We build custom websites from the ground up, provide white label SEO and advertising and much more. Our turn around is fast and our overhead is minimal. We guarantee our work and work with only the best"
-        image={`${data.codepaper.siteMetadata.siteUrl}${data.codepaper.siteMetadata.image}`}
+        image={`${data.theorderguys.siteMetadata.siteUrl}${data.theorderguys.siteMetadata.image}`}
       />
 
       {/* Cover Section */}

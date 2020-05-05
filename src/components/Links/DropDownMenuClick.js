@@ -93,8 +93,8 @@ export const DropDownMenuClick = () => {
 
             <NoStyleLink to="/services">All Services</NoStyleLink>
             <NoStyleLink to="/websites">Websites</NoStyleLink>
-            <NoStyleLink to="/websites/realtor-website">
-              Realtor Websites
+            <NoStyleLink to="/websites/restaurant-website">
+              Online Ording Platform
             </NoStyleLink>
 
             <div className="bottomMargin" />

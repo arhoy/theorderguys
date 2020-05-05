@@ -20,7 +20,7 @@ const Title = styled(H2)`
 export const Section1 = () => {
   return (
     <Container>
-      <Title>Companies Trust CodePaper</Title>
+      <Title>Online Ordering is Great For</Title>
       <Ticker />
     </Container>
   );

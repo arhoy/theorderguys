@@ -89,21 +89,21 @@ export const Section5 = () => {
 
   return (
     <CustomSection>
-      <H2Centered> A Better Way to Automate </H2Centered>
+      <H2Centered> Other Services Include </H2Centered>
       <Container>
         <Card
-          title="Reporting"
+          title="Web Development & Design"
           blurb="Are you spending countless hours each month trying to pull numbers from different sources and build reports? One area of expertise is automating reports to save you time so you can focus on your unique business and unique value proposition"
           fixed={data.image1.childImageSharp.fixed}
         />
         <Card
-          title="Dashboards"
-          blurb="Building business dashboards using tools like Google Data Studio, Tableau, SQL and Power BI. We have built executive business dashboard for large companies and provided easy ways to generate monthly reports to view important business KPIs "
+          title="SEO"
+          blurb="Weekly content, social media posts, backlinks and Google My Business Optimization to make sure your site is performing up to speed and getting traffic. In addition, we will create featured restaurant reviews and articles on our site for your restaurant. "
           fixed={data.image2.childImageSharp.fixed}
         />
         <Card
-          title="Ecommerce Products"
-          blurb="Are you looking to get hundreds or even thousands of products into a Shopify Store or WordPress site? We can help you with product uploads and data scraping product information from sites like Amazon.com, Kohls, Walmart and much more "
+          title="Advertising"
+          blurb="We will run facebook and instagram ads for your business within your advertising budget. We can also run Google Ads for you as well so that when people search for your website keywords, Google will show your site"
           fixed={data.image3.childImageSharp.fixed}
         />
       </Container>

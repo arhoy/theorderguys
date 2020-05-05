@@ -101,13 +101,13 @@ const Card = styled(NoStyleLink)`
 `;
 
 export const Card1 = () => {
-  const [text, setText] = useState('Marketing Website');
+  const [text, setText] = useState('Italian Restaurant');
 
   return (
     <Card
       onMouseEnter={() => setText('Click To Learn More')}
-      onMouseLeave={() => setText('Marketing Website')}
-      to="/websites/marketing-website"
+      onMouseLeave={() => setText('Italian Restaurant')}
+      to="/websites/italian-restaurant"
     >
       <ImageContainer>
         <Img className="animation1" src={facebook} />
@@ -115,21 +115,20 @@ export const Card1 = () => {
 
       <Title>{text}</Title>
       <Blurb>
-        Custom, high converting marketing website leading to more calls and
-        messages. Custom contact forms integrated with your email, website chat
-        or other features as needed
+        Italian restaurants for pick up and on the go! People don't want to wait
+        for pizza, pasta and Italian Wedding Soup.
       </Blurb>
     </Card>
   );
 };
 
 export const Card2 = () => {
-  const [text, setText] = useState('Ecommerce');
+  const [text, setText] = useState('Pizza Place');
   return (
     <Card
       onMouseEnter={() => setText('Start Selling Fast')}
-      onMouseLeave={() => setText('Ecommerce')}
-      to="/websites/ecommerce-websites"
+      onMouseLeave={() => setText('Pizza Place')}
+      to="/websites/pizza-restuarant"
     >
       <ImageContainer className="animation2">
         <Img src={onlineshopping} />
@@ -137,20 +136,20 @@ export const Card2 = () => {
 
       <Title>{text}</Title>
       <Blurb>
-        Looking to sell products online? We will discuss your business and help
-        you decide what Ecommerce platform is best for you and then build it
-        whether that is on Shopify, WooCommerce or a custom Stripe solution
+        Pizza restaurants are a great candidate for pickup orders. Although lots
+        of people typically think of pizza as delivery, why not offer customers
+        an easy and affordable pickup option as well
       </Blurb>
     </Card>
   );
 };
 
 export const Card3 = () => {
-  const [text, setText] = useState('Restaurant Website');
+  const [text, setText] = useState('Coffee Shop');
   return (
     <Card
       onMouseEnter={() => setText('Online Menu and Orders')}
-      onMouseLeave={() => setText('Restaurant Website')}
+      onMouseLeave={() => setText('Coffee Shop')}
       to="/websites/restaurant-website"
     >
       <ImageContainer>
@@ -159,43 +158,43 @@ export const Card3 = () => {
 
       <Title>{text}</Title>
       <Blurb>
-        Restaurant and coffee shops looking for effective and profitable online
-        solutions for takeout/pickup and delivery. Avoid greedy Skip The Dishes/
-        DoorDash fees with an unlimited, realtime, zero commission ordering
-        platform.
+        Coffee shops often serve more than just coffee! That is why we think
+        coffee shops are a great candidate for a online ordering website. During
+        busy hours, get more people in and out faster my getting them to order
+        online and have them pickup and pay at the front
       </Blurb>
     </Card>
   );
 };
 
 export const Card4 = () => {
-  const [text, setText] = useState('Service Website');
+  const [text, setText] = useState('Donair Restuarant');
   return (
     <Card
-      onMouseEnter={() => setText('Book More Appointments')}
-      onMouseLeave={() => setText('Service Website')}
-      to="/websites/service-website"
+      onMouseEnter={() => setText('Donair Restuarant')}
+      onMouseLeave={() => setText('Donair Restuarant')}
+      to="/websites/donair-restaurant"
     >
       <ImageContainer>
         <Img className="animation4" src={deliveryTruck} />
       </ImageContainer>
       <Title>{text}</Title>
       <Blurb>
-        Are you a salon, spa, massage place or barbershop? Book people through
-        your website today, with a highly optimized checkout process and low
-        fees. Make payments online with no monthly fees.
+        Donair restaurants are in and out. No customer wants to wait for a
+        donair or gyros. Get them to order online and pay at the counter or
+        securly online.
       </Blurb>
     </Card>
   );
 };
 
 export const Card5 = () => {
-  const [text, setText] = useState('Realtor Specials');
+  const [text, setText] = useState('Greek Restaurant');
   return (
     <Card
-      onMouseEnter={() => setText('Sell More Houses')}
-      onMouseLeave={() => setText('Realtor Website')}
-      to="/websites/realtor-website"
+      onMouseEnter={() => setText('Greek Restaurant')}
+      onMouseLeave={() => setText('Greek Restaurant')}
+      to="/websites/greek-restaurant"
     >
       <ImageContainer>
         <Img className="animation5" src={homeRun} />
@@ -203,26 +202,22 @@ export const Card5 = () => {
 
       <Title>{text}</Title>
       <Blurb>
-        Realtor websites with MLS listings and personal branding to help you
-        attract more leads and sales online. Get a blazingly fast and customized
-        website along with SEO and Social Media ads so that you can be the go to
-        realtor for your niche market. {` `}
-        <span>We specialize in realtor websites.</span>
-        {` `}
-        Lets work together to attract top tier clients so that you can sell more
-        houses in any market.
+        Ahh the greek salad, the Pita and Hummus, Amygdalota, Baklava and much
+        more. The Greeks have a lot of food they are know for. Unless you count
+        OPA Greek Fast Food is not Fast Food. Which is why Greek restaurants can
+        benefit with online pick up orders
       </Blurb>
     </Card>
   );
 };
 
 export const Card6 = () => {
-  const [text, setText] = useState('Construction Website');
+  const [text, setText] = useState('Sushi Restaurant');
   return (
     <Card
-      onMouseEnter={() => setText('Attract Highend Clients')}
-      onMouseLeave={() => setText('Construction Website')}
-      to="/websites/construction-website"
+      onMouseEnter={() => setText('Sushi Restaurant')}
+      onMouseLeave={() => setText('Sushi Restaurant')}
+      to="/websites/sushi-restaurant"
     >
       <ImageContainer>
         <Img className="animation6" src={crane} />
@@ -230,11 +225,11 @@ export const Card6 = () => {
 
       <Title>{text}</Title>
       <Blurb>
-        With tough times looming ahead in Alberta, it is a better time now more
-        than ever to invest long term and build up your online business presence
-        and website. If you are construction company in Canada, learn about or
-        special rates and discount services from web design and development, SEO
-        and online advertising.
+        Sushi Restaurants are a great candidate for pickup orders. There is a
+        growing number of sushi places in the city and having a streamlined
+        delivery process and online presence can make all the difference. With
+        so many roles and combinations marketing a Sushi Restaurant is a no
+        brainer
       </Blurb>
     </Card>
   );

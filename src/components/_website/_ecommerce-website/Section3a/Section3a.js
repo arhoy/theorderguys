@@ -16,7 +16,7 @@ export const Section3a = ({ data }) => {
         title={`Dress Code Africa`}
         blurb={`A Shopify Powered Ecommerce Store with thousands of products ranging from fashion to electronics, health and beauty, vitamins and much more`}
         link={`Visit Store`}
-        href="https://dresscodeafrica.com?referral=codepaper.dev"
+        href="https://dresscodeafrica.com?referral=theorderguys.com"
         picture={data.imageCard1.childImageSharp.fluid}
       />
       <Padding />

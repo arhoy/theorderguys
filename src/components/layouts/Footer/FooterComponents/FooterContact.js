@@ -24,7 +24,7 @@ export const FooterContact = () => {
   return (
     <Container>
       <LinkHeaders>Contact Us</LinkHeaders>
-      <LinkDescription>codepaper.dev@gmail.com</LinkDescription>
+      <LinkDescription>theorderguys.com@gmail.com</LinkDescription>
       <TelephoneLink href="tel:587-501-7726">587.501.7726</TelephoneLink>
     </Container>
   );

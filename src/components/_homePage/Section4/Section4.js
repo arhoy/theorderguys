@@ -44,24 +44,24 @@ export const Section4 = () => {
   return (
     <Section>
       <TitleContainer>
-        <H2> Other Services Offered </H2>
+        <H2> Online Ordering Platform </H2>
       </TitleContainer>
 
       <CardContainer>
         <Card
-          title="SSL Certificates"
-          blurb={`Secure your website with SSL Certificates and free installation for half of GoDaddy prices`}
+          title="No Commissions"
+          blurb={`No Commission on unlimited orders. For pickup our pricing starts at $29/month flat fee. No commission and unlimited menu customizations`}
           fluid={data.image1.childImageSharp.fluid}
         />
         <Card
-          title="WordPress and Shopify"
-          blurb={`WordPress and Shopify Development including quick turn arounds, migration and robust solutions`}
+          title="Website & Facebook Integration"
+          blurb={`Get your restaurant live on your website and on Facebook so your customers can order online before and avoid waiting times before they pickup.`}
           fluid={data.image2.childImageSharp.fluid}
           reverse={true}
         />
         <Card
-          title="Reporting and Analytics"
-          blurb={`We are a data driven company. We make decisions based on the numbers and we do the same for our clients as well`}
+          title="Real Time Alerts"
+          blurb={`Alert will be sent to your restaurant phone or tablet in real-time. Once you accept the order will be confirmed and the customer will know their order is getting ready`}
           fluid={data.image3.childImageSharp.fluid}
         />
       </CardContainer>

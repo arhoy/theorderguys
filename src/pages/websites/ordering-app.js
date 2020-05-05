@@ -50,7 +50,7 @@ export const query = graphql`
   }
 `;
 
-const RealtorWebsite = ({ data }) => {
+const OrderingApp = ({ data }) => {
   return (
     <Layout>
       <SEO
@@ -72,4 +72,4 @@ const RealtorWebsite = ({ data }) => {
   );
 };
 
-export default RealtorWebsite;
+export default OrderingApp;

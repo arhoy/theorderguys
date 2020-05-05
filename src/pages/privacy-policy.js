@@ -22,7 +22,7 @@ const PrivacyPolicyPage = () => {
         title="Privacy Policy | Codepaper "
         description="Codepaper | Privacy Policy <br /> This Privacy Policy describes how
         your personal information is collected, used, and shared when you
-        visit or make a purchase from https://codepaper.dev (the “Site”).
+        visit or make a purchase from https://theorderguys.com (the “Site”).
         PERSONAL INFORMATION WE COLLECT When you visit the Site, we
         automatically collect certain information about your device, including
         information about your web browser, IP address, time zone, and some of
@@ -33,7 +33,7 @@ const PrivacyPolicyPage = () => {
         <CustomP>
           Codepaper | Privacy Policy <br /> This Privacy Policy describes how
           your personal information is collected, used, and shared when you
-          visit or make a purchase from https://codepaper.dev (the “Site”).
+          visit or make a purchase from https://theorderguys.com (the “Site”).
           PERSONAL INFORMATION WE COLLECT When you visit the Site, we
           automatically collect certain information about your device, including
           information about your web browser, IP address, time zone, and some of
@@ -127,8 +127,9 @@ const PrivacyPolicyPage = () => {
         <CustomP>
           CONTACT US For more information about our privacy practices, if you
           have questions, or if you would like to make a complaint, please
-          contact us by e-mail at codepaper.dev@gmail.com or by mail using the
-          details provided below: 11033 127 St NW, Edmonton, AB, T5M 2L7, Canada
+          contact us by e-mail at theorderguys.com@gmail.com or by mail using
+          the details provided below: 11033 127 St NW, Edmonton, AB, T5M 2L7,
+          Canada
         </CustomP>
       </Section>
     </Layout>

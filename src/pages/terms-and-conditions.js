@@ -25,7 +25,7 @@ const TermsAndConditionsPage = () => {
       <SEO
         title="Terms and Conditions Page | Codepaper "
         description="Terms and Conditions. Welcome to Codepaper! These terms and conditions outline the rules and regulations for the
-        use of Codepaper's Website, located at https://codepaper.dev."
+        use of Codepaper's Website, located at https://theorderguys.com."
         path="/terms-and-condtions"
       />
       <Section>
@@ -37,7 +37,7 @@ const TermsAndConditionsPage = () => {
 
         <CustomP>
           These terms and conditions outline the rules and regulations for the
-          use of Codepaper's Website, located at https://codepaper.dev.
+          use of Codepaper's Website, located at https://theorderguys.com.
         </CustomP>
 
         <CustomP>

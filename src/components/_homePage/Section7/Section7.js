@@ -2,12 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 import Slider from 'react-slick';
 
-import {
-  TwitterCard1,
-  TwitterCard2,
-  TwitterCard3,
-  TwitterCard4,
-} from './TwitterCards';
+import { TwitterCard1, TwitterCard2, TwitterCard3 } from './TwitterCards';
 
 const Container = styled.div`
   max-width: 1400px;
@@ -51,7 +46,6 @@ export const Section7 = () => {
         <TwitterCard1 />
         <TwitterCard2 />
         <TwitterCard3 />
-        <TwitterCard4 />
       </Slider>
     </Container>
   );

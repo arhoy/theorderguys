@@ -23,9 +23,10 @@ const Blurb = styled.p`
 `;
 
 const StyledImage = styled(Img)`
-  width: 20rem;
+  width: 100%;
   height: 20rem;
   margin: auto;
+  text-align: center;
   margin-bottom: 1rem;
 `;
 
