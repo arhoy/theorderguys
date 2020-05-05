@@ -14,9 +14,9 @@ if (process.env.NODE_ENV === 'production') {
 
 module.exports = {
   siteMetadata: {
-    title: 'Codepaper - Web development, SEO, Digital Ads',
+    title: 'The Order Guys - Web development, SEO, Digital Ads',
     description:
-      'At Codepaper we deliver blazingly fast high performance websites, stunning web design, effective online advertising and seo and business signs',
+      'At Order Guyss we deliver blazingly fast high performance websites, stunning web design, effective online advertising and seo and business signs',
     keywords: [
       'realtor websites in Edmonton',
       'food ordering website in Edmonton',
@@ -47,16 +47,13 @@ module.exports = {
     //     chunkSize: 10000,
     //   },
     // },
-    {
-      resolve: 'gatsby-plugin-netlify-cache',
-    },
 
-    {
-      resolve: `gatsby-source-buttercms`,
-      options: {
-        authToken: process.env.GATSBY_BUTTER_API_TOKEN,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-buttercms`,
+    //   options: {
+    //     authToken: process.env.GATSBY_BUTTER_API_TOKEN,
+    //   },
+    // },
 
     {
       resolve: `gatsby-plugin-google-fonts`,
@@ -104,18 +101,7 @@ module.exports = {
     //   },
     // },
     `gatsby-plugin-twitter`,
-    {
-      resolve: 'gatsby-plugin-netlify',
-      options: {
-        headers: {
-          '/*': [
-            "Content-Security-Policy: frame-ancestors 'self' https://*.public.tableau.com/",
-            'X-Frame-Options: ALLOW-FROM https://public.tableau.com/',
-          ],
-        },
-        mergeSecurityHeaders: false,
-      },
-    },
+
     {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
