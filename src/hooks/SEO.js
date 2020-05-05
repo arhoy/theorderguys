@@ -119,7 +119,7 @@ SEO.defaultProps = {
   lang: `en`,
   meta: [],
   description: ``,
-  image: `https://theorderguys.com/default.png`,
+  image: `/default.png`,
 };
 
 SEO.propTypes = {

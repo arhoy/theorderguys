@@ -31,7 +31,7 @@ const AboutPage = ({ data }) => {
         title="About Us | The Order Guys"
         description="Codepaper consists of a network of talented professionals & freelancers from Edmonton Alberta and around the world. We build custom websites from the ground up, provide white label SEO and advertising and much more. Our turn around is fast and our overhead is minimal. We guarantee our work and work with only the best"
         pathname="/about"
-        image="https://res.cloudinary.com/dcb389szc/image/upload/v1588481585/theorderguys/SEO%20Images/pages/about_theorderguys.png"
+        image="https://res.cloudinary.com/dcb389szc/image/upload/v1588481585/codepaper/SEO%20Images/pages/about_codepaper.png"
       />
       <Fade bottom>
         <Section0 fluid={data.aboutImage1.childImageSharp.fluid} />
