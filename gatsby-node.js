@@ -55,38 +55,38 @@
 //     });
 //   });
 
-  // Fetch Customer Case study pages
-  //   let pages
-  //   try {
-  //     pages = await graphql(`
-  //       {
-  //         allButterPage(filter: { page_type: { eq: "case_study" } }) {
-  //           edges {
-  //             node {
-  //               id
-  //               slug
-  //               facebook_open_graph_title
-  //               seo_title
-  //               headline
-  //               testimonial
-  //               customer_logo
-  //             }
-  //           }
-  //         }
-  //       }
-  //     `)
-  //   } catch (error) {
-  //     console.log(`Error Running Querying Pages`, error)
-  //   }
+// Fetch Customer Case study pages
+//   let pages
+//   try {
+//     pages = await graphql(`
+//       {
+//         allButterPage(filter: { page_type: { eq: "case_study" } }) {
+//           edges {
+//             node {
+//               id
+//               slug
+//               facebook_open_graph_title
+//               seo_title
+//               headline
+//               testimonial
+//               customer_logo
+//             }
+//           }
+//         }
+//       }
+//     `)
+//   } catch (error) {
+//     console.log(`Error Running Querying Pages`, error)
+//   }
 
-  //Create Customer Case study pages
-  //   pages.data.allButterPage.edges.forEach(page => {
-  //     createPage({
-  //       path: `/case-study/${page.node.slug}`,
-  //       component: customerCaseStudy,
-  //       context: {
-  //         slug: page.node.slug,
-  //       },
-  //     })
-  //   })
-};
+//Create Customer Case study pages
+//   pages.data.allButterPage.edges.forEach(page => {
+//     createPage({
+//       path: `/case-study/${page.node.slug}`,
+//       component: customerCaseStudy,
+//       context: {
+//         slug: page.node.slug,
+//       },
+//     })
+//   })
+// };
