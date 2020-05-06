@@ -14,11 +14,11 @@ module.exports = {
   siteMetadata: {
     title: 'The Order Guys - Web development, SEO, Digital Ads',
     description:
-      'At Order Guyss we deliver blazingly fast high performance websites, stunning web design, effective online advertising and seo and business signs',
+      'At The Order Guys we partner with local restaurants to deliver real-time orders for pickup',
     keywords: [
-      'realtor websites in Edmonton',
-      'food ordering website in Edmonton',
-      'digital marketing services in Edmonton',
+      'online ordering platform',
+      'online ordering system',
+      'online pickup orders for restaurants',
     ],
     author: 'Alex Quasar',
     twitterUsername: '@_aquasar',
