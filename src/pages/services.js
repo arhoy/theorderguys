@@ -1,6 +1,5 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import Fade from 'react-reveal/Fade';
 
 import Layout from '../components/layouts/Layout';
 import SEO from '../hooks/SEO';
@@ -17,7 +16,7 @@ import { Section7 } from '../components/_servicesPage/Section7/Section7';
 
 export const query = graphql`
   query {
-    aboutImage1: file(relativePath: { eq: "_about/tower.jpg" }) {
+    aboutImage1: file(relativePath: { eq: "_about/towerred.png" }) {
       childImageSharp {
         fluid(quality: 100, maxWidth: 1000) {
           ...GatsbyImageSharpFluid_tracedSVG
@@ -35,32 +34,16 @@ const ServicesPage = ({ data }) => {
         description="The Order Guys is a made up automation company under the parent company of Aquasar Inc a Web Development Agency in Edmonton Canada. Here is some information about our company and founder"
         pathname="/services"
       />
-
-      <Section0 fluid={data.aboutImage1.childImageSharp.fluid} />
-
-      <Fade bottom>
-        <Section1 />
-      </Fade>
-      <Fade bottom>
-        <Section3b />
-      </Fade>
+      <Section0 />
+      <Section1 />
+      <Section3b />
       <Section2 />
-      <Fade bottom>
-        <Section3 />
-      </Fade>
-
-      <Fade bottom>
-        <Section4 />
-      </Fade>
-      <Fade bottom>
-        <Section5 fluid={data.aboutImage1.childImageSharp.fluid} />
-      </Fade>
-      <Fade bottom>
-        <Section6 />
-      </Fade>
-      <Fade bottom>
-        <Section7 />
-      </Fade>
+      <Section3 />
+      <Section4 />
+      <Section5 />
+      >
+      <Section6 />
+      <Section7 />
     </Layout>
   );
 };
