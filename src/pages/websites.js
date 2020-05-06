@@ -10,8 +10,8 @@ const WebsitesPage = () => {
   return (
     <Layout>
       <SEO
-        title="Website Development and Website Design in Edmonton Alberta"
-        description="Websites for realtors, restaurants, construction companies and small businesses. We offer website solutions for all businesses"
+        title="Online Ordering Restaurant websites"
+        description="Online Ordering Restauarant websites in Edmonton Alberta. "
         path="/websites"
       />
       <Section0 />

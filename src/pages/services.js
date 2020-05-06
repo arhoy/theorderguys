@@ -31,7 +31,7 @@ const ServicesPage = ({ data }) => {
     <Layout full={true}>
       <SEO
         title="Our Services | The Order Guys"
-        description="The Order Guys is a made up automation company under the parent company of Aquasar Inc a Web Development Agency in Edmonton Canada. Here is some information about our company and founder"
+        description="Set up real-time online ordering with the Order Guys for your restaurant"
         pathname="/services"
       />
       <Section0 />

@@ -46,8 +46,8 @@ const IndexPage = ({ data }) => {
   return (
     <Layout full={true}>
       <SEO
-        title="The Order Guys | Custom Websites for Realtors and Small Businesses in Edmonton Alberta"
-        description="We're a network of talented professionals & freelancers from Edmonton Alberta and around the world. We build custom websites from the ground up, provide white label SEO and advertising and much more. Our turn around is fast and our overhead is minimal. We guarantee our work and work with only the best"
+        title="The Order Guys | Real-Time Restaurant Ordering"
+        description="Real-time, Affordable Food Ordering System for local restaurants in Edmonton, AB"
         image={`${data.theorderguys.siteMetadata.siteUrl}${data.theorderguys.siteMetadata.image}`}
       />
 
