@@ -10,7 +10,6 @@ const CustomSection = styled(Section)`
   background: linear-gradient(
       180deg,
       ${props => props.theme.colors.primary} 0%,
-      rgba(127, 127, 208, 0.75) 60%,
       white 100%
     ),
     url(${background});

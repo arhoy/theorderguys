@@ -14,14 +14,7 @@ const CustomSection = styled(Section)`
   position: relative;
   overflow: hidden;
   color: ${props => props.theme.colors.white};
-  background: linear-gradient(
-    135deg,
-    rgba(9, 22, 48, 1) 5%,
-    rgba(9, 22, 48, 1) 24%,
-    rgba(57, 51, 97, 1) 82%,
-    rgba(65, 55, 105, 1) 91%,
-    rgba(65, 55, 105, 1) 100%
-  );
+  background: linear-gradient(135deg, #c43b45 5%, #6b2026 100%);
 
   width: 100%;
 `;

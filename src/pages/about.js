@@ -1,6 +1,5 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import Fade from 'react-reveal/Fade';
 
 import Layout from '../components/layouts/Layout';
 import SEO from '../hooks/SEO';
@@ -14,7 +13,7 @@ import { Section5 } from '../components/_aboutPage/Section5/Section5';
 
 export const query = graphql`
   query {
-    aboutImage1: file(relativePath: { eq: "_about/tower.jpg" }) {
+    aboutImage1: file(relativePath: { eq: "_about/towerred.png" }) {
       childImageSharp {
         fluid(quality: 100, maxWidth: 1000) {
           ...GatsbyImageSharpFluid_tracedSVG
@@ -33,24 +32,18 @@ const AboutPage = ({ data }) => {
         pathname="/about"
         image="https://res.cloudinary.com/dcb389szc/image/upload/v1588481585/codepaper/SEO%20Images/pages/about_codepaper.png"
       />
-      <Fade bottom>
-        <Section0 fluid={data.aboutImage1.childImageSharp.fluid} />
-      </Fade>
-      <Fade bottom>
-        <Section1 />
-      </Fade>
-      <Fade bottom>
-        <Section2 />
-      </Fade>
-      <Fade bottom>
-        <Section3 />
-      </Fade>
-      <Fade bottom>
-        <Section4 />
-      </Fade>
-      <Fade bottom>
-        <Section5 fluid={data.aboutImage1.childImageSharp.fluid} />
-      </Fade>
+
+      <Section0 fluid={data.aboutImage1.childImageSharp.fluid} />
+
+      <Section1 />
+
+      <Section2 />
+
+      <Section3 />
+
+      <Section4 />
+
+      <Section5 fluid={data.aboutImage1.childImageSharp.fluid} />
     </Layout>
   );
 };

@@ -3,10 +3,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 import { graphql, useStaticQuery } from 'gatsby';
 
-import {
-  SectionGrey,
-  Container1000,
-} from '../../reusableStyles/sections/Sections';
+import { Container1000, Section } from '../../reusableStyles/sections/Sections';
 import { Card } from './Card';
 import { H3 } from '../../reusableStyles/typography/Typography';
 import { ButtonSweepToRight } from '../../reusableStyles/buttons/Button';
@@ -72,9 +69,9 @@ export const Section4 = () => {
     }
   `);
   return (
-    <SectionGrey>
+    <Section>
       <TitleContainer>
-        <H3> Our Three Main Services</H3>
+        <H3> Other Platform Services</H3>
       </TitleContainer>
       <Container>
         <Card title={`Websites`} fluid={data.image1.childImageSharp.fluid} />
@@ -86,6 +83,6 @@ export const Section4 = () => {
           <Button>Read More</Button>
         </NoStyleLink>
       </ButtonContainer>
-    </SectionGrey>
+    </Section>
   );
 };

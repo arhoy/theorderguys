@@ -23,7 +23,7 @@ const BackgroundSvg = () => (
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 1770 900"
   >
-    <rect x="60" width="1600" height="900" style="fill: #7c72a4" />
+    <rect x="60" width="1600" height="900" style="fill: #6B2026" />
     <polygon
       points="1017 450 599 900 1456 900 1017 450"
       style="fill: #c59b9b"

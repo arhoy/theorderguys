@@ -2,10 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 import { graphql, useStaticQuery } from 'gatsby';
 
-import {
-  Container1000,
-  SectionGrey,
-} from '../../reusableStyles/sections/Sections';
+import { Container1000, Section } from '../../reusableStyles/sections/Sections';
 
 import { CircularImage } from './CircularImages';
 
@@ -14,6 +11,7 @@ import { Card1, Card2, Card3, Card4 } from './Card';
 const Container = styled.div`
   display: grid;
   margin: 2rem 0;
+
   grid-template-columns: 4fr 6fr;
   &.reverse {
     grid-template-columns: 6fr 4fr;
@@ -71,7 +69,7 @@ export const Section2 = () => {
     }
   `);
   return (
-    <SectionGrey>
+    <Section>
       <Container1000>
         <Container>
           <div className="imageContainer">
@@ -106,6 +104,6 @@ export const Section2 = () => {
           </div>
         </Container>
       </Container1000>
-    </SectionGrey>
+    </Section>
   );
 };

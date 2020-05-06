@@ -12,6 +12,7 @@ const StyledH1 = styled(H1)`
 
 const CustomSection = styled(Section)`
   padding: 0;
+
   clip-path: polygon(
     50% 0%,
     81% 0,
@@ -31,7 +32,7 @@ export const Section0 = ({ fluid }) => {
     <CustomSection>
       <StyledHero2 img={fluid}>
         <Container800>
-          <StyledH1>About Us</StyledH1>
+          <StyledH1>About The Order Guys</StyledH1>
         </Container800>
       </StyledHero2>
     </CustomSection>

@@ -21,11 +21,11 @@ const Blurb = styled.div`
 export const ContactBlurb = () => {
   return (
     <Container>
-      <Title>Talk To Our Experts</Title>
+      <Title>Talk To Our Order Experts</Title>
       <Blurb>
         <p>
-          Let's discuss your next website or talk to us about your current
-          business needs
+          Let's discuss your online restaurant strategy or talk to us about your
+          current business needs
         </p>
       </Blurb>
     </Container>

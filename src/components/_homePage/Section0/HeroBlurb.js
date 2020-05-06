@@ -71,10 +71,10 @@ export const HeroBlurb = () => {
       <SubContainer>
         <BlurbContainer>
           <p>
-            Skip The Dishes and DoorDash charge 30% of revenue and eat away at
-            your online profits. The Order Guys will integrate your website and
-            Facebook page with an online menu so your customers can order online
-            and you recieve alerts in realtime
+            Many online ordering platforms charge high commision order fees and
+            eat away at your online profits. <span>The Order Guys </span> will
+            integrate your website and Facebook page with an online menu so your
+            customers can order online and you recieve alerts in realtime
           </p>
         </BlurbContainer>
         <CallToActionContainer>

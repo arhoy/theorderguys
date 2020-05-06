@@ -68,19 +68,19 @@ export const Blob = () => {
   return (
     <Container>
       <TitleContainer>
-        <Title> Right Tool for the Right Job</Title>
+        <Title> Real Time Food Ordering System</Title>
       </TitleContainer>
 
       <SubContainer>
         <UL>
           <li>
-            <GitHubIcon /> React/Gatsby
+            <GitHubIcon /> No Commission
           </li>
           <li>
-            <BitbucketIcon /> Shopify
+            <BitbucketIcon /> Unlimited Orders
           </li>
           <li>
-            <GitlabIcon /> WordPress
+            <GitlabIcon /> 100% Full Setup & Support
           </li>
         </UL>
       </SubContainer>

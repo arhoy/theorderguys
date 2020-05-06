@@ -28,18 +28,18 @@ const Blurb = styled.div`
 export const Card = () => {
   return (
     <Container>
-      <H3>Tech Stack</H3>
-      <Subtitle>Divide and Conquer</Subtitle>
+      <H3>The Order Guys</H3>
+      <Subtitle>Real-Time Restaurant Ordering</Subtitle>
       <Blurb>
         <p>
-          Knowing technologies such as React, Vue or GraphQL is one thing, but
-          being able to identify which tool, service or platform to use in a
-          cost effective way for the right job is another.
+          We are here to get your restaurant noticed online and provide you with
+          a cutting edge modern strategy to tackle the dynamic and ever-changing
+          landscape.
         </p>
         <p>
-          Depending on your business requirements, budget and potential future
-          needs we will use the right technology for you and provide you with a
-          cost effective business solution.
+          Real-Time Restaurant Ordering in Edmonton Alberta. We are to help you
+          get started with your restaurants online orders and help with anything
+          else for your restaurants online presence.
         </p>
       </Blurb>
     </Container>
