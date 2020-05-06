@@ -22,6 +22,7 @@ const Container = styled.div`
 `;
 
 export const Section1 = ({ posts }) => {
+  console.log('posts are ', posts);
   return (
     <Section>
       <Container>

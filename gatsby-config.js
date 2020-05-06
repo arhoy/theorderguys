@@ -10,8 +10,6 @@ if (process.env.NODE_ENV === 'production') {
   URL = 'http://localhost:8000';
 }
 
-// const queries = require('./src/utils/algolia');
-
 module.exports = {
   siteMetadata: {
     title: 'The Order Guys - Web development, SEO, Digital Ads',
@@ -37,23 +35,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-emotion`,
     },
-    // {
-    //   resolve: 'gatsby-plugin-algolia',
-    //   options: {
-    //     appId: process.env.GATSBY_ALGOLIA_APP_ID,
-    //     apiKey: process.env.GATSBY_ALGOLIA_ADMIN_KEY,
-    //     indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
-    //     queries,
-    //     chunkSize: 10000,
-    //   },
-    // },
 
-    // {
-    //   resolve: `gatsby-source-buttercms`,
-    //   options: {
-    //     authToken: process.env.GATSBY_BUTTER_API_TOKEN,
-    //   },
-    // },
+    {
+      resolve: `gatsby-source-buttercms`,
+      options: {
+        authToken: process.env.GATSBY_BUTTER_API_TOKEN,
+      },
+    },
 
     {
       resolve: `gatsby-plugin-google-fonts`,
@@ -82,24 +70,7 @@ module.exports = {
         username: `gatsbyjs`,
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-stripe`,
-    // },
-    // {
-    //   resolve: `gatsby-source-stripe`,
-    //   options: {
-    //     objects: [
-    //       'Balance',
-    //       'BalanceTransaction',
-    //       'Product',
-    //       'ApplicationFee',
-    //       'Sku',
-    //       'Subscription',
-    //     ],
-    //     secretKey: process.env.STRIPE_SECRET_KEY,
-    //     downloadFiles: true,
-    //   },
-    // },
+
     `gatsby-plugin-twitter`,
 
     {

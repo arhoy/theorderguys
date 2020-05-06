@@ -21,13 +21,12 @@ const Blurb = styled.div`
 export const ContactBlurb = () => {
   return (
     <Container>
-      <Title>Our Blog</Title>
+      <Title>Weekly Content</Title>
       <Blurb>
         <p>
-          Our blog covers a range of topics for developers, entreprenurs, web
-          enthusiasts and small business owners. We are constantly looking to
-          expand our curated content. If you would like to write for us please
-          give us a shout out!
+          This blog covers a range of local restaurant reviews and DIY website
+          tips for restaurant owners from website functionalty to SEO and
+          marketing.
         </p>
       </Blurb>
     </Container>

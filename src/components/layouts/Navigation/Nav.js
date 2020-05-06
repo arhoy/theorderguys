@@ -36,9 +36,12 @@ const Logo = styled.span`
   & ${LogoLink} {
     text-decoration: none !important;
     font-weight: bold;
-    font-size: 3.9rem;
+    font-size: 2.8rem;
     letter-spacing: 4px;
     color: ${props => props.theme.colors.white};
+    @media (max-width: 600px) {
+      font-size: 2rem;
+    }
   }
 `;
 
@@ -120,7 +123,9 @@ const Nav = () => {
             <DropDownMenuClick className="underline" to="/services">
               Services
             </DropDownMenuClick>
-
+            <CustomLink className="underline" to="/blog">
+              Blog
+            </CustomLink>
             <CustomLink className="underline" to="/contact">
               Contact
             </CustomLink>
