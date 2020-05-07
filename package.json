@@ -1,7 +1,7 @@
 {
-  "name": "aquasar",
+  "name": "theorderguys",
   "private": true,
-  "description": "Official git repo for aquasar.io",
+  "description": "Official git repo for the order guys",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {

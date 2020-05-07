@@ -15,6 +15,7 @@ import { Section5 } from '../components/_homePage/Section5/Section5';
 import { Section6 } from '../components/_homePage/Section6/Section6';
 import { Section7 } from '../components/_homePage/Section7/Section7';
 import { Section8 } from '../components/_homePage/Section8/Section8';
+import { SectionVideo } from '../components/_homePage/SectionVideo/SectionVideo';
 
 export const query = graphql`
   {
@@ -61,6 +62,8 @@ const IndexPage = ({ data }) => {
       <Fade bottom>
         <Section2 fluid={data.imageCard1.childImageSharp.fluid} />
       </Fade>
+
+      <SectionVideo />
 
       {/* instant feedback loop */}
       <Fade bottom>

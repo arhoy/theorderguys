@@ -1,5 +1,7 @@
 import React from 'react';
 
-export const SushiRestaurant = () => {
+const SushiRestaurant = () => {
   return <div>This is sushi restaurant</div>;
 };
+
+export default SushiRestaurant;
