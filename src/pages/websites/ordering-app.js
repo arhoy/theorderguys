@@ -1,5 +1,7 @@
 import React from 'react';
 
-export const OrderingApp = () => {
+const OrderingApp = () => {
   return <div>This is an ordering app</div>;
 };
+
+export default OrderingApp;
