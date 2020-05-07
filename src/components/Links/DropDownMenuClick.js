@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import styled from '@emotion/styled';
 
@@ -25,6 +25,9 @@ const Container = styled.div`
       font-size: 1.3rem;
       text-transform:uppercase;
     }
+    & .demo-order-button {
+      color:black;
+    }
     & .bottomMargin {
       padding: width:100%;
       height:10px;
@@ -33,8 +36,9 @@ const Container = styled.div`
     position: absolute;
     min-width: 160px;
     z-index: 1;
-    & a {
+    & ${NoStyleLink}, .demo-order-button {
       padding: 12px 16px;
+      cursor:pointer;
       text-decoration: none;
       display: block;
       &:hover {
@@ -83,6 +87,19 @@ export const DropDownMenuClick = () => {
   const menuHandler = () => {
     setmenu(prev => !prev);
   };
+
+  useEffect(() => {
+    const script = document.createElement('script');
+
+    script.src = 'https://www.fbgcdn.com/embedder/js/ewm2.js';
+    script.async = true;
+
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
   return (
     <Container active={menu}>
       <Button onClick={menuHandler}>Services</Button>
@@ -96,6 +113,14 @@ export const DropDownMenuClick = () => {
             <NoStyleLink to="/websites/restaurant-website">
               Online Ording Platform
             </NoStyleLink>
+
+            <p
+              className="demo-order-button"
+              data-glf-cuid="ab1f1475-0630-46d9-acad-01ad52fa87d4"
+              data-glf-ruid="1a3856ff-681d-4ef4-80a3-6727617d5cbb"
+            >
+              Demo Menu
+            </p>
 
             <div className="bottomMargin" />
           </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styled from '@emotion/styled';
+// import styled from '@emotion/styled';
 import { graphql } from 'gatsby';
 import Layout from '../../components/layouts/Layout';
 import SEO from '../../hooks/SEO';
@@ -10,18 +10,6 @@ import { Section2 } from '../../components/_website/_realtor-website/Section2/_S
 import { Section3 } from '../../components/_website/_realtor-website/Section3/_Section3';
 import { Section4 } from '../../components/_website/_realtor-website/Section4/Section4';
 import { ReadyToGetStarted } from '../../components/reusableComponents/general/ReadyToGetStarted';
-
-const Container = styled.div`
-  display: flex;
-  min-height: 30rem;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  & h1 {
-    text-align: center;
-    font-size: 4rem;
-  }
-`;
 
 export const query = graphql`
   {

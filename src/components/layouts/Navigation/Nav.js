@@ -6,8 +6,6 @@ import styled from '@emotion/styled';
 import { MobileMenu } from './MobileMenu';
 import NoStyleLink from '../../Links/NoStyleLink';
 import { BurgerSVG3 } from './Burger3';
-
-import '../../../scss/menu_hovers/menuhover.scss';
 import { DropDownMenuClick } from '../../Links/DropDownMenuClick';
 
 const Header = styled.header`

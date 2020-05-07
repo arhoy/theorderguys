@@ -1,17 +1,12 @@
 import React from 'react';
 
 import styled from '@emotion/styled';
-import NoStyleLink from '../../Links/NoStyleLink';
 
 const Blurb = styled.div`
   color: ${props => props.theme.colors.grey};
   & span {
     color: ${props => props.theme.colors.secondary};
   }
-`;
-
-const Link = styled(NoStyleLink)`
-  color: ${props => props.theme.colors.secondary};
 `;
 
 export const Text1 = () => {

@@ -16,10 +16,6 @@ const TelephoneLink = styled.a`
   text-decoration: none;
 `;
 
-const LinkDescription = styled.p`
-  color: inherit;
-`;
-
 export const FooterContact = () => {
   return (
     <Container>
