@@ -30,7 +30,6 @@ const TitleContainer = styled.div`
 `;
 
 export const Section4 = () => {
-  console.log(properties);
   return (
     <Section>
       <TitleContainer>

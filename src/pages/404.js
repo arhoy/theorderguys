@@ -26,7 +26,6 @@ const Container = styled.div`
   }
 `;
 const NotFound = props => {
-  console.log('props are', props);
   return (
     <Layout>
       <SEO
