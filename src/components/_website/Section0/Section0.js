@@ -3,8 +3,9 @@ import React from 'react';
 import styled from '@emotion/styled';
 import { Section } from '../../reusableStyles/sections/Sections';
 import { ButtonSweepToRight } from '../../reusableStyles/buttons/Button';
-import { H1 } from '../../reusableStyles/typography/Typography';
+
 import background from '../../../../images/svg/pattern-gradient.svg';
+import { H1 } from '../../reusableStyles/typography/Typography';
 
 const CustomSection = styled(Section)`
   height: 100%;

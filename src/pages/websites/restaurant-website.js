@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 import Layout from '../../components/layouts/Layout';
 import Helmet from 'react-helmet';
 import SEO from '../../hooks/SEO';
+import { Section0 } from '../../components/_website/_restaurant-website/Section0/_Section0';
 
 const Section = styled.div`
   margin: 2rem 0;
@@ -18,7 +19,7 @@ const Container = styled.div`
   & .demo-restaurant {
     padding: 2rem 0;
     margin: 2rem;
-    background: ${props => props.theme.colors.red};
+    background: ${props => props.theme.colors.primary};
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,7 +35,7 @@ const Container = styled.div`
     & .demo-order-button {
       cursor: pointer;
       display: inline-block;
-      background: ${props => props.theme.colors.primary};
+      background: ${props => props.theme.colors.primaryDark};
       padding: 1rem 2rem;
       color: white;
       border-radius: 1rem;
@@ -42,7 +43,7 @@ const Container = styled.div`
   }
 
   & .infosection {
-    background: ${props => props.theme.colors.black};
+    background: ${props => props.theme.colors.primaryLight};
     h2 {
       color: white;
     }
@@ -101,6 +102,9 @@ const RestaurantWebsite = () => {
         description="Restaurants wanting to have an affordable online ordering pickup solution for there business need to look no further. We offer online order system that goes from your website to your mobile or restaurant table for all restaurants in Edmonton Alberta"
         path="/restaurant-website"
       />
+
+      <Section0 />
+
       <Section>
         <Container>
           <div className="demo-restaurant">

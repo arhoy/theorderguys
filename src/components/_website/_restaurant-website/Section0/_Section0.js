@@ -3,11 +3,12 @@ import styled from '@emotion/styled';
 
 import { Section } from '../../../reusableStyles/sections/Sections';
 import BackgroundSvg from './BackgroundSvg';
-import { HeroBlurb } from './HeroBlurb';
+import { ContactBlurb } from './ContactBlurb';
 
 const CustomSection = styled(Section)`
   position: relative;
   overflow: hidden;
+
   color: ${props => props.theme.colors.white};
   background: linear-gradient(
     to bottom,
@@ -25,7 +26,7 @@ const ExtraPaddingBottom = styled.div`
 export const Section0 = () => {
   return (
     <CustomSection>
-      <HeroBlurb />
+      <ContactBlurb />
       <ExtraPaddingBottom />
       <BackgroundSvg />
     </CustomSection>

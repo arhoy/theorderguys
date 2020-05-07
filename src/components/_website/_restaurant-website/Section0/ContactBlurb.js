@@ -55,14 +55,14 @@ const CustomButton = styled(ButtonSweepToRight)`
   color: ${props => props.theme.colors.white};
 `;
 
-export const HeroBlurb = () => {
+export const ContactBlurb = () => {
   return (
     <Container>
       <SubContainer>
         <HeadingContainer>
           <Heading>
             <span className="primary">
-              Realtor Websites. <br /> Maximize your online real estate presence
+              Make Real-Time Food Ordering Pickups a Breeze <br />
             </span>
           </Heading>
         </HeadingContainer>
@@ -71,15 +71,14 @@ export const HeroBlurb = () => {
       <SubContainer>
         <BlurbContainer>
           <p>
-            We build customized websites for realtors and work with you to
-            ensure your site is on brand tailored to your niche. From custom
-            websites with your real estate listings, branding, ad copy and SEO
-            we want to be your dedicated online partner
+            Try out our online demo menu to see how real-time ordering food app
+            is a breeze. The Order Guys have you covered. Integrate your website
+            and get more traffic to your site today.
           </p>
         </BlurbContainer>
         <CallToActionContainer>
           <NoStyleLink to="/contact">
-            <CustomButton> Schedule Free Call </CustomButton>
+            <CustomButton> Schedule Demo Today</CustomButton>
           </NoStyleLink>
         </CallToActionContainer>
       </SubContainer>
