@@ -11,7 +11,7 @@ const SVG = styled.svg`
     }
   
    z-index:10;
-  fill: ${props => props.theme.colors.lightgrey};
+  fill: ${props => props.theme.colors.white};
   position: absolute;
   left: 0;
   bottom:0px;

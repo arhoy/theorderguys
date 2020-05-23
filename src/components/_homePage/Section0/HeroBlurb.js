@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 import { ButtonSweepToRight } from '../../reusableStyles/buttons/Button';
 import { H1 } from '../../reusableStyles/typography/Typography';
 import NoStyleLink from '../../Links/NoStyleLink';
+import { DemoButton } from '../SectionDemo/DemoButton';
 
 const Container = styled.div`
   color: ${props => props.theme.colors.white};
@@ -25,7 +26,11 @@ const Container = styled.div`
 
 const SubContainer = styled.div``;
 
-const HeadingContainer = styled.div``;
+const HeadingContainer = styled.div`
+  & p {
+    font-weight: bold;
+  }
+`;
 
 const Heading = styled(H1)`
   text-align: left;
@@ -46,6 +51,9 @@ const BlurbContainer = styled.div`
 
 const CallToActionContainer = styled.div`
   margin: 2rem 0;
+  & > * {
+    margin: 4px;
+  }
 `;
 
 const CustomButton = styled(ButtonSweepToRight)`
@@ -62,25 +70,31 @@ export const HeroBlurb = () => {
         <HeadingContainer>
           <Heading>
             <span className="primary">
-              Online Food Orders Made Easy and Affordable <br />
+              Online Ordering Management Made Easy <br />
             </span>
           </Heading>
+          <p>
+            We setup online order and menus for you. Get more visits to your
+            site with SEO, ads and online ordering menus.
+          </p>
         </HeadingContainer>
       </SubContainer>
 
       <SubContainer>
         <BlurbContainer>
           <p>
-            Many online ordering platforms charge high commision order fees and
-            eat away at your online profits. <span>The Order Guys </span> will
-            integrate your website and Facebook page with an online menu so your
-            customers can order online and you recieve alerts in realtime
+            We work with you to set up the online ordering for your website
+            regardless which online ordering app you decide to go with.{' '}
+            <span>The Order Guys </span> will consult and help you pick and
+            manage the online ordering app most suited to your business needs
+            and budget.
           </p>
         </BlurbContainer>
         <CallToActionContainer>
           <NoStyleLink to="/contact">
             <CustomButton> Schedule Demo Today</CustomButton>
           </NoStyleLink>
+          <DemoButton />
         </CallToActionContainer>
       </SubContainer>
     </Container>

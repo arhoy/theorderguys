@@ -19,8 +19,8 @@ import '../../scss/main.scss';
 
 const theme = {
   colors: {
-    primary: '#C43B45',
-    primaryDark: '#6B2026',
+    primary: '#9D1F1F',
+    primaryDark: '#7A0F0F',
     primaryLight: '#EA4753',
     primaryLight2: '#817AC6',
     secondaryVeryLight: '#FCBFBF',
@@ -120,6 +120,12 @@ const Layout = ({ children, full, backgroundLayer }) => {
         <script
           type="text/javascript"
           src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e958deb8977e95f"
+        ></script>
+
+        <script
+          src="https://www.fbgcdn.com/embedder/js/ewm2.js"
+          defer
+          async
         ></script>
       </Helmet>
       <Global

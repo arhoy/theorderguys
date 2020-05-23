@@ -18,7 +18,7 @@ const StyledImage = styled(Img)`
   width: 14rem;
 `;
 
-const Attriubtion = styled.div`
+const Attribution = styled.div`
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -38,6 +38,9 @@ const Attriubtion = styled.div`
     text-align: center;
     opacity: 0.6;
     font-weight: 400;
+  }
+  & p {
+    text-align: center;
   }
 
   & ${A} {
@@ -64,7 +67,10 @@ export const FooterBottom = () => {
 
   return (
     <Container>
-      <Attriubtion>
+      <Attribution>
+        <p>
+          A division of <A href="codepaper.dev"> codepaper.dev </A>
+        </p>
         <h6>Special Thanks To</h6>
         <div className="linkcontainer">
           <A
@@ -111,7 +117,7 @@ export const FooterBottom = () => {
             <StyledImage fluid={data.butter.childImageSharp.fluid} />
           </A>
         </div>
-      </Attriubtion>
+      </Attribution>
     </Container>
   );
 };

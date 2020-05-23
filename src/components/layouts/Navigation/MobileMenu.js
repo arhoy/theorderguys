@@ -114,15 +114,11 @@ export const MobileMenu = () => {
         <Link to="/about">About</Link>
         <Link to="/services">Services</Link>
         <Link to="/websites/restaurant-website">Online Ordering</Link>
-        <Span
-          data-glf-cuid="ab1f1475-0630-46d9-acad-01ad52fa87d4"
-          data-glf-ruid="1a3856ff-681d-4ef4-80a3-6727617d5cbb"
-        >
-          View Demo
-        </Span>
+
         <Link to="/contact">Contact</Link>
       </MenuLinks>
       <Blurb>
+        <p className="light"> Online Ordering Management Made Easy </p>
         <p className="light"> The Real-Time Ordering Food App</p>
         <p className="light"> No Commission Orders, Instant Notification </p>
         <div className="address">
