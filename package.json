@@ -76,6 +76,7 @@
     "react-slick": "^0.25.2",
     "react-stripe-elements": "^5.0.1",
     "react-syntax-highlighter": "^11.0.2",
+    "react-tabs": "^3.1.1",
     "react-ticker": "^1.2.2",
     "react-vis": "^1.11.7",
     "react-visibility-sensor": "^5.1.1",

@@ -49,7 +49,13 @@ export const Blurb = () => {
         {/* Add in Google, Facebook, Shopify Partner Program here */}
         <Logo> Google Ads Certified </Logo>
         <Logo> Shopify Partner </Logo>
+        <Logo> Shopify Certified </Logo>
       </LogoContainer>
+      <br />
+      <H5>Our Partners</H5>
+      <Logo> Mobi2Go </Logo>
+      <Logo> GlobalFoodSoft </Logo>
+      <Logo> GreenGeeks </Logo>
     </Container>
   );
 };

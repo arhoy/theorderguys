@@ -6,7 +6,7 @@ import Layout from '../../components/layouts/Layout';
 import SEO from '../../hooks/SEO';
 import { Section0 } from '../../components/_website/_restaurant-website/Section0/_Section0';
 
-import { InfoSection } from '../../components/_website/_restaurant-website/Section1/InfoSection';
+import { InfoTabs } from '../../components/_website/_restaurant-website/Section1/InfoTabs';
 
 const Section = styled.div`
   margin: 2rem 0;
@@ -67,7 +67,7 @@ const RestaurantWebsite = () => {
               We Help <br /> Restaurants with Ordering
             </h1>
           </div>
-          <InfoSection />
+          <InfoTabs />
         </Container>
       </Section>
     </Layout>

@@ -138,7 +138,7 @@ const TwitterCard3 = () => {
       <Blurb>
         Great online ordering platform, tons of opportunities for businesses to
         grow online during these hard times.
-        <span>Ordering on Facebook and Instagram is soo easy</span>
+        <span>Ordering on Facebook very easy</span>
       </Blurb>
       <ProfileContainer>
         <Circle className="purple"> A </Circle>
