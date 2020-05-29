@@ -1,5 +1,4 @@
-// replain chat script
-window.replainSettings = { id: '83cd4816-b503-4ac3-abce-5c874b8278a8' };
+window.replainSettings = { id: '624d3f9a-463f-47a2-a2ec-f559a79e35c4' };
 (function(u) {
   var s = document.createElement('script');
   s.type = 'text/javascript';

@@ -7,76 +7,35 @@ import { Features1 } from './Features1';
 import { Benefits1 } from './Benefits1';
 import { SetupCost1 } from './Setupcost1';
 import { OurExtras1 } from './OurExtras1';
-import { Pricing2 } from './Pricing2';
-import { SetupCost2 } from './Setupcost2';
-import { OurExtras2 } from './OurExtras2';
 
 export const InfoTabs = () => {
   return (
-    <Tabs forceRenderTabPanel defaultIndex={1}>
+    <Tabs>
       <TabList>
-        <Tab>No Commission Plan</Tab>
-        <Tab>Free Set Up Plan</Tab>
+        <Tab>Overview</Tab>
+        <Tab>Pricing</Tab>
+        <Tab>Features</Tab>
+        <Tab>Benefits</Tab>
+        <Tab>Setup Cost</Tab>
+        <Tab>Our Extras</Tab>
       </TabList>
       <TabPanel>
-        <Tabs forceRenderTabPanel>
-          <TabList>
-            <Tab>Overview</Tab>
-            <Tab>Pricing</Tab>
-            <Tab>Features</Tab>
-            <Tab>Benefits</Tab>
-            <Tab>Setup Cost</Tab>
-            <Tab>Our Extras</Tab>
-          </TabList>
-          <TabPanel>
-            <StandardPlan />
-          </TabPanel>
-          <TabPanel>
-            <Pricing1 />
-          </TabPanel>
-          <TabPanel>
-            <Features1 />
-          </TabPanel>
-          <TabPanel>
-            <Benefits1 />
-          </TabPanel>
-          <TabPanel>
-            <SetupCost1 />
-          </TabPanel>
-          <TabPanel>
-            <OurExtras1 />
-          </TabPanel>
-        </Tabs>
+        <StandardPlan />
       </TabPanel>
       <TabPanel>
-        <Tabs forceRenderTabPanel>
-          <TabList>
-            <Tab>Overview</Tab>
-            <Tab>Pricing</Tab>
-            <Tab>Features</Tab>
-            <Tab>Benefits</Tab>
-            <Tab>Setup Cost</Tab>
-            <Tab>Our Extras</Tab>
-          </TabList>
-          <TabPanel>
-            <StandardPlan />
-          </TabPanel>
-          <TabPanel>
-            <Pricing2 />
-          </TabPanel>
-          <TabPanel>
-            <Features1 />
-          </TabPanel>
-          <TabPanel>
-            <Benefits1 />
-          </TabPanel>
-          <TabPanel>
-            <SetupCost2 />
-          </TabPanel>
-          <TabPanel>
-            <OurExtras2 />
-          </TabPanel>
-        </Tabs>
+        <Pricing1 />
+      </TabPanel>
+      <TabPanel>
+        <Features1 />
+      </TabPanel>
+      <TabPanel>
+        <Benefits1 />
+      </TabPanel>
+      <TabPanel>
+        <SetupCost1 />
+      </TabPanel>
+      <TabPanel>
+        <OurExtras1 />
       </TabPanel>
     </Tabs>
   );

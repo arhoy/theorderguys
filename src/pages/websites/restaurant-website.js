@@ -7,6 +7,8 @@ import SEO from '../../hooks/SEO';
 import { Section0 } from '../../components/_website/_restaurant-website/Section0/_Section0';
 
 import { InfoTabs } from '../../components/_website/_restaurant-website/Section1/InfoTabs';
+import { Section2 } from '../../components/_website/_restaurant-website/Section2/_Section2';
+import { ReadyToGetStarted } from '../../components/reusableComponents/general/ReadyToGetStarted';
 
 const Section = styled.div`
   margin: 2rem 0;
@@ -70,6 +72,8 @@ const RestaurantWebsite = () => {
           <InfoTabs />
         </Container>
       </Section>
+      <Section2 />
+      <ReadyToGetStarted />
     </Layout>
   );
 };
