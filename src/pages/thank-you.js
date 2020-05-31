@@ -1,31 +1,72 @@
 import React from 'react';
 import Layout from '../components/layouts/Layout';
 import SEO from '../hooks/SEO';
-import Hero from '../components/heros/Hero';
 import styled from '@emotion/styled';
+import { H1 } from '../components/reusableStyles/typography/Typography';
 
-const ThankyouStyled = styled.div`
-  p {
-    margin-top: 1rem;
+import { Link } from 'gatsby';
+
+const StyledLink = styled(Link)`
+  color: ${props => props.theme.colors.primaryDark};
+  &:hover {
+    color: ${props => props.theme.colors.primary};
   }
 `;
 
-const Thankyou = () => {
+const Container = styled.div`
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+  min-height: 30rem;
+  justify-content: center;
+  align-items: center;
+  & h4 {
+    margin-bottom: 2rem;
+  }
+  & h1 {
+    font-size: 3rem;
+  }
+  & p {
+    font-size: 1.8rem;
+    opacity: 0.8;
+  }
+  & span {
+    color: ${props => props.theme.colors.red};
+    font-size: 1.6rem;
+  }
+  & a {
+    color: ${props => props.theme.colors.primaryDark};
+    &:hover {
+      color: ${props => props.theme.colors.primary};
+    }
+  }
+`;
+const NotFound = () => {
   return (
     <Layout>
       <SEO
-        title="Thank You | Codepaper "
-        description="Your form submission was recieved. Thank you."
-        path="/thank-you"
+        title="Thank You"
+        description="Thank you for contacting The Order Guys. We wil get back to you shortly"
       />
-      <ThankyouStyled>
-        <SEO title="Thank you form" description="This is the thank you page." />
-        <h1>Your form submission was recieved. Thank you!</h1>
-
-        <Hero />
-      </ThankyouStyled>
+      <Container>
+        <H1> Thank Your For Contacting Us </H1>
+        <p>
+          We will get back to your shortly
+          <br />
+          <StyledLink to="/">Return To Homepage</StyledLink>
+          <br />
+          <StyledLink to="/blog">View Our Weekly Blog</StyledLink>
+          <br />
+          <a href="https://www.facebook.com/theorderguys/?modal=admin_todo_tour">
+            Like Us on Facebook
+          </a>
+        </p>
+      </Container>
     </Layout>
   );
 };
 
-export default Thankyou;
+export default NotFound;

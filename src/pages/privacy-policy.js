@@ -19,8 +19,8 @@ const PrivacyPolicyPage = () => {
   return (
     <Layout>
       <SEO
-        title="Privacy Policy | Codepaper "
-        description="Codepaper | Privacy Policy <br /> This Privacy Policy describes how
+        title="Privacy Policy | TheOrderGuys "
+        description="TheOrderGuys | Privacy Policy <br /> This Privacy Policy describes how
         your personal information is collected, used, and shared when you
         visit or make a purchase from https://theorderguys.com (the “Site”).
         PERSONAL INFORMATION WE COLLECT When you visit the Site, we
@@ -31,7 +31,7 @@ const PrivacyPolicyPage = () => {
       />
       <Section>
         <CustomP>
-          Codepaper | Privacy Policy <br /> This Privacy Policy describes how
+          TheOrderGuys | Privacy Policy <br /> This Privacy Policy describes how
           your personal information is collected, used, and shared when you
           visit or make a purchase from https://theorderguys.com (the “Site”).
           PERSONAL INFORMATION WE COLLECT When you visit the Site, we

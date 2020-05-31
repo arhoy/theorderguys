@@ -23,9 +23,9 @@ const TermsAndConditionsPage = () => {
   return (
     <Layout>
       <SEO
-        title="Terms and Conditions Page | Codepaper "
-        description="Terms and Conditions. Welcome to Codepaper! These terms and conditions outline the rules and regulations for the
-        use of Codepaper's Website, located at https://theorderguys.com."
+        title="Terms and Conditions Page | The Order Guys "
+        description="Terms and Conditions. Welcome to The Order Guys! These terms and conditions outline the rules and regulations for the
+        use of The Order Guys's Website, located at https://theorderguys.com."
         path="/terms-and-condtions"
       />
       <Section>
@@ -33,17 +33,17 @@ const TermsAndConditionsPage = () => {
           <strong>Terms and Conditions</strong>
         </h2>
 
-        <CustomP>Welcome to Codepaper!</CustomP>
+        <CustomP>Welcome to The Order Guys!</CustomP>
 
         <CustomP>
           These terms and conditions outline the rules and regulations for the
-          use of Codepaper's Website, located at https://theorderguys.com.
+          use of The Order Guys's Website, located at https://theorderguys.com.
         </CustomP>
 
         <CustomP>
           By accessing this website we assume you accept these terms and
-          conditions. Do not continue to use Codepaper if you do not agree to
-          take all of the terms and conditions stated on this page.
+          conditions. Do not continue to use The Order Guys if you do not agree
+          to take all of the terms and conditions stated on this page.
         </CustomP>
 
         <CustomP>
@@ -68,8 +68,8 @@ const TermsAndConditionsPage = () => {
         </h3>
 
         <CustomP>
-          We employ the use of cookies. By accessing Codepaper, you agreed to
-          use cookies in agreement with the Codepaper's Privacy Policy.
+          We employ the use of cookies. By accessing The Order Guys, you agreed
+          to use cookies in agreement with the The Order Guys's Privacy Policy.
         </CustomP>
 
         <CustomP>
@@ -85,40 +85,40 @@ const TermsAndConditionsPage = () => {
         </h3>
 
         <CustomP>
-          Unless otherwise stated, Codepaper and/or its licensors own the
-          intellectual property rights for all material on Codepaper. All
+          Unless otherwise stated, The Order Guys and/or its licensors own the
+          intellectual property rights for all material on The Order Guys. All
           intellectual property rights are reserved. You may access this from
-          Codepaper for your own personal use subjected to restrictions set in
-          these terms and conditions.
+          The Order Guys for your own personal use subjected to restrictions set
+          in these terms and conditions.
         </CustomP>
 
         <CustomP>You must not:</CustomP>
         <CustomUl>
-          <li>Republish material from Codepaper</li>
-          <li>Sell, rent or sub-license material from Codepaper</li>
-          <li>Reproduce, duplicate or copy material from Codepaper</li>
-          <li>Redistribute content from Codepaper</li>
+          <li>Republish material from The Order Guys</li>
+          <li>Sell, rent or sub-license material from The Order Guys</li>
+          <li>Reproduce, duplicate or copy material from The Order Guys</li>
+          <li>Redistribute content from The Order Guys</li>
         </CustomUl>
 
         <CustomP>This Agreement shall begin on the date hereof.</CustomP>
 
         <CustomP>
           Parts of this website offer an opportunity for users to post and
-          exchange opinions and information in certain areas of the website.
-          Codepaper does not filter, edit, publish or review Comments prior to
+          exchange opinions and information in certain areas of the website. The
+          Order Guys does not filter, edit, publish or review Comments prior to
           their presence on the website. Comments do not reflect the views and
-          opinions of Codepaper,its agents and/or affiliates. Comments reflect
-          the views and opinions of the person who post their views and
-          opinions. To the extent permitted by applicable laws, Codepaper shall
-          not be liable for the Comments or for any liability, damages or
+          opinions of The Order Guys,its agents and/or affiliates. Comments
+          reflect the views and opinions of the person who post their views and
+          opinions. To the extent permitted by applicable laws, The Order Guys
+          shall not be liable for the Comments or for any liability, damages or
           expenses caused and/or suffered as a result of any use of and/or
           posting of and/or appearance of the Comments on this website.
         </CustomP>
 
         <CustomP>
-          Codepaper reserves the right to monitor all Comments and to remove any
-          Comments which can be considered inappropriate, offensive or causes
-          breach of these Terms and Conditions.
+          The Order Guys reserves the right to monitor all Comments and to
+          remove any Comments which can be considered inappropriate, offensive
+          or causes breach of these Terms and Conditions.
         </CustomP>
 
         <CustomP>You warrant and represent that:</CustomP>
@@ -145,9 +145,9 @@ const TermsAndConditionsPage = () => {
         </CustomUl>
 
         <CustomP>
-          You hereby grant Codepaper a non-exclusive license to use, reproduce,
-          edit and authorize others to use, reproduce and edit any of your
-          Comments in any and all forms, formats or media.
+          You hereby grant The Order Guys a non-exclusive license to use,
+          reproduce, edit and authorize others to use, reproduce and edit any of
+          your Comments in any and all forms, formats or media.
         </CustomP>
 
         <h3>
@@ -203,8 +203,8 @@ const TermsAndConditionsPage = () => {
           that: (a) the link would not make us look unfavorably to ourselves or
           to our accredited businesses; (b) the organization does not have any
           negative records with us; (c) the benefit to us from the visibility of
-          the hyperlink compensates the absence of Codepaper; and (d) the link
-          is in the context of general resource information.
+          the hyperlink compensates the absence of The Order Guys; and (d) the
+          link is in the context of general resource information.
         </CustomP>
 
         <CustomP>
@@ -217,7 +217,7 @@ const TermsAndConditionsPage = () => {
         <CustomP>
           If you are one of the organizations listed in paragraph 2 above and
           are interested in linking to our website, you must inform us by
-          sending an e-mail to Codepaper. Please include your name, your
+          sending an e-mail to The Order Guys. Please include your name, your
           organization name, contact information as well as the URL of your
           site, a list of any URLs from which you intend to link to our Website,
           and a list of the URLs on our site to which you would like to link.
@@ -239,7 +239,7 @@ const TermsAndConditionsPage = () => {
         </CustomUl>
 
         <CustomP>
-          No use of Codepaper's logo or other artwork will be allowed for
+          No use of The Order Guys's logo or other artwork will be allowed for
           linking absent a trademark license agreement.
         </CustomP>
 

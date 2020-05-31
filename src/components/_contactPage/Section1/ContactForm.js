@@ -59,6 +59,13 @@ const Label = styled.label`
       opacity: 1;
       transform: translateY(-105%) translateX(-5px);
       font-size: 1.3rem;
+      color: #186109;
+    }
+    &:invalid + span {
+      opacity: 1;
+      transform: translateY(-105%) translateX(-5px);
+      font-size: 1.3rem;
+      color: #941614;
     }
   }
 `;
@@ -75,7 +82,7 @@ export const ContactForm = ({ color }) => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
-  const [jobTitle, setJobTitle] = useState('');
+  const [Restaurant, setRestaurant] = useState('');
   const [message, setMessage] = useState('');
 
   const handleSubmit = e => {
@@ -84,7 +91,7 @@ export const ContactForm = ({ color }) => {
       name,
       email,
       phone,
-      jobTitle,
+      Restaurant,
       message,
     };
 
@@ -97,7 +104,7 @@ export const ContactForm = ({ color }) => {
         name: userData.name,
         email: userData.email,
         phone: userData.phone,
-        jobTitle: userData.jobTitle,
+        Restaurant: userData.Restaurant,
         message: userData.message,
       }),
     })
@@ -161,13 +168,13 @@ export const ContactForm = ({ color }) => {
       <Field>
         <Label>
           <input
-            onChange={event => setJobTitle(event.target.value)}
+            onChange={event => setRestaurant(event.target.value)}
             placeholder=""
             type="text"
-            name="jobTitle"
+            name="Restaurant"
             required
           />
-          <span>Job Title</span>
+          <span>Restaurant</span>
         </Label>
       </Field>
 
@@ -181,7 +188,7 @@ export const ContactForm = ({ color }) => {
             minLength="10"
             maxLength="1000"
           />
-          <span>Project Outline or Question</span>
+          <span>Briefly describe what you are looking for</span>
         </Label>
       </Field>
       <Field>
