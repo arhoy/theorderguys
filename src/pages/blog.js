@@ -43,7 +43,7 @@ const BlogPage = ({ data }) => {
     <Layout full={true}>
       <SEO
         title="Blog | The Order Guys"
-        description="A curated list of online ordering articles and restaurant reviews"
+        description="Online ordering articles and information"
         pathname="/blog"
         image="https://res.cloudinary.com/dcb389szc/image/upload/v1588481800/codepaper/SEO%20Images/pages/our_blog.png"
       />

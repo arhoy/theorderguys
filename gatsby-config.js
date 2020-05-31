@@ -12,7 +12,7 @@ if (process.env.NODE_ENV === 'production') {
 
 module.exports = {
   siteMetadata: {
-    title: 'The Order Guys - Web development, SEO, Digital Ads',
+    title: 'The Order Guys - Online ordering made easy ',
     description:
       'At The Order Guys we partner with local restaurants to deliver real-time orders for pickup',
     keywords: [
