@@ -9,15 +9,17 @@ import { Section0 } from '../../components/_website/_restaurant-website/Section0
 import { InfoTabs } from '../../components/_website/_restaurant-website/Section1/InfoTabs';
 import { Section2 } from '../../components/_website/_restaurant-website/Section2/_Section2';
 import { ReadyToGetStarted } from '../../components/reusableComponents/general/ReadyToGetStarted';
+import { SectionFAQ } from '../../components/_website/_restaurant-website/SectionFAQ/SectionFAQ';
+import { H2 } from '../../components/reusableStyles/typography/Typography';
 
 const Section = styled.div`
-  margin: 2rem 0;
+  margin: 4rem 0;
 `;
 
 const Container = styled.div`
   max-width: 1000px;
   margin: 0 auto;
-  & h1 {
+  & ${H2} {
     text-align: center;
     font-size: 4rem;
   }
@@ -65,13 +67,16 @@ const RestaurantWebsite = () => {
       <Section>
         <Container>
           <div className="demo-restaurant">
-            <h1>
+            <H2>
               We Help <br /> Restaurants with Ordering
-            </h1>
+            </H2>
           </div>
           <InfoTabs />
         </Container>
       </Section>
+
+      <SectionFAQ />
+
       <Section2 />
       <ReadyToGetStarted />
     </Layout>
