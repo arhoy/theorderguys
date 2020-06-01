@@ -23,8 +23,8 @@ const TermsAndConditionsPage = () => {
   return (
     <Layout>
       <SEO
-        title="Terms and Conditions Page | The Order Guys "
-        description="Terms and Conditions. Welcome to The Order Guys! These terms and conditions outline the rules and regulations for the
+        title="The Order Guys terms and conditions page "
+        description="These terms and conditions outline the rules and regulations for the
         use of The Order Guys's Website, located at https://theorderguys.com."
         path="/terms-and-condtions"
       />

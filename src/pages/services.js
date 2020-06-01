@@ -30,8 +30,8 @@ const ServicesPage = ({ data }) => {
   return (
     <Layout full={true}>
       <SEO
-        title="Our Services | The Order Guys"
-        description="Set up real-time online ordering 0% commission unlimited orders for restaurants"
+        title="The Order Guys Services"
+        description="The Order Guys set up real-time, 0% commission unlimited orders for restaurants"
         pathname="/services"
       />
       <Section0 />

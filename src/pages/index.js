@@ -48,8 +48,8 @@ const IndexPage = ({ data }) => {
   return (
     <Layout full={true}>
       <SEO
-        title="The Order Guys | Real-Time Restaurant Ordering"
-        description="Real-time, Affordable Food Ordering System for local restaurants in Edmonton, AB"
+        title="Real-Time Restaurant Ordering Zero Commission"
+        description="Real-time, Zero Commission Food Ordering System for local restaurants in Edmonton, AB. We help set up and manage your online orders and menu."
         image={`${data.theorderguys.siteMetadata.siteUrl}${data.theorderguys.siteMetadata.image}`}
       />
 

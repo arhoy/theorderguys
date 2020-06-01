@@ -27,8 +27,8 @@ const AboutPage = ({ data }) => {
   return (
     <Layout full={true}>
       <SEO
-        title="About Us | The Order Guys"
-        description="Get your restaurant orders live with the Order Guys. Online Ordering Platform for local restuarnts in Edmonton Alberta."
+        title="About The Order Guys"
+        description="The Order Guys deliver online ordering services and setup for local restaurants."
         pathname="/about"
         image="https://res.cloudinary.com/dcb389szc/image/upload/v1588481585/codepaper/SEO%20Images/pages/about_codepaper.png"
       />

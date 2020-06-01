@@ -57,9 +57,9 @@ const OnlineOrdering = () => {
   return (
     <Layout>
       <SEO
-        title="Restaurant Website Online Pickup Orders Edmonton Alberta"
-        description="Restaurants wanting to have an affordable online ordering pickup solution for there business need to look no further. We offer online order system that goes from your website to your mobile or restaurant table for all restaurants in Edmonton Alberta"
-        path="/restaurant-website"
+        title="The Order Guys online ordering platform, services and setup"
+        description="We offer 0% commmision online ordering services and setup for restaurant businesses in Edmonton Alberta"
+        path="/online-ordering"
       />
 
       <Section0 />

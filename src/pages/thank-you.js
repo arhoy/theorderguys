@@ -48,7 +48,7 @@ const NotFound = () => {
   return (
     <Layout>
       <SEO
-        title="Thank You"
+        title="Thank You from The Order Guys"
         description="Thank you for contacting The Order Guys. We wil get back to you shortly"
       />
       <Container>

@@ -19,14 +19,8 @@ const PrivacyPolicyPage = () => {
   return (
     <Layout>
       <SEO
-        title="Privacy Policy | TheOrderGuys "
-        description="TheOrderGuys | Privacy Policy <br /> This Privacy Policy describes how
-        your personal information is collected, used, and shared when you
-        visit or make a purchase from https://theorderguys.com (the “Site”).
-        PERSONAL INFORMATION WE COLLECT When you visit the Site, we
-        automatically collect certain information about your device, including
-        information about your web browser, IP address, time zone, and some of
-        the cookies that are installed on your device."
+        title="The Order Guys Privacy Policy "
+        description="Read The Order Guys privacy policy information here"
         path="/privacy-policy"
       />
       <Section>

@@ -10,8 +10,8 @@ const WebsitesPage = () => {
   return (
     <Layout>
       <SEO
-        title="Online Ordering Restaurant websites"
-        description="Online Ordering Restauarant websites in Edmonton Alberta. "
+        title="Online Ordering Restaurant websites created by The Order Guys"
+        description="The Order Guys create online ordering restauarant websites in Edmonton Alberta. "
         path="/websites"
       />
       <Section0 />
