@@ -6,7 +6,7 @@ import styled from '@emotion/styled';
 import { MobileMenu } from './MobileMenu';
 import NoStyleLink from '../../Links/NoStyleLink';
 import { BurgerSVG3 } from './Burger3';
-import { DropDownMenuClick } from '../../Links/DropDownMenuClick';
+import { DropDownMenuClick } from '../../Links/DropDownMenus/DropDownMenuClick';
 
 const Header = styled.header`
   position: relative;
@@ -115,16 +115,43 @@ const Nav = () => {
           </Logo>
 
           <MenuLinks>
-            <CustomLink className="underline" to="/about">
-              About
+            <CustomLink className="underline" to="/online-ordering">
+              Ordering
             </CustomLink>
-            <DropDownMenuClick className="underline" to="/services">
-              Services
+            <DropDownMenuClick
+              title={'Services'}
+              className="underline"
+              to="/services"
+            >
+              <div className="dropdown-content">
+                <h6>Our Services</h6>
+                <NoStyleLink to="/online-ordering">Online Ordering</NoStyleLink>
+                <NoStyleLink to="/websites">Websites</NoStyleLink>
+                <NoStyleLink to="/services">All Services</NoStyleLink>
+
+                <div className="bottomMargin" />
+              </div>
             </DropDownMenuClick>
-            <CustomLink className="underline" to="/blog">
-              Blog
-            </CustomLink>
-            <CustomLink className="underline" to="/contact">
+
+            <DropDownMenuClick
+              title={'More'}
+              className="underline"
+              to="/services"
+            >
+              <div className="dropdown-content">
+                <h6>Explore</h6>
+                <NoStyleLink to="/about">About Us</NoStyleLink>
+                <NoStyleLink to="/blog">Blog</NoStyleLink>
+
+                <div className="bottomMargin" />
+              </div>
+            </DropDownMenuClick>
+
+            <CustomLink
+              style={{ transform: 'translateY(1px)' }}
+              className="underline"
+              to="/contact"
+            >
               Contact
             </CustomLink>
           </MenuLinks>

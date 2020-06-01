@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 
 import styled from '@emotion/styled';
 
-import NoStyleLink from './NoStyleLink';
-import OutsideAlerter from '../../utils/OutsideAlerter';
+import NoStyleLink from '../NoStyleLink';
+import OutsideAlerter from '../../../utils/OutsideAlerter';
 
 const Container = styled.div`
   z-index: 100;
@@ -82,7 +82,7 @@ const Button = styled.div`
   }
 `;
 
-export const DropDownMenuClick = () => {
+export const DropDownMenuClick = ({ title, children }) => {
   const [menu, setmenu] = useState(false);
   const menuHandler = () => {
     setmenu(prev => !prev);
@@ -90,28 +90,9 @@ export const DropDownMenuClick = () => {
 
   return (
     <Container active={menu}>
-      <Button onClick={menuHandler}>Services</Button>
+      <Button onClick={menuHandler}>{title}</Button>
       {menu && (
-        <OutsideAlerter menuhandler={menuHandler}>
-          <div className="dropdown-content">
-            <h6>Our Services</h6>
-
-            <NoStyleLink to="/services">All Services</NoStyleLink>
-            <NoStyleLink to="/websites">Websites</NoStyleLink>
-            <NoStyleLink to="/websites/restaurant-website">
-              Online Ordering
-            </NoStyleLink>
-            {/* <span
-              className="demo-order-button"
-              data-glf-cuid="ab1f1475-0630-46d9-acad-01ad52fa87d4"
-              data-glf-ruid="1a3856ff-681d-4ef4-80a3-6727617d5cbb"
-            >
-              Open Menu & Order
-            </span> */}
-
-            <div className="bottomMargin" />
-          </div>
-        </OutsideAlerter>
+        <OutsideAlerter menuhandler={menuHandler}>{children}</OutsideAlerter>
       )}
     </Container>
   );

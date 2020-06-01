@@ -111,10 +111,9 @@ export const MobileMenu = () => {
   return (
     <Container>
       <MenuLinks>
+        <Link to="/online-ordering">Ordering</Link>
         <Link to="/about">About</Link>
         <Link to="/services">Services</Link>
-        <Link to="/websites/restaurant-website">Online Ordering</Link>
-
         <Link to="/contact">Contact</Link>
       </MenuLinks>
       <Blurb>
