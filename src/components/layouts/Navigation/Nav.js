@@ -7,6 +7,7 @@ import { MobileMenu } from './MobileMenu';
 import NoStyleLink from '../../Links/NoStyleLink';
 import { BurgerSVG3 } from './Burger3';
 import { DropDownMenuClick } from '../../Links/DropDownMenus/DropDownMenuClick';
+import logowhite from '../../../../images/svg/logowhite.svg';
 
 const Header = styled.header`
   position: relative;
@@ -20,6 +21,8 @@ const Header = styled.header`
 const HeaderTop = styled.div`
   grid-column: 1/-1;
   display: flex;
+
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 `;
@@ -31,14 +34,27 @@ const LogoLink = styled(Link)`
 const Logo = styled.span`
   text-transform: uppercase;
   z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  & img {
+    width: 150px;
+
+    justify-content: center;
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
   & ${LogoLink} {
     text-decoration: none !important;
     font-weight: bold;
     font-size: 2.8rem;
-    letter-spacing: 4px;
+    letter-spacing: 8px;
     color: ${props => props.theme.colors.white};
     @media (max-width: 600px) {
       font-size: 2rem;
+      letter-spacing: 4px;
     }
   }
 `;
@@ -46,6 +62,7 @@ const Logo = styled.span`
 const MenuLinks = styled.div`
   display: flex;
   justify-content: center;
+  width: 100%;
   font-weight: bold;
   font-size: 1.5rem;
   align-items: center;
@@ -111,7 +128,8 @@ const Nav = () => {
       <Header>
         <HeaderTop>
           <Logo>
-            <LogoLink to="/">The Order Guys</LogoLink>
+            <LogoLink to="/">The Order guys</LogoLink>
+            <img src={logowhite} alt="logo the order guys" />
           </Logo>
 
           <MenuLinks>
