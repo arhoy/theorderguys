@@ -22,15 +22,16 @@ const Container = styled.div`
   @media (max-width: ${props => props.theme.screenSize.eightHundred}) {
     grid-template-columns: 1fr;
   }
+
+  & p {
+    font-size: 2rem;
+    font-weight: 300;
+  }
 `;
 
 const SubContainer = styled.div``;
 
-const HeadingContainer = styled.div`
-  & p {
-    font-weight: bold;
-  }
-`;
+const HeadingContainer = styled.div``;
 
 const Heading = styled(H1)`
   text-align: left;
@@ -44,10 +45,7 @@ const Heading = styled(H1)`
   }
 `;
 
-const BlurbContainer = styled.div`
-  font-size: 2rem;
-  font-weight: 300;
-`;
+const BlurbContainer = styled.div``;
 
 const CallToActionContainer = styled.div`
   margin: 2rem 0;
@@ -70,12 +68,13 @@ export const HeroBlurb = () => {
         <HeadingContainer>
           <Heading>
             <span className="primary">
-              Online Ordering Management Made Easy <br />
+              Online Ordering Made Easy <br />
             </span>
           </Heading>
           <p>
-            We setup online order and menus for you. Get more visits to your
-            site with SEO, ads and online ordering menus.
+            Recieve <strong> instant online food orders </strong> straight from
+            your website to your phone in{' '}
+            <strong>real time and don't pay a dime!</strong>
           </p>
         </HeadingContainer>
       </SubContainer>
