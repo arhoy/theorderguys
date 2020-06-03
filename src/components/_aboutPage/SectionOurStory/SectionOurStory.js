@@ -15,7 +15,7 @@ const Container = styled.div`
 
 const SubContainer = styled.div``;
 
-export const Section1 = () => {
+export const SectionOurStory = () => {
   return (
     <Section>
       <Container800>

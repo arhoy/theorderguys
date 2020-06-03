@@ -49,7 +49,7 @@ export const ImageGrid = () => {
   const data = useStaticQuery(graphql`
     query {
       image1: file(
-        relativePath: { eq: "_about/Section1/ImageGrid/ladder.jpg" }
+        relativePath: { eq: "_about/Section1/ImageGrid/sandwitch.jpg" }
       ) {
         childImageSharp {
           fluid(maxWidth: 300) {
@@ -58,7 +58,7 @@ export const ImageGrid = () => {
         }
       }
       image2: file(
-        relativePath: { eq: "_about/Section1/ImageGrid/drone.jpg" }
+        relativePath: { eq: "_about/Section1/ImageGrid/sushi.jpg" }
       ) {
         childImageSharp {
           fluid(maxWidth: 300) {
@@ -66,7 +66,9 @@ export const ImageGrid = () => {
           }
         }
       }
-      image3: file(relativePath: { eq: "_about/Section1/ImageGrid/code.jpg" }) {
+      image3: file(
+        relativePath: { eq: "_about/Section1/ImageGrid/pasta.jpg" }
+      ) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid_withWebp
@@ -74,7 +76,7 @@ export const ImageGrid = () => {
         }
       }
       image4: file(
-        relativePath: { eq: "_about/Section1/ImageGrid/robot.jpg" }
+        relativePath: { eq: "_about/Section1/ImageGrid/burger.jpg" }
       ) {
         childImageSharp {
           fluid(maxWidth: 300) {
@@ -83,7 +85,7 @@ export const ImageGrid = () => {
         }
       }
       image5: file(
-        relativePath: { eq: "_about/Section1/ImageGrid/stevejobs.jpg" }
+        relativePath: { eq: "_about/Section1/ImageGrid/coffee.jpg" }
       ) {
         childImageSharp {
           fluid(maxWidth: 300) {
@@ -91,9 +93,7 @@ export const ImageGrid = () => {
           }
         }
       }
-      image6: file(
-        relativePath: { eq: "_about/Section1/ImageGrid/tower.jpg" }
-      ) {
+      image6: file(relativePath: { eq: "_about/Section1/ImageGrid/pho.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 3000) {
             ...GatsbyImageSharpFluid_withWebp

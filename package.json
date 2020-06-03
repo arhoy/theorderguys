@@ -10,6 +10,7 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "cross-env GATSBY_GRAPHQL_IDE=playground gatsby develop",
     "serve": "gatsby serve",
+    "sitemap": "gatsby build && gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {

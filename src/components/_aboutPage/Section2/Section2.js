@@ -7,6 +7,7 @@ import { Container1000, Section } from '../../reusableStyles/sections/Sections';
 import { CircularImage } from './CircularImages';
 
 import { Card1, Card2, Card3, Card4 } from './Card';
+import { SectionTitle } from '../../reusableStyles/titles/SectionTitle';
 
 const Container = styled.div`
   display: grid;
@@ -70,6 +71,7 @@ export const Section2 = () => {
   `);
   return (
     <Section>
+      <SectionTitle title="Our Team" />
       <Container1000>
         <Container>
           <div className="imageContainer">
