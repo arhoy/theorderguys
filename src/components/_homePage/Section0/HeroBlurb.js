@@ -82,11 +82,12 @@ export const HeroBlurb = () => {
       <SubContainer>
         <BlurbContainer>
           <p>
-            We work with you to set up the online ordering for your website
-            regardless which online ordering app you decide to go with.{' '}
-            <span>The Order Guys </span> will consult and help you pick and
-            manage the online ordering app most suited to your business needs
-            and budget.
+            We set up the online ordering for your website to fit your
+            restaurants unique needs.
+            <br /> <br />
+            <strong> The Order Guys </strong> will help you every step of the
+            way to ensure you get more orders online and eliminate busy phone
+            lines.
           </p>
         </BlurbContainer>
         <CallToActionContainer>
