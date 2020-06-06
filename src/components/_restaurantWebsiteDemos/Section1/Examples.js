@@ -21,14 +21,14 @@ export const Examples = () => {
     query {
       image1: file(relativePath: { eq: "restaurant-demos/pregopasta.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 2000) {
+          fluid(maxWidth: 700) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
       image2: file(relativePath: { eq: "restaurant-demos/tempuraqueen.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 2000) {
+          fluid(maxWidth: 700) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }

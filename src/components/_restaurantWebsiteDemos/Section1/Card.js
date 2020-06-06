@@ -11,7 +11,8 @@ const Container = styled.a`
   & .imageContainer {
     width: 50rem;
     @media (max-width: 600px) {
-      min-width: 250px;
+      width: 300px;
+      overflow: hidden;
       max-width: 100%;
     }
   }
