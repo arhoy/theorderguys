@@ -144,7 +144,9 @@ const Nav = () => {
               <div className="dropdown-content">
                 <h6>Our Services</h6>
                 <NoStyleLink to="/online-ordering">Online Ordering</NoStyleLink>
-                <NoStyleLink to="/websites">Websites</NoStyleLink>
+                <NoStyleLink to="/restaurant-website-demos">
+                  Websites
+                </NoStyleLink>
                 <NoStyleLink to="/services">All Services</NoStyleLink>
 
                 <div className="bottomMargin" />

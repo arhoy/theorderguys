@@ -23,7 +23,7 @@ const Container = styled.div`
 export const Section1 = () => {
   return (
     <Container>
-      <SectionTitle title="Click Examples To View" />
+      <SectionTitle title="Restaurant Websites" />
       <p>Custom Made to Order with your online ordering menu</p>
       <Examples />
     </Container>

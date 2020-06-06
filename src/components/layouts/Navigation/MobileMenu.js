@@ -113,7 +113,8 @@ export const MobileMenu = () => {
       <MenuLinks>
         <Link to="/online-ordering">Ordering</Link>
         <Link to="/about">About</Link>
-        <Link to="/services">Services</Link>
+        <Link to="/online-ordering">Ordering</Link>
+        <Link to="/restaurant-website-demos">Websites</Link>
         <Link to="/contact">Contact</Link>
       </MenuLinks>
       <Blurb>
