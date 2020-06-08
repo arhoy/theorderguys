@@ -69,7 +69,7 @@ export const FooterBottom = () => {
     <Container>
       <Attribution>
         <p>
-          A division of <A href="codepaper.dev"> codepaper.dev </A>
+          A division of <A href="https://codepaper.dev"> codepaper.dev </A>
         </p>
         <h6>Special Thanks To</h6>
         <div className="linkcontainer">

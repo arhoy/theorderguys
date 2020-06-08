@@ -4,6 +4,8 @@ import Image from 'gatsby-image';
 
 const Container = styled.a`
   filter: grayscale(70%);
+  text-decoration: none;
+  transition: all 0.4s ease-in;
   &:hover {
     filter: grayscale(0%);
   }
@@ -23,7 +25,8 @@ const Container = styled.a`
     height: 3rem;
     width: 100%;
     background: ${props => props.theme.colors.primary};
-    color: ${props => props.theme.colors.secondary};
+    color: #eaeaea;
+    opacity: 0.9;
   }
   & h4 {
     text-align: center;

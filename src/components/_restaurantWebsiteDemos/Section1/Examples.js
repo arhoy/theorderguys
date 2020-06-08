@@ -33,6 +33,22 @@ export const Examples = () => {
           }
         }
       }
+      image3: file(relativePath: { eq: "restaurant-demos/tacofinity.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 700) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      image4: file(
+        relativePath: { eq: "restaurant-demos/theflyingwedge.png" }
+      ) {
+        childImageSharp {
+          fluid(maxWidth: 700) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
     }
   `);
   return (
@@ -47,6 +63,16 @@ export const Examples = () => {
           url="https://tempuraqueen.com"
           fluid={data.image2.childImageSharp.fluid}
           title="JAPANESE "
+        />
+        <Card
+          url="https://tacofinity.com"
+          fluid={data.image3.childImageSharp.fluid}
+          title="TACOS "
+        />
+        <Card
+          url="https://theflyingwedge.com"
+          fluid={data.image4.childImageSharp.fluid}
+          title="PIZZA "
         />
       </Container>
     </Section>
