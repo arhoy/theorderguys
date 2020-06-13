@@ -30,7 +30,7 @@ export const SectionVideo = () => {
         <H2>Watch It In Action</H2>
       </TitleContainer>
       <Video
-        videoSrcURL="https://www.youtube.com/embed/q0z7BKGpbzo"
+        videoSrcURL="https://www.youtube.com/watch?v=SaqOPpL_0ZI"
         videoTitle="The Order Guys How To Place An Order"
       />
     </Container>
